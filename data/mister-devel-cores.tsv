@@ -1,0 +1,1040 @@
+repo	mra_file	name	setname	parent	mameversion	rbf	year	manufacturer
+Arcade-ATetris_MiSTer	Tetris.mra	Tetris	atetris	atetris	0220	ataritetris	1988	Atari
+Arcade-ActFancer_MiSTer	Act-Fancer (Japan rev 1).mra	Act-Fancer Cybernetick Hyper Weapon (Japan rev 1)	actfancrj		0264	ActFancer	1989	Data East Corporation
+Arcade-ActFancer_MiSTer	Act-Fancer (World rev 1).mra	Act-Fancer Cybernetick Hyper Weapon (World rev 1)	actfancr1		0264	ActFancer	1989	Data East Corporation
+Arcade-ActFancer_MiSTer	Act-Fancer (World rev 2).mra	Act-Fancer Cybernetick Hyper Weapon (World rev 2)	actfancr2		0264	ActFancer	1989	Data East Corporation
+Arcade-ActFancer_MiSTer	Act-Fancer Cybernetick Hyper Weapon (World revision 3).mra	Act-Fancer Cybernetick Hyper Weapon (World rev 3)	actfancr		0264	ActFancer	1989	Data East Corporation
+Arcade-Arkanoid_MISTer	Arkanoid (W).mra	Arkanoid	arkanoid	arkanoid	0220	arkanoid	1986	Taito
+Arcade-AsteroidsDeluxe_MiSTer	Asteroids Deluxe.mra	Asteroids Deluxe (rev 3)	astdelux		0216	asteroidsdeluxe	1980	Atari
+Arcade-Asteroids_MiSTer	Asteroids.mra	Asteroids (Rev 4)	asteroid	asteroid	0287	Asteroids	1979	Atari
+Arcade-Asteroids_MiSTer	Asteroids Deluxe (v3 green).mra	Asteroids Deluxe (Rev 3)	astdelux	astdelux	0287	Asteroids	1980	Atari
+Arcade-Asteroids_MiSTer	Asteroids Deluxe (v3 orange).mra	Asteroids Deluxe (Rev 3)	astdelux	astdelux	0287	Asteroids	1980	Atari
+Arcade-Asteroids_MiSTer	Lunar Lander.mra	Lunar Lander (Rev 2)	llander	llander	0287	Asteroids	1979	Atari
+Arcade-Asteroids_old_MiSTer	Asteroids.mra	Asteroids (rev 4)	asteroid		0220	asteroids	1979	Atari
+Arcade-Astrocade_MiSTer	Extra Bases.mra	Extra Bases	ebases	ebases	0219	astrocade	1980	Dave Nutting Associates
+Arcade-Astrocade_MiSTer	Gorf.mra	Gorf	gorf	gorf	0219	astrocade	1981	Dave Nutting Associates
+Arcade-Astrocade_MiSTer	Sea Wolf II.mra	Sea Wolf II	seawolf2	seawolf3	0219	astrocade	1978	Dave Nutting Associates
+Arcade-Astrocade_MiSTer	Space Zap.mra	Space Zap	spacezap	spacezap	0219	astrocade	1980	Midway
+Arcade-Astrocade_MiSTer	The Adventures of Robby Roto!.mra	The Adventures of Robby Roto!	robby	robby	0219	astrocade	1981	Dave Nutting Associates
+Arcade-Astrocade_MiSTer	Wizard of Wor.mra	Wizard of Wor	wow	wow	0219	astrocade	1980	Dave Nutting Associate
+Arcade-Atari-system1_MiSTer	Indiana Jones (cocktail).mra	Indiana Jones (cocktail)	indytempc		0254	atarisys1	1985	Atari Games
+Arcade-Atari-system1_MiSTer	Indiana Jones (german).mra	Indiana Jones (german)	indytempd		0254	atarisys1	1985	Atari Games
+Arcade-Atari-system1_MiSTer	Indiana Jones (set 1).mra	Indiana Jones (set 1)	indytemp		0254	atarisys1	1985	Atari Games
+Arcade-Atari-system1_MiSTer	Indiana Jones (set 2).mra	Indiana Jones (set 2)	indytemp2		0254	atarisys1	1985	Atari Games
+Arcade-Atari-system1_MiSTer	Indiana Jones (set 3).mra	Indiana Jones (set 3)	indytemp3		0254	atarisys1	1985	Atari Games
+Arcade-Atari-system1_MiSTer	Indiana Jones (set 4).mra	Indiana Jones (set 4)	indytemp4		0254	atarisys1	1985	Atari Games
+Arcade-Atari-system1_MiSTer	Marble Madness (set 1).mra	Marble Madness (set 1)	marble		0254	atarisys1	1984	Atari Games
+Arcade-Atari-system1_MiSTer	Marble Madness (set 2).mra	Marble Madness (set 2)	marble2		0254	atarisys1	1984	Atari Games
+Arcade-Atari-system1_MiSTer	Marble Madness (set 3).mra	Marble Madness (set 3)	marble3		0254	atarisys1	1984	Atari Games
+Arcade-Atari-system1_MiSTer	Marble Madness (set 4).mra	Marble Madness (set 4)	marble4		0254	atarisys1	1984	Atari Games
+Arcade-Atari-system1_MiSTer	Marble Madness (set 5 - LSI).mra	Marble Madness (set 5 - LSI Cartridge)	marble5		0254	atarisys1	1984	Atari Games
+Arcade-Atari-system1_MiSTer	Peter Pack Rat.mra	Peter Pack Rat	peterpak		0254	atarisys1	1984	Atari Games
+Arcade-Atari-system1_MiSTer	Road Blasters (cockpit, German, rev 1).mra	Road Blasters (cockpit, German, rev 1)	roadblstcg		0254	atarisys1	1987	Atari Games
+Arcade-Atari-system1_MiSTer	Road Blasters (cockpit, rev 1).mra	Road Blasters (cockpit, rev 1)	roadblstc1		0254	atarisys1	1987	Atari Games
+Arcade-Atari-system1_MiSTer	Road Blasters (cockpit, rev 2).mra	Road Blasters (cockpit, rev 2)	roadblstc		0254	atarisys1	1987	Atari Games
+Arcade-Atari-system1_MiSTer	Road Blasters (upright, German, rev 1).mra	Road Blasters (upright, German, rev 1)	roadblstg1		0254	atarisys1	1987	Atari Games
+Arcade-Atari-system1_MiSTer	Road Blasters (upright, German, rev 2).mra	Road Blasters (upright, German, rev 2)	roadblstg2		0254	atarisys1	1987	Atari Games
+Arcade-Atari-system1_MiSTer	Road Blasters (upright, German, rev 3)).mra	Road Blasters (upright, German, rev 3)	roadblstg		0254	atarisys1	1987	Atari Games
+Arcade-Atari-system1_MiSTer	Road Blasters (upright, German, rev X).mra	Road Blasters (upright, German, rev ?)	roadblstgu		0254	atarisys1	1987	Atari Games
+Arcade-Atari-system1_MiSTer	Road Blasters (upright, rev 1).mra	Road Blasters (upright, rev 1)	roadblst1		0254	atarisys1	1987	Atari Games
+Arcade-Atari-system1_MiSTer	Road Blasters (upright, rev 2).mra	Road Blasters (upright, rev 2)	roadblst2		0254	atarisys1	1987	Atari Games
+Arcade-Atari-system1_MiSTer	Road Blasters (upright, rev 3)).mra	Road Blasters (upright, rev 3)	roadblst3		0254	atarisys1	1987	Atari Games
+Arcade-Atari-system1_MiSTer	Road Blasters (upright, rev 4).mra	Road Blasters (upright, rev 4)	roadblst		0254	atarisys1	1987	Atari Games
+Arcade-Atari-system1_MiSTer	Road Runner (rev 1).mra	Road Runner (rev 1)	roadrunn1		0254	atarisys1	1985	Atari Games
+Arcade-Atari-system1_MiSTer	Road Runner (rev 1p).mra	Road Runner (rev 1+)	roadrunn2		0254	atarisys1	1985	Atari Games
+Arcade-Atari-system1_MiSTer	Road Runner (rev 2).mra	Road Runner (rev 2)	roadrunn		0254	atarisys1	1985	Atari Games
+Arcade-Athena_MiSTer	Athena.mra	Athena	athena		0193	Athena	1986	SNK
+Arcade-Athena_MiSTer	Athena_Screen_Flip_Fix_ROM_Patch.mra	Athena	athena		0193	Athena	1986	SNK
+Arcade-Athena_MiSTer	Athena_bootleg.mra	Athena (bootleg)	athenab		0193	Athena	1986	SNK
+Arcade-Athena_MiSTer	Country Club.mra	Country Club	countryc		0193	Athena	1988	SNK
+Arcade-Athena_MiSTer	Fighting Golf.mra	Fighting Golf	fitegolf		0193	Athena	1988	SNK
+Arcade-Athena_MiSTer	Super_Athena.mra	Super Athena (bootleg)	sathena		0193	Athena	1987	bootleg
+Arcade-Bagman_MiSTer	Bagman.mra	Bagman	bagman	bagman	0220	bagman	1982	Valadon Automation
+Arcade-Bagman_MiSTer	Botanic (English, Spanish, Set 1).mra	Botanic	botanic	botanic	0220	bagman	1983	Itisa
+Arcade-Bagman_MiSTer	Pickin'.mra	Pickin'	pickin	pickin	0220	bagman	1983	Valadon Automation
+Arcade-Bagman_MiSTer	Squash.mra	Squash	squaitsa	squaitsa	0220	bagman	1984	Itisa
+Arcade-Bagman_MiSTer	Super Bagman.mra	Super Bagman	sbagman	sbagman	0217	bagman	1984	Valadon Automation
+Arcade-BankPanic_MiSTer	BankPanic.mra	BankPanic	bankp		0247	bankpanic	1984	Sanritsu/Sega
+Arcade-BankPanic_MiSTer	Combat Hawk.mra	Combat Hawk	combh		0247	bankpanic	1987	Sanritsu/Sega
+Arcade-BattleZone_MiSTer	Battle Zone rev 2.mra	Battle Zone (rev 2)	bzone		0226	BattleZone	1980	Atari
+Arcade-BattleZone_MiSTer	Bradley Trainer.mra	Bradley Trainer	bradley		0226	BattleZone	1980	Atari
+Arcade-BattleZone_MiSTer	Red Baron.mra	Red Baron	redbarona		0226	BattleZone	1980	Atari
+Arcade-Berzerk_MiSTer	Berzerk.mra	Berzerk	berzerk	berzerk	0220	berzerk	1980	Stern
+Arcade-BlackWidow_MiSTer	Black Widow.mra	Black Widow	bwidow	bwidow	0218	blackwidow	1982	Atari
+Arcade-BlackWidow_MiSTer	Gravitar (Ver 3).mra	Gravitar	gravitar	gravitar	0218	blackwidow	1982	Atari
+Arcade-BlackWidow_MiSTer	Lunar Battle (Prototype).mra	Lunar Battle	lunarbat	lunarbat	0218	blackwidow	1982	Atari
+Arcade-Blockade_MiSTer	Blasto.mra	Blasto	blasto		0229	blockade	1978	Gremlin
+Arcade-Blockade_MiSTer	Blockade.mra	Blockade	blockade		0229	blockade	1976	Gremlin
+Arcade-Blockade_MiSTer	CoMotion.mra	CoMotion	comotion		0229	blockade	1976	Gremlin
+Arcade-Blockade_MiSTer	Hustle.mra	Hustle	hustle		0229	blockade	1977	Gremlin
+Arcade-BloodBros_MiSTer	Blood Bros (World).mra	Blood Bros	bloodbro		0264	BloodBros	1990	TAD Corporation
+Arcade-BloodBros_MiSTer	Blood Bros (Japan rev A).mra	Blood Bros (Japan rev A)	bloodbroj		0264	BloodBros	1990	TAD Corporation
+Arcade-BloodBros_MiSTer	Blood Bros (Japan).mra	Blood Bros (Japan)	bloodbroja		0264	BloodBros	1990	TAD Corporation
+Arcade-BloodBros_MiSTer	Blood Bros (Korea).mra	Blood Bros (Korea)	bloodbrok		0264	BloodBros	1990	TAD Corporation
+Arcade-BloodBros_MiSTer	Blood Bros (US).mra	Blood Bros (US)	bloodbrou		0264	BloodBros	1990	TAD Corporation (Fabtek license)
+Arcade-BluePrint_MiSTer	Blue Print (Japan).mra		blueprntj	blueprnt	0220	BluePrint	1982	Zilec Electronics / Bally Midway
+Arcade-BluePrint_MiSTer	Blue Print (Midway).mra		blueprnt	blueprnt	0220	BluePrint	1982	Zilec Electronics / Bally Midway
+Arcade-BluePrint_MiSTer	Saturn (Zilec).mra		saturnzi	blueprnt	0220	BluePrint	1983	Zilec Electronics / Jaleco
+Arcade-BluePrint_MiSTer	Grasspin (Jaleco).mra	Grasspin (Zilec)	grasspin	grasspin	0220	BluePrint	1983	Zilec Electronics / Jaleco
+Arcade-BombJack_MiSTer	Bomb Jack.mra	Bomb Jack	bombjack	bombjack	0220	bombjack	1984	Tehkan
+Arcade-BoogieWings_MiSTer	Boogie Wings (Asia v1.5, 92.12.07).mra	Boogie Wings (Asia v1.5, 92.12.07)	boogwinga		0264	BoogieWings	1992	Data East Corporation
+Arcade-BoogieWings_MiSTer	Boogie Wings (Euro v1.5, 92.12.07).mra	Boogie Wings (Euro v1.5, 92.12.07)	boogwing		0264	BoogieWings	1992	Data East Corporation
+Arcade-BoogieWings_MiSTer	Boogie Wings (USA v1.7, 92.12.14).mra	Boogie Wings (USA v1.7, 92.12.14)	boogwingu		0264	BoogieWings	1992	Data East Corporation
+Arcade-BoogieWings_MiSTer	The Great Ragtime Show (Japan v1.3, 92.11.26).mra	The Great Ragtime Show (Japan v1.3, 92.11.26)	ragtimea		0264	BoogieWings	1992	Data East Corporation
+Arcade-BoogieWings_MiSTer	The Great Ragtime Show (Japan v1.5, 92.12.07).mra	The Great Ragtime Show (Japan v1.5, 92.12.07)	ragtime		0264	BoogieWings	1992	Data East Corporation
+Arcade-Bosconian_MiSTer	Bosconian - Star Destroyer (new version).mra	Bosconian - Star Destroyer	bosco	bosco	0220	bosconian	1981	Namco
+Arcade-Breakout_MiSTer	Breakout (TTL).mra	Breakout	breakout	breakout		breakout	1976	Atari
+Arcade-BubSysROM_MiSTer	Galactic Warriors.mra	Galactic Warriors	gwarrior		0266	BubSysROM	1985	Konami
+Arcade-BubSysROM_MiSTer	Gradius.mra	Gradius (Japan, ROM version)	gradius		0266	BubSysROM	1985	Konami
+Arcade-BubSysROM_MiSTer	TwinBee.mra	TwinBee (ROM version)	twinbee		0266	BubSysROM	1985	Konami
+Arcade-BubSys_MiSTer	TwinBee (Bubble System).mra	TwinBee (Bubble System)	twinbeeb		0266	BubSys	1985	Konami
+Arcade-BurgerTime_MiSTer	Burger Time (Set 1).mra	Burger Time	btime	btime	0229	burgertime	1982	Data East
+Arcade-BurningRubber_MiSTer	Burnin' Rubber.mra	Burnin' Rubber	brubber	brubber	0220	burningrubber	1982	Data East
+Arcade-CanyonBomber_MiSTer	Canyon Bomber.mra	Canyon Bomber	canyon	canyon	0220	canyonbomber	1977	Atari
+Arcade-CaveBanpresto_MiSTer	Air Gallet (Europe).mra	Air Gallet (Europe)	agallet		0275	CaveBanpresto	1996	Gazelle (Banpresto license)
+Arcade-CaveBanpresto_MiSTer	Air Gallet (Hong Kong).mra	Air Gallet (Hong Kong)	agalleth		0275	CaveBanpresto	1996	Gazelle (Banpresto license)
+Arcade-CaveBanpresto_MiSTer	Air Gallet (Korea).mra	Air Gallet (Korea)	agalletk		0275	CaveBanpresto	1996	Gazelle (Banpresto license)
+Arcade-CaveBanpresto_MiSTer	Air Gallet (Taiwan).mra	Air Gallet (Taiwan)	agallett		0275	CaveBanpresto	1996	Gazelle (Banpresto license)
+Arcade-CaveBanpresto_MiSTer	Air Gallet (USA).mra	Air Gallet (USA)	agalletu		0275	CaveBanpresto	1996	Gazelle (Banpresto license)
+Arcade-CaveBanpresto_MiSTer	Air Gallet (older, Europe).mra	Air Gallet (older, Europe)	agalleta		0275	CaveBanpresto	1996	Gazelle (Banpresto license)
+Arcade-CaveBanpresto_MiSTer	Air Gallet (older, Hong Kong).mra	Air Gallet (older, Hong Kong)	agalletah		0275	CaveBanpresto	1996	Gazelle (Banpresto license)
+Arcade-CaveBanpresto_MiSTer	Air Gallet (older, Korea).mra	Air Gallet (older, Korea)	agalletak		0275	CaveBanpresto	1996	Gazelle (Banpresto license)
+Arcade-CaveBanpresto_MiSTer	Air Gallet (older, Taiwan).mra	Air Gallet (older, Taiwan)	agalletat		0275	CaveBanpresto	1996	Gazelle (Banpresto license)
+Arcade-CaveBanpresto_MiSTer	Air Gallet (older, USA).mra	Air Gallet (older, USA)	agalletau		0275	CaveBanpresto	1996	Gazelle (Banpresto license)
+Arcade-CaveBanpresto_MiSTer	Akuu Gallet (Japan).mra	Akuu Gallet (Japan)	agalletj		0275	CaveBanpresto	1996	Gazelle (Banpresto license)
+Arcade-CaveBanpresto_MiSTer	Akuu Gallet (older, Japan).mra	Akuu Gallet (older, Japan)	agalletaj		0275	CaveBanpresto	1996	Gazelle (Banpresto license)
+Arcade-CaveBanpresto_MiSTer	Bishoujo Senshi Sailor Moon (Version 95-03-22B, Japan).mra	Bishoujo Senshi Sailor Moon (Version 95/03/22B, Japan)	sailormn		0289	CaveBanpresto	1995	Gazelle (Banpresto license)
+Arcade-CaveBanpresto_MiSTer	Hotdog Storm (Korea).mra	Hotdog Storm (Korea)	hotdogst		0226	CaveBanpresto	1996	Marble (Ace International license)
+Arcade-CaveBanpresto_MiSTer	Mazinger Z (Japan).mra	Mazinger Z (Japan)	mazingerj		0275	CaveBanpresto	1994	Banpresto / Dynamic Pl. Toei Animation
+Arcade-CaveBanpresto_MiSTer	Mazinger Z (World).mra	Mazinger Z (World)	mazinger		0275	CaveBanpresto	1994	Banpresto / Dynamic Pl. Toei Animation
+Arcade-CaveBanpresto_MiSTer	Metamoqester (World).mra	Metamoqester (World)	metmqstr		0275	CaveBanpresto	1995	Banpresto / Pandorabox
+Arcade-CaveBanpresto_MiSTer	Oni - The Ninja Master (Japan).mra	Oni - The Ninja Master (Japan)	nmaster		0275	CaveBanpresto	1995	Banpresto / Pandorabox
+Arcade-Cave_MiSTer	Dangun Feveron (Japan, 98-09-17 VER.).mra	Dangun Feveron (Japan, 98/09/17 VER.)	dfeveron		0226	Cave	1998	CAVE
+Arcade-Cave_MiSTer	DoDonPachi (2012-02-12 Arrange Ver. 1.1) (hack).mra	DoDonPachi (2012/02/12 Arrange Ver. 1.1) (hack)	ddonpacha		0226	Cave	2012	Hack (trap15)
+Arcade-Cave_MiSTer	DoDonPachi (Japan, 1997 2-5 Master Ver.).mra	DoDonPachi (Japan, 1997 2/ 5 Master Ver.)	ddonpachj		0226	Cave	1997	CAVE
+Arcade-Cave_MiSTer	DoDonPachi (World, 1997 2-5 Master Ver.).mra	DoDonPachi (World, 1997 2/ 5 Master Ver.)	ddonpach		0226	Cave	1997	CAVE
+Arcade-Cave_MiSTer	DoDonPachi (World, 1997 25 Master Ver.).mra	DoDonPachi (World, 1997 2/5 Master Ver.)	ddonpach		0226	cave	1997	CAVE
+Arcade-Cave_MiSTer	DonPachi (Japan).mra	DonPachi (Japan)	donpachij		0226	Cave	1995	CAVE
+Arcade-Cave_MiSTer	DonPachi (US).mra	DonPachi (US)	donpachi		0226	Cave	1995	CAVE
+Arcade-Cave_MiSTer	DonPachi (US).mra	DonPachi (US)	donpachi		0226	cave	1995	CAVE
+Arcade-Cave_MiSTer	ESP Ra.De. (Japan, 1998 4-21 Master Ver.).mra	ESP Ra.De. (Japan, 1998 4/21 Master Ver.)	espradej		0226	Cave	1998	CAVE
+Arcade-Cave_MiSTer	ESP Ra.De. (World, 1998 4-22 International Ver.).mra	ESP Ra.De. (World, 1998 4/22 International Ver.)	esprade		0226	Cave	1998	CAVE
+Arcade-Cave_MiSTer	ESP Ra.De. (World 1998 422 International Ver).mra	ESP Ra.De. (World, 1998 4/22 International Ver.).	esprade		0226	cave	1998	CAVE
+Arcade-Cave_MiSTer	Fever SOS (World, 98-09-25 VER).mra	Fever SOS (World, 98/09/25 VER)	feversos		0226	Cave	1998	CAVE
+Arcade-Cave_MiSTer	Fever SOS (World, 980925 VER).mra	Fever SOS (World, 98/09/25 VER)	feversos		0226	cave	1998	CAVE
+Arcade-Cave_MiSTer	Gaia Crusaders.mra	Gaia Crusaders	gaia		0226	Cave	1999	CAVE
+Arcade-Cave_MiSTer	Gaia Crusaders.mra	Gaia Crusaders	gaia		0226	cave	1999	CAVE
+Arcade-Cave_MiSTer	Gogetsuji Legends (US, Ver. 95.06.20).mra	Gogetsuji Legends (US, Ver. 95.06.20)	plegends		0275	Cave	1995	Atlus
+Arcade-Cave_MiSTer	Gogetsuji Legends (US, Ver. 95.06.20).mra	Gogetsuji Legends (US, Ver. 95.06.20)	plegends		0275	cave	1995	Atlus
+Arcade-Cave_MiSTer	Guwange (Japan, 1999 6-24 Master Ver 16-55).mra	Guwange (Japan, 1999 6/24 Master Ver 16:55)	guwange		0226	Cave	1999	CAVE
+Arcade-Cave_MiSTer	Guwange (Japan, 1999 624 Master Ver 1655).mra	Guwange (Japan, 1999 6/24 Master Ver 16:55)	guwange		0226	cave	1999	CAVE
+Arcade-Cave_MiSTer	Guwange (Japan, 2000 7-7 Special Ver 13-22).mra	Guwange (Japan, 2000 7/ 7 Special Ver 13:22)	guwanges		0226	Cave	1999	CAVE
+Arcade-Cave_MiSTer	Power Instinct 2 (US, Ver. 94.04.08, set 1).mra	Power Instinct 2 (US, Ver. 94.04.08, set 1)	pwrinst2		0275	Cave	1994	Atlus
+Arcade-Cave_MiSTer	Power Instinct 2 (US, Ver. 94.04.08, set 1).mra	Power Instinct 2 (US, Ver. 94.04.08, set 1)	pwrinst2		0275	cave	1994	Atlus
+Arcade-Cave_MiSTer	Puzzle Uo Poko (Japan).mra	Puzzle Uo Poko (Japan)	uopokoj		0226	Cave	1998	CAVE
+Arcade-Cave_MiSTer	Puzzle Uo Poko (World).mra	Puzzle Uo Poko (World)	uopoko		0226	Cave	1998	CAVE
+Arcade-Cave_MiSTer	Puzzle Uo Poko (World).mra	Puzzle Uo Poko (World)	uopoko		0226	cave	1998	CAVE
+Arcade-Cave_MiSTer	Thunder Heroes (set 1).mra	Thunder Heroes (set 1)	theroes		0226	Cave	2001	CAVE
+Arcade-Cave_MiSTer	Thunder Heroes (set 1).mra	Thunder Heroes (set 1)	theroes		0226	cave	2001	CAVE
+Arcade-Centipede_MiSTer	Centipede (Rev 4).mra	Centipede	centiped	centiped	0220	centipede	1980	Atari
+Arcade-Chameleon_MiSTer	Chameleon.mra	Chameleon	chameleo		0234	Chameleon	1983	Jaleco
+Arcade-ChinaGate_MiSTer	China Gate (US).mra	China Gate (US)	chinagat		0264	ChinaGate	1988	Technos Japan (Taito / Romstar license)
+Arcade-ChinaGate_MiSTer	China Gate - Sai Yu Gou Ma Roku (JP).mra	Sai Yu Gou Ma Roku (JP)	saiyugou		0264	ChinaGate	1988	Technos Japan
+Arcade-CityConnection_MiSTer	City Connection (Cruisin).mra	City Connection (Cruisin)	cruisin		0264	CityConnection	1985	Jaleco (Kitkorp license)
+Arcade-CityConnection_MiSTer	City Connection (set 1).mra	City Connection (set 1)	citycon		0264	CityConnection	1985	Jaleco
+Arcade-CityConnection_MiSTer	City Connection (set 2).mra	City Connection (set 2)	citycona		0264	CityConnection	1985	Jaleco
+Arcade-ComputerSpace_MiSTer	Computer Space.mra	Computer Space			0220	computerspace	1971	Syzygy Engineering
+Arcade-CongoBongo_MiSTer	Congo Bongo.mra	CongoBongo	congo		0248	CongoBongo	1983	Sega/Gremlin
+Arcade-CongoBongo_MiSTer	Tip Top (3 board stack).mra	Tip Top	tiptop		0248	CongoBongo	1983	Sega/Gremlin
+Arcade-CosmicGuerilla_MiSTer	Cosmic Guerilla.mra	Cosmic Guerilla	cosmicg		0219	CosmicGuerilla	1981	Universal
+Arcade-Cosmic_MiSTer	Cosmic Alien.mra	Cosmic Alien	cosmica		0219	cosmic	1981	Universal
+Arcade-Cosmic_MiSTer	Devil Zone.mra	Devil Zone	devzone		0219	cosmic	1981	Universal
+Arcade-Cosmic_MiSTer	Magical Spot.mra	Magical Spot	magspot		0219	cosmic	1981	Universal
+Arcade-Cosmic_MiSTer	No Mans Land.mra	No Mans Land	nomnlnd		0219	cosmic	1981	Universal
+Arcade-Cosmic_MiSTer	Space Panic.mra	Space Panic	panic		0219	cosmic	1981	Universal
+Arcade-CrazyBalloon_MiSTer	Crazy Balloon.mra	Crazy Balloon	crbaloon	crbaloon	0219	crazyballoon	1980	Taito
+Arcade-CrazyClimber_MiSTer	Crazy Climber.mra	Crazy Climber	cclimber	cclimber	0216	crazyclimber	1980	Nichibutsu
+Arcade-CrazyKong_MiSTer	Crazy Kong (Kyoei).mra	Crazy Kong	ckong	ckong	0224	crazykong	1981	Falcon
+Arcade-CrazyKong_MiSTer	Crazy Kong Part II (Set 1).mra	Crazy Kong Part II	ckongpt2	ckongpt3	0224	crazykong	1981	Falcon
+Arcade-CrystalCastles_MiSTer	Crystal Castles.mra	Crystal Castles	ccastles		0245	CrystalCastles	1983	Atari
+Arcade-DECOCassette_MiSTer	18 Challenge Pro Golf (DECO).mra	18 Challenge Pro Golf	cprogolf18			DECOCassette	1982	Data East
+Arcade-DECOCassette_MiSTer	Angler Dangler (DECO).mra	Angler Dangler	cadanglr			DECOCassette	1982	Data East
+Arcade-DECOCassette_MiSTer	Astro Fantasia (DECO).mra	Astro Fantasia	castfant			DECOCassette	1981	Data East
+Arcade-DECOCassette_MiSTer	Boulder Dash (DECO).mra	Boulder Dash	cbdash			DECOCassette	1985	Data East
+Arcade-DECOCassette_MiSTer	Bump 'n' Jump (DECO).mra	Bump n Jump	cbnj			DECOCassette	1982	Data East
+Arcade-DECOCassette_MiSTer	Burger Time (DECO).mra	Burger Time	cbtime			DECOCassette	1982	Data East
+Arcade-DECOCassette_MiSTer	Burnin Rubber (Japan) (DECO).mra	Burnin Rubber (Japan)	cburnrubj			DECOCassette	1982	Data East
+Arcade-DECOCassette_MiSTer	Burnin Rubber (DECO).mra	Burnin Rubber (set 1)	cburnrub			DECOCassette	1982	Data East
+Arcade-DECOCassette_MiSTer	Burnin Rubber (set 2) (DECO).mra	Burnin Rubber (set 2)	cburnrub2			DECOCassette	1982	Data East
+Arcade-DECOCassette_MiSTer	Cluster Buster (DECO).mra	Cluster Buster	cgraplop			DECOCassette	1983	Data East
+Arcade-DECOCassette_MiSTer	DECO Darksoft Multigame (DECO).mra	DECO Multigame (Darksoft v17)	decodark			DECOCassette	2022	bootleg (Darksoft)
+Arcade-DECOCassette_MiSTer	DECO Darksoft Multigame (v15) (DECO).mra	DECO Multigame (Darksoft v17)	decodark			DECOCassette	2022	bootleg (Darksoft)
+Arcade-DECOCassette_MiSTer	DECO Darksoft Multigame (v16) (DECO).mra	DECO Multigame (Darksoft v17)	decodark			DECOCassette	2022	bootleg (Darksoft)
+Arcade-DECOCassette_MiSTer	DS Telejan (DECO).mra	DS Telejan	cdsteljn			DECOCassette	1981	Data East
+Arcade-DECOCassette_MiSTer	Disco No.1 (DECO).mra	Disco No.1	cdiscon1			DECOCassette	1982	Data East
+Arcade-DECOCassette_MiSTer	Fighting Ice Hockey (DECO).mra	Fighting Ice Hockey	cfghtice			DECOCassette	1984	Data East
+Arcade-DECOCassette_MiSTer	Fishing (Japan) (DECO).mra	Fishing (Japan)	cfishing			DECOCassette	1982	Data East
+Arcade-DECOCassette_MiSTer	Flash Boy (DECO).mra	Flash Boy	cfboy0a1			DECOCassette	1981	Data East
+Arcade-DECOCassette_MiSTer	Flying Ball (DECO).mra	Flying Ball (DECO)	cflyball			DECOCassette	1985	Data East
+Arcade-DECOCassette_MiSTer	Graplop (Japan) (DECO).mra	Graplop (Japan)	cgraplopj			DECOCassette	1983	Data East
+Arcade-DECOCassette_MiSTer	Graplop (Prototype) (DECO).mra	Graplop (proto)	cgraplop2			DECOCassette	1983	Data East
+Arcade-DECOCassette_MiSTer	Hamburger (Japan) (DECO).mra	Hamburger (Japan)	chamburger			DECOCassette	1982	Data East
+Arcade-DECOCassette_MiSTer	Highway Chase (DECO).mra	Highway Chase	chwy			DECOCassette	1980	Data East
+Arcade-DECOCassette_MiSTer	Peter Pepper's Ice Cream Factory (DECO).mra	Ice Cream Factory (set 1)	cppicf			DECOCassette	1984	Data East
+Arcade-DECOCassette_MiSTer	Peter Pepper's Ice Cream Factory (set 2) (DECO).mra	Ice Cream Factory (set 2)	cppicf2			DECOCassette	1984	Data East
+Arcade-DECOCassette_MiSTer	Lock'n'Chase (Japan) (DECO).mra	Lock n Chase (Japan)	clocknchj			DECOCassette	1981	Data East
+Arcade-DECOCassette_MiSTer	Lock'n'Chase (DECO).mra	Lock'n'Chase	clocknch			DECOCassette	1981	Data East
+Arcade-DECOCassette_MiSTer	Lucky Poker (DECO).mra	Lucky Poker	cluckypo			DECOCassette	1981	Data East
+Arcade-DECOCassette_MiSTer	Manhattan (Japan) (DECO).mra	Manhattan (Japan)	cmanhat			DECOCassette	1981	Data East
+Arcade-DECOCassette_MiSTer	Mission-X (DECO).mra	Mission-X	cmissnx			DECOCassette	1982	Data East
+Arcade-DECOCassette_MiSTer	Nebula (DECO).mra	Nebula	cnebula			DECOCassette	1981	Data East
+Arcade-DECOCassette_MiSTer	Night Star (DECO).mra	Night Star (set 1)	cnightst			DECOCassette	1983	Data East
+Arcade-DECOCassette_MiSTer	Night Star (set 2) (DECO).mra	Night Star (set 2)	cnightst2			DECOCassette	1983	Data East
+Arcade-DECOCassette_MiSTer	Ocean to Ocean (Japan) (DECO).mra	Ocean to Ocean (Japan)	cocean1a			DECOCassette	1981	Data East
+Arcade-DECOCassette_MiSTer	Ocean to Ocean (DECO).mra	Ocean to Ocean (US)	cocean6b			DECOCassette	1981	Data East
+Arcade-DECOCassette_MiSTer	Oozumou - Grand Sumo (DECO).mra	Oozumou - Grand Sumo	coozumou			DECOCassette	1984	Data East
+Arcade-DECOCassette_MiSTer	Pro Bowling (DECO).mra	Pro Bowling	cprobowl			DECOCassette	1983	Data East
+Arcade-DECOCassette_MiSTer	Tournament Pro Golf (DECO).mra	Pro Golf	cprogolf			DECOCassette	1981	Data East
+Arcade-DECOCassette_MiSTer	Tournament Pro Golf (Japan) (DECO).mra	Pro Golf (Japan)	cprogolfj			DECOCassette	1981	Data East
+Arcade-DECOCassette_MiSTer	Pro Soccer (DECO).mra	Pro Soccer	cpsoccer			DECOCassette	1983	Data East
+Arcade-DECOCassette_MiSTer	Pro Soccer (Japan) (DECO).mra	Pro Soccer (Japan)	cpsoccerj			DECOCassette	1983	Data East
+Arcade-DECOCassette_MiSTer	Pro Tennis (DECO).mra	Pro Tennis	cptennis			DECOCassette	1982	Data East
+Arcade-DECOCassette_MiSTer	Pro Tennis (Japan) (DECO).mra	Pro Tennis (Japan)	cptennisj			DECOCassette	1982	Data East
+Arcade-DECOCassette_MiSTer	Rootin' Tootin' (DECO).mra	Rootin Tootin	clapapa2			DECOCassette	1983	Data East
+Arcade-DECOCassette_MiSTer	La-Pa-Pa (DECO).mra	Rootin Tootin (La-Pa-Pa)	clapapa			DECOCassette	1983	Data East
+Arcade-DECOCassette_MiSTer	Scrum Try (DECO).mra	Scrum Try	cscrtry			DECOCassette	1984	Data East
+Arcade-DECOCassette_MiSTer	Scrum Try (set 2) (DECO).mra	Scrum Try (set 2)	cscrtry2			DECOCassette	1984	Data East
+Arcade-DECOCassette_MiSTer	Skater (DECO).mra	Skater	cskater			DECOCassette	1983	Data East
+Arcade-DECOCassette_MiSTer	Super Astro Fighter (DECO).mra	Super Astro Fighter	csuperas			DECOCassette	1981	Data East
+Arcade-DECOCassette_MiSTer	Super Doubles Tennis (DECO).mra	Super Doubles Tennis	csdtenis			DECOCassette	1983	Data East
+Arcade-DECOCassette_MiSTer	Sweet Heart (DECO).mra	Sweet Heart	csweetht			DECOCassette	1982	Data East
+Arcade-DECOCassette_MiSTer	Terranean (DECO).mra	Terranean	cterrani			DECOCassette	1981	Data East
+Arcade-DECOCassette_MiSTer	DECO Test Tape (DECO).mra	Test Tape	ctsttape			DECOCassette	1981	Data East
+Arcade-DECOCassette_MiSTer	The Tower (DECO).mra	The Tower	ctower			DECOCassette	1981	Data East
+Arcade-DECOCassette_MiSTer	Tornado (DECO).mra	Tornado	ctornado			DECOCassette	1982	Data East
+Arcade-Darius2NinjaWarriors_MiSTer	Darius II (Japan, rev 1).mra	Darius II (Japan, rev 1)	darius2		0264	Darius2NinjaWarriors	1989	Taito Corporation
+Arcade-Darius2NinjaWarriors_MiSTer	The Ninja Warriors (Japan).mra	The Ninja Warriors (Japan)	ninjawj		0264	Darius2NinjaWarriors	1987	Taito Corporation
+Arcade-Darius2NinjaWarriors_MiSTer	The Ninja Warriors (US, Romstar license).mra	The Ninja Warriors (US, Romstar license)	ninjawu		0264	Darius2NinjaWarriors	1987	Taito Corporation America (licensed to Romstar)
+Arcade-Darius2NinjaWarriors_MiSTer	The Ninja Warriors (World, earlier version).mra	The Ninja Warriors (World, earlier version)	ninjaw1		0264	Darius2NinjaWarriors	1987	Taito Corporation
+Arcade-Darius2NinjaWarriors_MiSTer	The Ninja Warriors (World).mra	The Ninja Warriors (World, triple screen)	ninjaw		0264	Darius2NinjaWarriors	1987	Taito Corporation
+Arcade-Darius2WarriorBlade_MiSTer	Darius II (Japan, dual screen, rev 1).mra	Darius II (Japan, dual screen, rev 1)	darius2do		0264	Darius2WarriorBlade	1989	Taito Corporation
+Arcade-Darius2WarriorBlade_MiSTer	Darius II (Japan, dual screen, rev 2).mra	Darius II (Japan, dual screen, rev 2)	darius2d		0264	Darius2WarriorBlade	1989	Taito Corporation
+Arcade-Darius2WarriorBlade_MiSTer	Sagaia (World, dual screen).mra	Sagaia (World, dual screen)	sagaia		0264	Darius2WarriorBlade	1989	Taito Corporation
+Arcade-Darius2WarriorBlade_MiSTer	Warrior Blade (Japan).mra	Warrior Blade - Rastan Saga Episode III (Japan)	warriorb		0264	Darius2WarriorBlade	1991	Taito Corporation
+Arcade-Darius_MiSTer	Darius (Japan).mra	Darius (Japan)	dariuso		0264	Darius	1986	Taito Corporation
+Arcade-Darius_MiSTer	Darius (Japan, rev 1).mra	Darius (Japan, rev 1)	dariusj		0264	Darius	1986	Taito Corporation
+Arcade-Darius_MiSTer	Darius (US).mra	Darius (US)	dariusu		0264	Darius	1987	Taito America Corporation
+Arcade-Darius_MiSTer	Darius (World).mra	Darius (World)	darius		0264	Darius	1987	Taito Corporation
+Arcade-Darius_MiSTer	Darius Extra Version (Japan).mra	Darius Extra Version (Japan)	dariuse		0264	Darius	1986	Taito Corporation
+Arcade-Dcon_MiSTer	D-Con.mra	D-Con	dcon		0264	DCon	1992	Success
+Arcade-Deco16_Mister	Caveman Ninja (World ver 4).mra	Caveman Ninja (World ver 4)	cninja		0276	Deco16	1991	Data East Corporation
+Arcade-Deco16_Mister	Crude Buster (World FX version).mra	Crude Buster (World FX version)	cbuster		0276	Deco16	1990	Data East Corporation
+Arcade-Deco16_Mister	Vapor Trail - Hyper Offence Formation (World revision 1).mra	Vapor Trail - Hyper Offence Formation (World revision 1)	vaportra		0282	Deco16	1989	Data East Corporation
+Arcade-Defender_MiSTer	Colony 7 (Set 1).mra	Colony 7	colony7	colony7	0216	defender	1981	Taito
+Arcade-Defender_MiSTer	Defender (Red Label).mra	Defender	defender	defender	0218	defender	1980	Williams
+Arcade-Defender_MiSTer	Jin.mra	Jin	jin	jin	0218	defender	1982	Falcon
+Arcade-Defender_MiSTer	Mayday (Set 1).mra	Mayday	mayday	mayday	0218	defender	1980	Hoei
+Arcade-DigDug_MiSTer	Dig Dug (Rev 2).mra	Dig Dug	digdug	digdug	0220	digdug	1982	Namco
+Arcade-Dominos_MiSTer	Dominos.mra	Dominos	dominos	dominos	0220	dominos	1977	Atari
+Arcade-DonkeyKong3_MiSTer	Donkey Kong 3 (US).mra	Donkey Kong 3	dkong3	dkong3	0220	donkeykong3	1983	Nintendo
+Arcade-DonkeyKongJunior_MiSTer	Donkey Kong Junior (US, Set F-2).mra	Donkey Kong Junior	dkongjr	dkongjr	0217	donkeykongjunior	1982	Nintendo
+Arcade-DonkeyKong_MiSTer	Donkey Kong (US, Set 1).mra	Donkey Kong	dkong	dkong	0220	donkeykong	1981	Nintendo
+Arcade-DonkeyKong_MiSTer	Donkey Kong Junior.mra	Donkey Kong Junior (US set F-2)	dkongjr		0217	DonkeyKong	1982	Nintendo of America
+Arcade-DonkeyKong_MiSTer	Radar Scope (rev. D).mra	Radar Scope (rev. D)	radarscp	radarscp	0229	donkeykong	1980	Nintendo
+Arcade-DottoriKun_MiSTer	Dottori-Kun (new).mra	Dottori-Kun	dotrikun		0225	DottoriKun	1990	Sega
+Arcade-Druaga_MiSTer	Dig Dug II (New Ver).mra	Dig Dug II	digdug2	digdug2	0220	druaga	1985	Namco
+Arcade-Druaga_MiSTer	Grobda (W, New Ver.).mra	Grobda	grobda	grobda	0229	druaga	1984	Namco
+Arcade-Druaga_MiSTer	Mappy (US).mra	Mappy	mappy	mappy	0220	druaga	1983	Namco
+Arcade-Druaga_MiSTer	Motos.mra	Motos	motos	motos	0220	druaga	1985	Namco
+Arcade-Druaga_MiSTer	Pac & Pal.mra	Pac &amp; Pal	pacnpal	pacnpal	0220	druaga	1983	Namco
+Arcade-Druaga_MiSTer	Super Pac-Man.mra	Super Pac-Man	superpac	superpac	0220	druaga	1982	Namco
+Arcade-Druaga_MiSTer	The Tower of Druaga.mra	The Tower of Druaga	todruaga	todruaga	0220	druaga	1984	Namco
+Arcade-Exerion_MiSTer	Exerion (Taito).mra	Exerion (Taito)	exeriont	exerion	0245	exerion	1983	Jaleco
+Arcade-Exidy2_MiSTer	Hard Hat.mra	Hard Hat	hardhat	hardhat	0245	Exidy2	1981	Exidy
+Arcade-Exidy2_MiSTer	Mouse Trap.mra	Mouse Trap	mtrap	mtrap	0245	Exidy2	1980	Exidy
+Arcade-Exidy2_MiSTer	Pepper II.mra	Pepper II	pepper2	pepper2	0245	Exidy2	1980	Exidy
+Arcade-Exidy2_MiSTer	Spectar.mra	Spectar	spectar	spectar	0245	Exidy2	1980	Exidy
+Arcade-Exidy2_MiSTer	TARG.mra	Targ	targ	targ	0245	Exidy2	1980	Exidy
+Arcade-Exidy2_MiSTer	Venture Revision 5.mra	Venture	venture	venture	0245	Exidy2	1980	Exidy
+Arcade-ExpressRaider_MiSTer	Express Raider.mra	Express Raider (World, Rev 4)	exprraid		0245	expressraider	1986	Data East USA
+Arcade-ExpressRaider_MiSTer	Western Express (Japan, rev 4).mra	Western Express (Japan, rev 4)	wexpress		0245	expressraider	1986	Data East USA
+Arcade-Finalizer_MiSTer	Finalizer - Super Transformation (Set 1).mra	Finalizer: Super Transformation	finalizr	finalizr	0240	Finalizer	1985	Konami
+Arcade-FoodFight_MiSTer	Food Fight (Rev 3).mra	Food Fight	foodf	foodf	0220	foodfight	1982	General Computer Corporation
+Arcade-Freeze_MiSTer	Freeze.mra	Freeze	freeze			freeze	1984	Cinematronics
+Arcade-Freeze_MiSTer	Jack the Giantkiller (set 1).mra	Jack the Giantkiller	jack			freeze	1982	Cinematronics
+Arcade-Freeze_MiSTer	Super Casino.mra	Super Casino	sucasino			freeze	1984	Data Amusement
+Arcade-Freeze_MiSTer	Tri-Pool (Casino Tech).mra	Tri-pool	tripool			freeze	1984	Noma (Casino Tech license)
+Arcade-Freeze_MiSTer	Zzyzzyxx (set 1).mra	Zzyzzyxx	zzyzzyxx			freeze	1984	Cinematronics
+Arcade-Frenzy_MiSTer	Frenzy (Rev RA1).mra	Frenzy	frenzy	frenzy	0220	frenzy	1981	Stern
+Arcade-Galaga_MiSTer	Galaga (Midway, Set 1).mra	Galaga	galagamw	galaga	0229	galaga	1981	Namco
+Arcade-Galaxian_MiSTer	Azurian Attack.mra	Azurian Attack	azurian	azurian	0220	galaxian	1982	Rait Electronics Ltd
+Arcade-Galaxian_MiSTer	Black Hole.mra	Black Hole	blkhole	blkhole	0220	galaxian	1981	TDS &amp; MINTS
+Arcade-Galaxian_MiSTer	Catacomb.mra	Catacomb	catacomb	catacomb	0217	galaxian	1982	MTM Games
+Arcade-Galaxian_MiSTer	Clean Sweep.mra	Clean Sweep	cleansweept		0000	galaxian	1982	GCE
+Arcade-Galaxian_MiSTer	Devil Fish (Galaxian Hardware).mra	Devil Fish	devilfsg	devilfish	0220	galaxian	1984	Vision
+Arcade-Galaxian_MiSTer	Galaxian (Namco, Set 1).mra	Galaxian	galaxian	galaxian	0220	galaxian	1979	Namco
+Arcade-Galaxian_MiSTer	King and Balloon (US).mra	King and Balloon	kingball	kingball	0216	galaxian	1980	Namco
+Arcade-Galaxian_MiSTer	Lucky Today.mra	Lucky Today	luctoday	luctoday	0220	galaxian	1980	Sigma
+Arcade-Galaxian_MiSTer	Moon Cresta (Galaxian Hardware) [bl].mra	Moon Cresta	mooncrgx	mooncrst	0220	galaxian	1980	Bootleg
+Arcade-Galaxian_MiSTer	Moon Quasar.mra	Moon Quasar	moonqsr	moonqsr	0220	galaxian	1980	Nichibutsu
+Arcade-Galaxian_MiSTer	Mr. Do Nightmare.mra	Mr. Do Nightmare	mrdonight		0220	galaxian	2004	Crazy Ivan
+Arcade-Galaxian_MiSTer	Omega [bl].mra	Omega	omegab	theend	0220	galaxian	1981	Nihon
+Arcade-Galaxian_MiSTer	Orbitron.mra	Orbitron	orbitron	orbitron	0220	galaxian	1982	Comsoft
+Arcade-Galaxian_MiSTer	Pisces.mra	Pisces	pisces	pisces	0220	galaxian	1982	Subelectro
+Arcade-Galaxian_MiSTer	Port Man (bootleg on Moon Cresta hardware).mra	Port Man (bootleg on Moon Cresta hardware)	porter	dockman	0220	galaxian	1980	bootleg
+Arcade-Galaxian_MiSTer	UniWar S.mra	UniWar S	uniwars	uniwars	0220	galaxian	1980	Irem
+Arcade-Galaxian_MiSTer	Victory.mra	Victory	victorycb	victoryc	0220	galaxian	1982	Bootleg
+Arcade-Galaxian_MiSTer	War of the Bugs.mra	War of the Bugs	warofbug	warofbug	0220	galaxian	1981	Armenia
+Arcade-Galivan_MiSTer	Cosmo Police Galivan (12-26-1985).mra	Cosmo Police Galivan (12/26/1985)	galivan		0246	galivan	1985	Nichibutsu
+Arcade-Galivan_MiSTer	Ufo Robo Dangar (4-07-1987).mra	Ufo Robo Dangar (4/07/1987)	dangar		0246	galivan	1985	Nichibutsu
+Arcade-Gaplus_MiSTer	Galaga 3 - Gaplus (GP2 Rev B).mra	Gaplus	gaplus	gaplus	0220	gaplus	1984	Namco
+Arcade-Gauntlet_MiSTer	Gauntlet (2 Players, German, rev 1).mra	Gauntlet	gauntlet2pg1	gauntlet	0225	gauntlet	1985	Atari
+Arcade-Gauntlet_MiSTer	Gauntlet (2 Players, German, rev 4).mra	Gauntlet	gauntlet2pg	gauntlet	0225	gauntlet	1985	Atari
+Arcade-Gauntlet_MiSTer	Gauntlet (2 Players, Japanese, rev 2).mra	Gauntlet	gauntlet2pj2	gauntlet	0225	gauntlet	1985	Atari
+Arcade-Gauntlet_MiSTer	Gauntlet (2 Players, Japanese, rev 5).mra	Gauntlet	gauntlet2pj	gauntlet	0225	gauntlet	1985	Atari
+Arcade-Gauntlet_MiSTer	Gauntlet (2 Players, rev 3).mra	Gauntlet	gauntlet2pr3	gauntlet	0225	gauntlet	1985	Atari
+Arcade-Gauntlet_MiSTer	Gauntlet (2 Players, rev 6).mra	Gauntlet	gauntlet2p	gauntlet	0225	gauntlet	1985	Atari
+Arcade-Gauntlet_MiSTer	Gauntlet (German, rev 10).mra	Gauntlet	gauntletg	gauntlet	0225	gauntlet	1985	Atari
+Arcade-Gauntlet_MiSTer	Gauntlet (German, rev 3).mra	Gauntlet	gauntletgr3	gauntlet	0225	gauntlet	1985	Atari
+Arcade-Gauntlet_MiSTer	Gauntlet (German, rev 6).mra	Gauntlet	gauntletgr6	gauntlet	0225	gauntlet	1985	Atari
+Arcade-Gauntlet_MiSTer	Gauntlet (German, rev 8).mra	Gauntlet	gauntletr8	gauntlet	0225	gauntlet	1985	Atari
+Arcade-Gauntlet_MiSTer	Gauntlet (Japanese, rev 12).mra	Gauntlet	gauntletj12	gauntlet	0225	gauntlet	1985	Atari
+Arcade-Gauntlet_MiSTer	Gauntlet (Japanese, rev 13).mra	Gauntlet	gauntletj	gauntlet	0225	gauntlet	1985	Atari
+Arcade-Gauntlet_MiSTer	Gauntlet (Spanish, rev 15).mra	Gauntlet	gauntlets	gauntlet	0225	gauntlet	1985	Atari
+Arcade-Gauntlet_MiSTer	Gauntlet (rev 1).mra	Gauntlet	gauntletr1	gauntlet	0225	gauntlet	1985	Atari
+Arcade-Gauntlet_MiSTer	Gauntlet (rev 14).mra	Gauntlet	gauntlet	gauntlet	0225	gauntlet	1985	Atari
+Arcade-Gauntlet_MiSTer	Gauntlet (rev 2).mra	Gauntlet	gauntletr2	gauntlet	0225	gauntlet	1985	Atari
+Arcade-Gauntlet_MiSTer	Gauntlet (rev 4).mra	Gauntlet	gauntletr4	gauntlet	0225	gauntlet	1985	Atari
+Arcade-Gauntlet_MiSTer	Gauntlet (rev 5).mra	Gauntlet	gauntletr5	gauntlet	0225	gauntlet	1985	Atari
+Arcade-Gauntlet_MiSTer	Gauntlet (rev 7).mra	Gauntlet	gauntletr7	gauntlet	0225	gauntlet	1985	Atari
+Arcade-Gauntlet_MiSTer	Gauntlet (rev 9).mra	Gauntlet	gauntletr9	gauntlet	0225	gauntlet	1985	Atari
+Arcade-Gauntlet_MiSTer	Gauntlet II (2 Players, German).mra	Gauntlet II	gaunt22pg	gaunt2	0225	gauntlet	1985	Atari
+Arcade-Gauntlet_MiSTer	Gauntlet II (2 Players, rev 1).mra	Gauntlet II	gaunt22p1	gaunt2	0225	gauntlet	1985	Atari
+Arcade-Gauntlet_MiSTer	Gauntlet II (2 Players, rev 2).mra	Gauntlet II	gaunt22p	gaunt2	0225	gauntlet	1985	Atari
+Arcade-Gauntlet_MiSTer	Gauntlet II (German).mra	Gauntlet II	gaunt2g	gaunt2	0225	gauntlet	1985	Atari
+Arcade-Gauntlet_MiSTer	Gauntlet II.mra	Gauntlet II	gaunt2	gaunt3	0225	gauntlet	1985	Atari
+Arcade-Gauntlet_MiSTer	Vindicators Part II (rev 1).mra	Vindicators Part II	vindctr2r1	vindctr2	0225	gauntlet	1985	Atari
+Arcade-Gauntlet_MiSTer	Vindicators Part II (rev 2).mra	Vindicators Part II	vindctr2r2	vindctr2	0225	gauntlet	1985	Atari
+Arcade-Gauntlet_MiSTer	Vindicators Part II (rev 3).mra	Vindicators Part II	vindctr2	vindctr2	0225	gauntlet	1985	Atari
+Arcade-GnG_MiSTer	Ghosts'n Goblins.mra	Ghosts'n Goblins (World set 1)	gng		0220	gng	1985	Capcom
+Arcade-GnG_MiSTer	Makai-Mura (Japan).mra	Makai-Mura (Japan)	makaimur		0220	gng	1985	Capcom
+Arcade-GulfWarII_MiSTer	Gulf War II (set 1).mra	Gulf War II (set 1)	gulfwar2		0287	GulfWarII	1991	Comad
+Arcade-GulfWarII_MiSTer	Gulf War II (set 2).mra	Gulf War II (set 2)	gulfwar2a		0287	GulfWarII	1991	Comad
+Arcade-GundamSD_MiSTer	SD Gundam Psycho Salamander no Kyoui.mra	SD Gundam Psycho Salamander no Kyoui	sdgndmps		0264	SDGundamPS	1991	Banpresto / Bandai
+Arcade-Gyruss_MiSTer	Gyruss.mra	Gyruss	gyruss	gyruss	0218	Gyruss	1983	Konami
+Arcade-HeatedBarrel_MiSTer	Heated Barrel (Electronic Devices license).mra	Heated Barrel (Electronic Devices license)	heatbrle		0264	HeatedBarrel	1992	TAD Corporation (Electronic Devices license)
+Arcade-HeatedBarrel_MiSTer	Heated Barrel (US).mra	Heated Barrel (US)	heatbrlu		0264	HeatedBarrel	1992	TAD Corporation
+Arcade-HeatedBarrel_MiSTer	Heated Barrel (World old version).mra	Heated Barrel (World old version)	heatbrlo		0264	HeatedBarrel	1992	TAD Corporation
+Arcade-HeatedBarrel_MiSTer	Heated Barrel (World version 2).mra	Heated Barrel (World version 2)	heatbrl2		0264	HeatedBarrel	1992	TAD Corporation
+Arcade-HeatedBarrel_MiSTer	Heated Barrel (World version 3).mra	Heated Barrel (World version 3)	heatbrl		0264	HeatedBarrel	1992	TAD Corporation
+Arcade-HeatedBarrel_MiSTer	Heated Barrel (World unknown version).mra	Heated Barrel (World version ?)	heatbrl3		0264	HeatedBarrel	1992	TAD Corporation
+Arcade-IGSPGM_MiSTer	Chuugokuryuu 3 Special (Japan, ver. 100).mra	Chuugokuryuu 3 Special (Japan, ver. 100)	drgw3100		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Chuugokuryuu 3 Special (Japan, ver. 103).mra	Chuugokuryuu 3 Special (Japan, ver. 103)	drgw3103		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Chuugokuryuu Pretty Chance [Dragon World Pretty Chance] (V101, Japan).mra	Chuugokuryuu Pretty Chance [Dragon World Pretty Chance] (V101, Japan)	dwpc101j		277	IGSPGM		
+Arcade-IGSPGM_MiSTer	Demon Front (ver. 102).mra	Demon Front (ver. 102)	dmnfrnt102		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Demon Front (ver. 103).mra	Demon Front (ver. 103)	dmnfrnt103		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Demon Front (ver. 105).mra	Demon Front (ver. 105)	dmnfrnt		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	DoDonPachi - Feng Bao (China, ver. 100).mra	DoDonPachi - Feng Bao (China, ver. 100)	ddp2100c		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	DoDonPachi - Feng Bao (China, ver. 101).mra	DoDonPachi - Feng Bao (China, ver. 101)	ddp2101c		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	DoDonPachi - Feng Bao (China, ver. 102).mra	DoDonPachi - Feng Bao (China, ver. 102)	ddp2c		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	DoDonPachi - Feng Bao (Taiwan, ver. 100).mra	DoDonPachi - Feng Bao (Taiwan, ver. 100)	ddp2100t		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	DoDonPachi - Feng Bao (Taiwan, ver. 101).mra	DoDonPachi - Feng Bao (Taiwan, ver. 101)	ddp2101t		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	DoDonPachi - Feng Bao (Taiwan, ver. 102).mra	DoDonPachi - Feng Bao (Taiwan, ver. 102)	ddp2t		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	DoDonPachi Dai-Ou-Jou (Japan, 2002.04.05 Master Ver).mra	DoDonPachi Dai-Ou-Jou (Japan, 2002.04.05 Master Ver)	ddpdojb		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	DoDonPachi Dai-Ou-Jou (Japan, 2002.04.05.Master Ver, 68k Label V100).mra	DoDonPachi Dai-Ou-Jou (Japan, 2002.04.05.Master Ver, 68k Label V100)	ddpdoja		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	DoDonPachi Dai-Ou-Jou (Japan, 2002.04.05.Master Ver, 68k Label V101).mra	DoDonPachi Dai-Ou-Jou (Japan, 2002.04.05.Master Ver, 68k Label V101)	ddpdoj		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	DoDonPachi Dai-Ou-Jou Black Label (Japan, 2002.10.07 Black Ver).mra	DoDonPachi Dai-Ou-Jou Black Label (Japan, 2002.10.07 Black Ver)	ddpdojblkb		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	DoDonPachi Dai-Ou-Jou Black Label (Japan, 2002.10.07 Black Ver., bootleg Knights of Valour Super Heroes conversion).mra	DoDonPachi Dai-Ou-Jou Black Label (Japan, 2002.10.07 Black Ver., bootleg Knights of Valour Super Heroes conversion)	ddpdojblkbl		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	DoDonPachi Dai-Ou-Jou Black Label (Japan, 2002.10.07.Black Ver, newer).mra	DoDonPachi Dai-Ou-Jou Black Label (Japan, 2002.10.07.Black Ver, newer)	ddpdojblk		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	DoDonPachi Dai-Ou-Jou Black Label (Japan, 2002.10.07.Black Ver, older).mra	DoDonPachi Dai-Ou-Jou Black Label (Japan, 2002.10.07.Black Ver, older)	ddpdojblka		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	DoDonPachi II (Japan, ver. 100).mra	DoDonPachi II (Japan, ver. 100)	ddp2100j		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	DoDonPachi II (Japan, ver. 101).mra	DoDonPachi II (Japan, ver. 101)	ddp2101j		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	DoDonPachi II (Japan, ver. 102).mra	DoDonPachi II (Japan, ver. 102)	ddp2j		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	DoDonPachi II - Bee Storm (Korea, ver. 100).mra	DoDonPachi II - Bee Storm (Korea, ver. 100)	ddp2100k		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	DoDonPachi II - Bee Storm (Korea, ver. 101).mra	DoDonPachi II - Bee Storm (Korea, ver. 101)	ddp2101k		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	DoDonPachi II - Bee Storm (Korea, ver. 102).mra	DoDonPachi II - Bee Storm (Korea, ver. 102)	ddp2k		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	DoDonPachi II - Bee Storm (World, ver. 100).mra	DoDonPachi II - Bee Storm (World, ver. 100)	ddp2100		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	DoDonPachi II - Bee Storm (World, ver. 101).mra	DoDonPachi II - Bee Storm (World, ver. 101)	ddp2101		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	DoDonPachi II - Bee Storm (World, ver. 102).mra	DoDonPachi II - Bee Storm (World, ver. 102)	ddp2		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	DoDonPachi II - Fung Bou (Hong Kong, ver. 100).mra	DoDonPachi II - Fung Bou (Hong Kong, ver. 100)	ddp2100hk		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	DoDonPachi II - Fung Bou (Hong Kong, ver. 101).mra	DoDonPachi II - Fung Bou (Hong Kong, ver. 101)	ddp2101hk		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	DoDonPachi II - Fung Bou (Hong Kong, ver. 102).mra	DoDonPachi II - Fung Bou (Hong Kong, ver. 102)	ddp2hk		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	DoDonPachi III (World, 2002.05.15 Master Ver).mra	DoDonPachi III (World, 2002.05.15 Master Ver)	ddp3		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Dragon World 2001 (ver. 100, Japan).mra	Dragon World 2001 (ver. 100, Japan)	dw2001		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Dragon World 3 (ver. 105).mra	Dragon World 3 (ver. 105)	drgw3105		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Dragon World 3 (ver. 106).mra	Dragon World 3 (ver. 106)	drgw3		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Dragon World 3 EX (ver. 100).mra	Dragon World 3 EX (ver. 100)	dwex		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Dragon World 3 EX (ver. 101CN).mra	Dragon World 3 EX (ver. 101CN)	dwex101cn		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Dragon World Pretty Chance (ver. 110, China).mra	Dragon World Pretty Chance (ver. 110, China)	dwpc		277	IGSPGM		
+Arcade-IGSPGM_MiSTer	Espgaluda (2003.10.15 Master Ver).mra	Espgaluda (2003.10.15 Master Ver)	espgal		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Espgaluda (2003.10.15 Master Ver, bootleg cartridge conversion).mra	Espgaluda (2003/10/15 Master Ver, bootleg cartridge conversion)	espgalbl		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Happy 6-in-1 (M68K V100, ARM V100CN).mra	Happy 6-in-1 (M68K V100, ARM V100CN)	happy6100cn		277	IGSPGM		
+Arcade-IGSPGM_MiSTer	Happy 6-in-1 (M68K V100, ARM V101CN).mra	Happy 6-in-1 (M68K V100, ARM V101CN)	happy6101		277	IGSPGM		
+Arcade-IGSPGM_MiSTer	Happy 6-in-1 (M68K V100HK, ARM V100HK).mra	Happy 6-in-1 (M68K V100HK, ARM V100HK)	happy6100hk		277	IGSPGM		
+Arcade-IGSPGM_MiSTer	Happy 6-in-1 (M68K V101, ARM V102CN).mra	Happy 6-in-1 (M68K V101, ARM V102CN)	happy6		277	IGSPGM		
+Arcade-IGSPGM_MiSTer	Ketsui - Kizuna Jigoku Tachi (2003.01.01 Master Ver).mra	Ketsui - Kizuna Jigoku Tachi (2003.01.01 Master Ver)	ketb		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Ketsui - Kizuna Jigoku Tachi (2003.01.01 Master Ver.).mra	Ketsui - Kizuna Jigoku Tachi (2003.01.01 Master Ver.)	keta		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Ketsui - Kizuna Jigoku Tachi (2003.01.01. Master Ver.).mra	Ketsui - Kizuna Jigoku Tachi (2003.01.01. Master Ver.)	ket		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Ketsui - Kizuna Jigoku Tachi (2003.01.01. Master Ver.) (alt ROM fill).mra	Ketsui - Kizuna Jigoku Tachi (2003.01.01. Master Ver.) (alt ROM fill)	ket1		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Ketsui - Kizuna Jigoku Tachi (2012.04.17 ARRANGE VER) (hack).mra	Ketsui - Kizuna Jigoku Tachi (2012.04.17 ARRANGE VER) (hack)	ketarr10		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Ketsui - Kizuna Jigoku Tachi (2012.04.17 FAST. VER) (hack).mra	Ketsui - Kizuna Jigoku Tachi (2012.04.17 FAST. VER) (hack)	ketarrf		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Ketsui - Kizuna Jigoku Tachi (2012.06.26 ARRANGE 1.5 VER) (hack).mra	Ketsui - Kizuna Jigoku Tachi (2012.06.26 ARRANGE 1.5 VER) (hack)	ketarr15		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Ketsui - Kizuna Jigoku Tachi (2012.06.26 ARRANGE 1.51 VER) (hack).mra	Ketsui - Kizuna Jigoku Tachi (2012.06.26 ARRANGE 1.51 VER) (hack)	ketarr151		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Ketsui - Kizuna Jigoku Tachi (2012.06.27 MR.STOIC 1.5 VER) (hack).mra	Ketsui - Kizuna Jigoku Tachi (2012.06.27 MR.STOIC 1.5 VER) (hack)	ketarrs15		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Ketsui - Kizuna Jigoku Tachi (2012.06.27 MR.STOIC 1.51 VER) (hack).mra	Ketsui - Kizuna Jigoku Tachi (2012.06.27 MR.STOIC 1.51 VER) (hack)	ketarrs151		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Ketsui - Kizuna Jigoku Tachi (2014.07.16 ARRANGE 1.7 VER) (hack).mra	Ketsui - Kizuna Jigoku Tachi (2014.07.16 ARRANGE 1.7 VER) (hack)	ketarr		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Ketsui - Kizuna Jigoku Tachi (IKD 2007 Special - 2007 Cave Matsuri Version).mra	Ketsui - Kizuna Jigoku Tachi (IKD 2007 Special - 2007 Cave Matsuri Version)	ketikd		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Ketsui Kizuna Jigoku Tachi (2003.01.01. Master Ver., bootleg cartridge conversion).mra	Ketsui: Kizuna Jigoku Tachi (2003/01/01. Master Ver., bootleg cartridge conversion)	ketbl		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Knights of Valour (bootleg, ver. 112CN).mra	Knights of Valour (bootleg, ver. 112CN?)	kovbl		277	IGSPGM		
+Arcade-IGSPGM_MiSTer	Knights of Valour 2 (ver. 100, 100, 100HK).mra	Knights of Valour 2 (ver. 100, 100, 100HK)	kov2100		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Knights of Valour 2 (ver. 101, 101, 100HK).mra	Knights of Valour 2 (ver. 101, 101, 100HK)	kov2101		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Knights of Valour 2 (ver. 102, 101, 100HK).mra	Knights of Valour 2 (ver. 102, 101, 100HK)	kov2102		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Knights of Valour 2 (ver. 102, 102, 100HK).mra	Knights of Valour 2 (ver. 102, 102, 100HK)	kov21022		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Knights of Valour 2 (ver. 103, 101, 100HK).mra	Knights of Valour 2 (ver. 103, 101, 100HK)	kov2103		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Knights of Valour 2 (ver. 104, 102, 100HK).mra	Knights of Valour 2 (ver. 104, 102, 100HK)	kov2104		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Knights of Valour 2 (ver. 106, 102, 100HK).mra	Knights of Valour 2 (ver. 106, 102, 100HK)	kov2106		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Knights of Valour 2 (ver. 107).mra	Knights of Valour 2 (ver. 107)	kov2		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Knights of Valour 2 Plus - Nine Dragons (ver. 205).mra	Knights of Valour 2 Plus - Nine Dragons (ver. 205)	kov2p		277	IGSPGM		
+Arcade-IGSPGM_MiSTer	Knights of Valour 2 Plus - Nine Dragons (ver. M200XX, 200, 100CN).mra	Knights of Valour 2 Plus - Nine Dragons (ver. M200XX, 200, 100CN)	kov2p200		277	IGSPGM		
+Arcade-IGSPGM_MiSTer	Knights of Valour 2 Plus - Nine Dragons (ver. M202XX, 200, 100CN).mra	Knights of Valour 2 Plus - Nine Dragons (ver. M202XX, 200, 100CN)	kov2p202		277	IGSPGM		
+Arcade-IGSPGM_MiSTer	Knights of Valour 2 Plus - Nine Dragons (ver. M203XX, 200, 100CN).mra	Knights of Valour 2 Plus - Nine Dragons (ver. M203XX, 200, 100CN)	kov2p203		277	IGSPGM		
+Arcade-IGSPGM_MiSTer	Knights of Valour 2 Plus - Nine Dragons (ver. M204XX, 200, 100CN).mra	Knights of Valour 2 Plus - Nine Dragons (ver. M204XX, 200, 100CN)	kov2p204		277	IGSPGM		
+Arcade-IGSPGM_MiSTer	Knights of Valour Plus (bootleg, ver. 117CN).mra	Knights of Valour Plus (bootleg, ver. 117CN?)	kovplusbl		277	IGSPGM		
+Arcade-IGSPGM_MiSTer	Knights of Valour Super Heroes (ver. 100, CN).mra	Knights of Valour Super Heroes (ver. 100, CN)	kovsh100		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Knights of Valour Super Heroes (ver. 101, CN).mra	Knights of Valour Super Heroes (ver. 101, CN)	kovsh101		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Knights of Valour Super Heroes (ver. 102, CN).mra	Knights of Valour Super Heroes (ver. 102, CN)	kovsh102		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Knights of Valour Super Heroes (ver. 103, CN).mra	Knights of Valour Super Heroes (ver. 103, CN)	kovsh103		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Knights of Valour Super Heroes (ver. 104, CN).mra	Knights of Valour Super Heroes (ver. 104, CN)	kovsh		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Martial Masters (ver. 102, 101, 101CN).mra	Martial Masters (ver. 102, 101, 101CN)	martmast102c		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Martial Masters (ver. 103, 102, 101CN).mra	Martial Masters (ver. 103, 102, 101CN)	martmast103c		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Martial Masters (ver. 104, 102, 101CN).mra	Martial Masters (ver. 104, 102, 101CN)	martmast104c		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Martial Masters (ver. 104, 102, 102US).mra	Martial Masters (ver. 104, 102, 102US)	martmast		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Oriental Legend (ver. 112).mra	Oriental Legend (ver. 112)	orlegende		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Oriental Legend (ver. 112, Chinese Board).mra	Oriental Legend (ver. 112, Chinese Board)	orlegendc		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Oriental Legend (ver. 126).mra	Oriental Legend (ver. 126)	orlegend		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Oriental Legend (ver. unk, Chinese Board).mra	Oriental Legend (ver. ???, Chinese Board)	orlegendca		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	PGM (Polygame Master) System BIOS.mra	PGM (Polygame Master) System BIOS	pgm		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Photo Y2K (ver. 102, Japanese Board).mra	Photo Y2K (ver. 102, Japanese Board)	photoy2k102j		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Photo Y2K (ver. 103, Japanese Board).mra	Photo Y2K (ver. 103, Japanese Board)	photoy2k103j		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Photo Y2K (ver. 104).mra	Photo Y2K (ver. 104)	photoy2k104		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Photo Y2K (ver. 105).mra	Photo Y2K (ver. 105)	photoy2k		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Puzzle Star (ver. 100MG, WORLD).mra	Puzzle Star (ver. 100MG, WORLD)	puzlstar		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Puzzli 2 (ver. 100, TW).mra	Puzzli 2 (ver. 100, TW)	puzzli2		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Puzzli 2 (ver. 100, WORLD).mra	Puzzli 2 (ver. 100, WORLD)	puzzli2		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Puzzli 2 Super (ver. 200, TW).mra	Puzzli 2 Super (ver. 200, TW)	puzzli2s		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Puzzli 2 Super (ver. 200, WORLD).mra	Puzzli 2 Super (ver. 200, WORLD)	puzzli2s		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	S.V.G. - Spectral vs Generation (ver. 101HK).mra	S.V.G. - Spectral vs Generation (ver. 101HK)	svghk		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	S.V.G. - Spectral vs Generation (ver. 101TW).mra	S.V.G. - Spectral vs Generation (ver. 101TW)	svgtw		277	IGSPGM		
+Arcade-IGSPGM_MiSTer	S.V.G. - Spectral vs Generation (ver. 200).mra	S.V.G. - Spectral vs Generation (ver. 200)	svg		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	The Gladiator (ver. 100).mra	The Gladiator (ver. 100)	theglad100		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	The Gladiator (ver. 101).mra	The Gladiator (ver. 101)	theglad101		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	The Gladiator (ver. 104).mra	The Gladiator (ver. 104)	theglad104		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	The Gladiator (ver. 107).mra	The Gladiator (ver. 107)	theglad		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	The Killing Blade (ver. 109, Chinese Board).mra	The Killing Blade (ver. 109, Chinese Board)	killbld		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	The Killing Blade Plus (China, ver. 300).mra	The Killing Blade Plus (China, ver. 300)	killbldp		288	IGSPGM		
+Arcade-IGSPGM_MiSTer	Xiyou Shi E Zhuan Super (ver. 103, China, Tencent) (unprotected).mra	Xiyou Shi E Zhuan Super (ver. 103, China, Tencent) (unprotected)	olds103t		288	IGSPGM		
+Arcade-IkariWarriors_MiSTer	Dogou Souken.mra	Dogou Souken	dogosoke		0193	IkariWarriors	1986	SNK
+Arcade-IkariWarriors_MiSTer	Ikari Warriors.mra	Ikari Warriors	ikari		0193	IkariWarriors	1986	SNK
+Arcade-IkariWarriors_MiSTer	Ikari Warriors JP.mra	Ikari Warriors (Japan No Continues)	ikarijp		0193	IkariWarriors	1986	SNK
+Arcade-IkariWarriors_MiSTer	Victory Road.mra	Victory Road	victroad		0193	IkariWarriors	1986	SNK
+Arcade-Inferno_MiSTer	Inferno (Williams).mra	Inferno (Williams)	inferno		0226	inferno	1984	Williams
+Arcade-IremM107_MiSTer	Air Assault (World).mra	Air Assault (World)	airass		0245	IremM107	1993	Irem
+Arcade-IremM107_MiSTer	Dream Soccer '94 (Korea, M107 hardware).mra	Dream Soccer '94 (Korea, M107 hardware)	dsoccr94k		0245	IremM107	1994	Irem
+Arcade-IremM107_MiSTer	Dream Soccer '94 (World, M107 hardware).mra	Dream Soccer '94 (World, M107 hardware)	dsoccr94		0245	IremM107	1994	Irem
+Arcade-IremM107_MiSTer	Fire Barrel (Japan).mra	Fire Barrel (Japan)	firebarr	airass	0245	IremM107	1993	Irem
+Arcade-IremM62_MiSTer	Horizon (Irem).mra	Horizon (Irem)	horizon	horizon	0221	iremm62	1985	Irem
+Arcade-IremM62_MiSTer	Kid Niki - Radical Ninja (W).mra	Kid Niki- Radical Ninja	kidniki	kidniki	0221	iremm62	1986	Irem
+Arcade-IremM62_MiSTer	Kung-Fu Master (W).mra	Kung-Fu Master	kungfum	kungfum	0221	iremm62	1984	Irem
+Arcade-IremM62_MiSTer	Lode Runner (Set 1).mra	Lode Runner	ldrun	ldrun	0221	iremm62	1984	Irem
+Arcade-IremM62_MiSTer	Lode Runner II - The Bungeling Strikes Back.mra	Lode Runner II- The Bungeling Strikes Back	ldrun2	ldrun3	0221	iremm62	1984	Irem
+Arcade-IremM62_MiSTer	Lode Runner III - The Golden Labyrinth.mra	Lode Runner III- The Golden Labyrinth	ldrun3	ldrun4	0221	iremm62	1985	Irem
+Arcade-IremM62_MiSTer	Lode Runner IV - Teikoku Karano Dasshutsu (JP).mra	Lode Runner IV- Teikoku Karano Dasshutsu	ldrun4	ldrun5	0221	iremm62	1986	Irem
+Arcade-IremM62_MiSTer	Lot Lot.mra	Lot Lot	lotlot		0221	iremm62	1985	Irem (licensed from Tokuma Shoten)
+Arcade-IremM62_MiSTer	Spelunker.mra	Spelunker	spelunkr	spelunkr	0221	iremm62	1985	Irem
+Arcade-IremM62_MiSTer	Spelunker II - 23 no Kagi (JP).mra	Spelunker II - 23 no Kagi	spelunk2	spelunk2	0221	iremm62	1986	Irem
+Arcade-IremM62_MiSTer	The Battle-Road.mra	The Battle-Road	battroad	battroad	0221	iremm62	1984	Irem
+Arcade-IremM62_MiSTer	Youjyuden (JP).mra	Youjyuden	youjyudn	youjyudn	0221	iremm62	1986	Irem
+Arcade-IremM72_MiSTer	Air Duel (Japan, M72 hardware).mra	Air Duel (Japan, M72 hardware)	airdueljm72		0240	irem_m72	1990	Irem
+Arcade-IremM72_MiSTer	Air Duel (Japan, M72 hardware).mra	Air Duel (Japan, M72 hardware)	airdueljm72	airduel	0248	IremM72	1990	Irem
+Arcade-IremM72_MiSTer	Air Duel (US location test, M82 hardware).mra	Air Duel (US location test, M82 hardware)	airduelu		0240	irem_m72	1990	Irem America
+Arcade-IremM72_MiSTer	Air Duel (World, M72 hardware).mra	Air Duel (World, M72 hardware)	airduelm72		0240	irem_m72	1990	Irem
+Arcade-IremM72_MiSTer	Air Duel (World, M72 hardware).mra	Air Duel (World, M72 hardware)	airduelm72	airduel	0248	IremM72	1990	Irem
+Arcade-IremM72_MiSTer	Air Duel (World, M82 hardware).mra	Air Duel (World, M82 hardware)	airduel		0240	irem_m72	1990	Irem
+Arcade-IremM72_MiSTer	Battle Chopper (World).mra	Battle Chopper (World)	bchopper		0240	irem_m72	1987	Irem
+Arcade-IremM72_MiSTer	Cosmic Cop (World).mra	Cosmic Cop (World)	cosmccop		0240	irem_m72	1991	Irem
+Arcade-IremM72_MiSTer	Daiku no Gensan (Japan, M72 hardware).mra	Daiku no Gensan (Japan, M72 hardware)	dkgensanm72	hharry	0240	IremM72	1990	Irem
+Arcade-IremM72_MiSTer	Daiku no Gensan (Japan, M72 hardware).mra	Daiku no Gensan (Japan, M72 hardware)	dkgensanm72	hharry	0240	m72	1990	Irem
+Arcade-IremM72_MiSTer	Daiku no Gensan (Japan, M82 hardware).mra	Daiku no Gensan (Japan, M82 hardware)	dkgensanm82		0240	irem_m72	1990	Irem
+Arcade-IremM72_MiSTer	Daiku no Gensan (Japan, M84 hardware).mra	Daiku no Gensan (Japan, M84 hardware)	dkgensan		0240	irem_m72	1990	Irem
+Arcade-IremM72_MiSTer	Daiku no Gensan (Japan, M84 hardware).mra	Daiku no Gensan (Japan, M84 hardware)	dkgensan	hharry	0247	IremM72	1990	Irem
+Arcade-IremM72_MiSTer	Dragon Breed (Japan, M72 hardware).mra	Dragon Breed (Japan, M72 hardware)	dbreedjm72		0240	irem_m72	1989	Irem
+Arcade-IremM72_MiSTer	Dragon Breed (Japan, M72 hardware).mra	Dragon Breed (Japan, M72 hardware)	dbreedjm72	dbreed	0245	IremM72	1989	Irem
+Arcade-IremM72_MiSTer	Dragon Breed (World, M72 hardware).mra	Dragon Breed (World, M72 hardware)	dbreedm72		0240	irem_m72	1989	Irem
+Arcade-IremM72_MiSTer	Dragon Breed (World, M81 hardware).mra	Dragon Breed (World, M81 hardware)	dbreed		0240	irem_m72	1989	Irem
+Arcade-IremM72_MiSTer	Gallop - Armed Police Unit (Japan, M72 hardware).mra	Gallop - Armed Police Unit (Japan, M72 hardware)	gallop		0240	irem_m72	1991	Irem
+Arcade-IremM72_MiSTer	Gallop - Armed Police Unit (Japan, M72 hardware).mra	Gallop - Armed Police Unit (Japan, M72 hardware)	gallopm72	cosmccop	0245	IremM72	1991	Irem
+Arcade-IremM72_MiSTer	Hammerin' Harry (US, M84 hardware).mra	Hammerin' Harry (US, M84 hardware)	hharryu		0240	irem_m72	1990	Irem America
+Arcade-IremM72_MiSTer	Hammerin' Harry (US, M84 hardware).mra	Hammerin' Harry (US, M84 hardware)	hharryu	hharry	0247	IremM72	1990	Irem
+Arcade-IremM72_MiSTer	Hammerin' Harry (World, M81 hardware).mra	Hammerin' Harry (World, M81 hardware)	hharry		0240	irem_m72	1990	Irem
+Arcade-IremM72_MiSTer	Image Fight (Japan).mra	Image Fight (Japan)	imgfightj		0240	irem_m72	1988	Irem
+Arcade-IremM72_MiSTer	Image Fight (Japan).mra	Image Fight (Japan)	imgfightj	imgfight	0245	IremM72	1988	Irem
+Arcade-IremM72_MiSTer	Image Fight (Japan, bootleg).mra	Image Fight (Japan, bootleg)	imgfightb		0240	irem_m72	1988	Irem
+Arcade-IremM72_MiSTer	Image Fight (World).mra	Image Fight (World)	imgfight		0240	irem_m72	1988	Irem
+Arcade-IremM72_MiSTer	Image Fight (World).mra	Image Fight (World)	imgfight		0245	IremM72	1988	Irem
+Arcade-IremM72_MiSTer	Ken-Go (set 1).mra	Ken-Go (set 1)	kengo		0240	irem_m72	1991	Irem
+Arcade-IremM72_MiSTer	Ken-Go (set 2).mra	Ken-Go (set 2)	kengoa		0240	irem_m72	1991	Irem
+Arcade-IremM72_MiSTer	Legend of Hero Tonma (Japan).mra	Legend of Hero Tonma (Japan)	lohtj		0240	irem_m72	1989	Irem
+Arcade-IremM72_MiSTer	Legend of Hero Tonma (Japan).mra	Legend of Hero Tonma (Japan)	lohtj	loth	0245	IremM72	1989	Irem
+Arcade-IremM72_MiSTer	Legend of Hero Tonma (World).mra	Legend of Hero Tonma (World)	loht		0240	irem_m72	1989	Irem
+Arcade-IremM72_MiSTer	Lightning Swords.mra	Lightning Swords	ltswords		0240	irem_m72	1991	Irem
+Arcade-IremM72_MiSTer	Major Title (Japan).mra	Major Title (Japan)	majtitlej		0240	irem_m72	1990	Irem
+Arcade-IremM72_MiSTer	Major Title (World).mra	Major Title (World)	majtitle		0240	irem_m72	1990	Irem
+Arcade-IremM72_MiSTer	Mr. HELI no Daibouken (Japan).mra	Mr. HELI no Daibouken (Japan)	mrheli		0240	irem_m72	1987	Irem
+Arcade-IremM72_MiSTer	Mr. HELI no Daibouken (Japan).mra	Mr. HELI no Daibouken (Japan)	mrheli	bchopper	0245	IremM72	1987	Irem
+Arcade-IremM72_MiSTer	Ninja Spirit (Japan).mra	Ninja Spirit (Japan)	nspiritj	nspirit	0245	IremM72	1989	Irem
+Arcade-IremM72_MiSTer	Ninja Spirit (World).mra	Ninja Spirit (World)	nspirit		0240	irem_m72	1988	Irem
+Arcade-IremM72_MiSTer	Pound for Pound (Japan).mra	Pound for Pound (Japan)	poundforj		0240	irem_m72	1990	Irem
+Arcade-IremM72_MiSTer	Pound for Pound (US).mra	Pound for Pound (US)	poundforu		0240	irem_m72	1990	Irem America
+Arcade-IremM72_MiSTer	Pound for Pound (World).mra	Pound for Pound (World)	poundfor		0240	irem_m72	1990	Irem
+Arcade-IremM72_MiSTer	R-Type (Japan prototype).mra	R-Type (Japan prototype)	rtypejp		0240	irem_m72	1987	Irem
+Arcade-IremM72_MiSTer	R-Type (Japan prototype).mra	R-Type (Japan prototype)	rtypejp	rtype	0245	IremM72	1987	Irem
+Arcade-IremM72_MiSTer	R-Type (Japan).mra	R-Type (Japan)	rtypej		0240	irem_m72	1987	Irem
+Arcade-IremM72_MiSTer	R-Type (Japan).mra	R-Type (Japan)	rtypej	rtype	0245	IremM72	1987	Irem
+Arcade-IremM72_MiSTer	R-Type (US).mra	R-Type (US)	rtypeu		0240	irem_m72	1987	Irem (Nintendo of America license)
+Arcade-IremM72_MiSTer	R-Type (US).mra	R-Type (US)	rtypeu	rtype	0245	IremM72	1987	Irem
+Arcade-IremM72_MiSTer	R-Type (World bootleg).mra	R-Type (World bootleg)	rtypeb	rtype	0245	IremM72	1987	Irem
+Arcade-IremM72_MiSTer	R-Type (World).mra	R-Type (World)	rtype		0240	irem_m72	1987	Irem
+Arcade-IremM72_MiSTer	R-Type (World).mra	R-Type (World)	rtype		0245	IremM72	1987	Irem
+Arcade-IremM72_MiSTer	R-Type II (inv) (World).mra	R-Type II (Inv) (World)	rtype2inv		0245	IremM72	1989	Irem
+Arcade-IremM72_MiSTer	R-Type II (Japan).mra	R-Type II (Japan)	rtype2j		0240	irem_m72	1989	Irem
+Arcade-IremM72_MiSTer	R-Type II (Japan).mra	R-Type II (Japan)	rtype2j	rtype2	0245	IremM72	1989	Irem
+Arcade-IremM72_MiSTer	R-Type II (Japan, revision C).mra	R-Type II (Japan, revision C)	rtype2jc		0240	irem_m72	1989	Irem
+Arcade-IremM72_MiSTer	R-Type II (Japan, revision C).mra	R-Type II (Japan, revision C)	rtype2jc	rtype2	0245	IremM72	1989	Irem
+Arcade-IremM72_MiSTer	R-Type II (World).mra	R-Type II (World)	rtype2		0240	irem_m72	1989	Irem
+Arcade-IremM72_MiSTer	R-Type II (World).mra	R-Type II (World)	rtype2		0245	IremM72	1989	Irem
+Arcade-IremM72_MiSTer	Saigo no Nindou (Japan).mra	Saigo no Nindou (Japan)	nspiritj		0240	irem_m72	1988	Irem
+Arcade-IremM72_MiSTer	X Multiply (Inv) (Japan, M72 hardware).mra	X Multiply (Inv) (Japan, M72 hardware)	xmultiplm72inv	xmultipl	0245	IremM72	1989	Irem
+Arcade-IremM72_MiSTer	X Multiply (Japan, M72 hardware).mra	X Multiply (Japan, M72 hardware)	xmultiplm72		0240	irem_m72	1989	Irem
+Arcade-IremM72_MiSTer	X Multiply (Japan, M72 hardware).mra	X Multiply (Japan, M72 hardware)	xmultiplm72	xmultipl	0245	IremM72	1989	Irem
+Arcade-IremM72_MiSTer	X Multiply (World, M81 hardware).mra	X Multiply (World, M81 hardware)	xmultipl		0240	irem_m72	1989	Irem
+Arcade-IremM90_MiSTer	Atomic Punk (US).mra	Atomic Punk (US)	atompunk	dynablst	0245	IremM90	1991	Irem
+Arcade-IremM90_MiSTer	Bomber Man (Japan).mra	Bomber Man (Japan)	bombrman	dynablst	0245	IremM90	1991	Irem
+Arcade-IremM90_MiSTer	Bomber Man - Dyna Blaster.mra	Bomber Man - Dyna Blaster	dynablst		0245	IremM90	1991	Irem
+Arcade-IremM90_MiSTer	Bomber Man World (Japan).mra	Bomber Man World (Japan)	bbmanwj		0245	IremM90	1992	Irem
+Arcade-IremM90_MiSTer	Bomber Man World (Japan, revised sound hardware).mra	Bomber Man World (Japan, revised sound hardware)	bbmanwja		0245	IremM90	1992	Irem
+Arcade-IremM90_MiSTer	Bomber Man World - New Dyna Blaster - Global Quest.mra	Bomber Man World - New Dyna Blaster - Global Quest	bbmanw		0245	IremM90	1992	Irem
+Arcade-IremM90_MiSTer	Gussun Oyoyo (Japan).mra	Gussun Oyoyo (Japan)	gussun	riskchal	0245	IremM90	1993	Irem
+Arcade-IremM90_MiSTer	New Atomic Punk - Global Quest (US).mra	New Atomic Punk - Global Quest (US)	newapunk	bbmanw	0245	IremM90	1992	Irem
+Arcade-IremM90_MiSTer	Risky Challenge.mra	Risky Challenge	riskchal		0245	IremM90	1993	Irem
+Arcade-IremM92_MiSTer	Blade Master (World).mra	Blade Master (World)	bmaster		0245	IremM92	1991	Irem
+Arcade-IremM92_MiSTer	Cross Blades! (Japan).mra	Cross Blades! (Japan)	crossbld	bmaster	0245	IremM92	1991	Irem
+Arcade-IremM92_MiSTer	Dream Soccer '94 (Japan, M92 hardware).mra	Dream Soccer '94 (Japan, M92 hardware)	dsoccr94j	dsoccr94	0245	IremM92	1994	Irem
+Arcade-IremM92_MiSTer	Geo Storm (Japan).mra	Geo Storm (Japan)	geostorm	gunforc2	0245	IremM92	1994	Irem
+Arcade-IremM92_MiSTer	Gun Force II (US).mra	Gun Force II (US)	gunforc2		0245	IremM92	1994	Irem
+Arcade-IremM92_MiSTer	Gunforce - Battle Fire Engulfed Terror Island (Japan).mra	Gunforce - Battle Fire Engulfed Terror Island (Japan)	gunforcej	gunforce	0245	IremM92	1991	Irem
+Arcade-IremM92_MiSTer	Gunforce - Battle Fire Engulfed Terror Island (USA).mra	Gunforce - Battle Fire Engulfed Terror Island (USA)	gunforceu	gunforce	0245	IremM92	1991	Irem
+Arcade-IremM92_MiSTer	Gunforce - Battle Fire Engulfed Terror Island (World).mra	Gunforce - Battle Fire Engulfed Terror Island (World)	gunforce		0245	IremM92	1991	Irem
+Arcade-IremM92_MiSTer	Hook (Japan).mra	Hook (Japan)	hookj	hook	0245	IremM92	1992	Irem
+Arcade-IremM92_MiSTer	Hook (World).mra	Hook (World)	hook		0245	IremM92	1992	Irem
+Arcade-IremM92_MiSTer	In The Hunt (US).mra	In The Hunt (US)	inthuntu	inthunt	0245	IremM92	1993	Irem
+Arcade-IremM92_MiSTer	In The Hunt (World).mra	In The Hunt (World)	inthunt		0245	IremM92	1993	Irem
+Arcade-IremM92_MiSTer	Kaitei Daisensou (Japan).mra	Kaitei Daisensou (Japan)	kaiteids	inthunt	0245	IremM92	1993	Irem
+Arcade-IremM92_MiSTer	Lethal Thunder (World).mra	Lethal Thunder (World)	lethalth		0245	IremM92	1992	Irem
+Arcade-IremM92_MiSTer	Mahou Keibitai Gun Hohki (Japan).mra	Mahou Keibitai Gun Hohki (Japan)	gunhohki	mysticri	0245	IremM92	1992	Irem
+Arcade-IremM92_MiSTer	Major Title 2 (World, set 1).mra	Major Title 2 (World, set 1)	majtitl2		0245	IremM92	1992	Irem
+Arcade-IremM92_MiSTer	Mystic Riders (World).mra	Mystic Riders (World)	mysticri		0245	IremM92	1992	Irem
+Arcade-IremM92_MiSTer	Ninja Baseball Bat Man (US).mra	Ninja Baseball Bat Man (World)	nbbatmanu	nbbatman	0245	IremM92	1993	Irem
+Arcade-IremM92_MiSTer	Ninja Baseball Bat Man (World).mra	Ninja Baseball Bat Man (World)	nbbatman		0245	IremM92	1993	Irem
+Arcade-IremM92_MiSTer	R-Type Leo (Japan).mra	R-Type Leo (Japan)	rtypeleoj	rtypeleo	0245	IremM92	1992	Irem
+Arcade-IremM92_MiSTer	R-Type Leo (World).mra	R-Type Leo (World)	rtypeleo		0245	IremM92	1992	Irem
+Arcade-IremM92_MiSTer	Superior Soldiers (US).mra	Superior Soldiers (US)	ssoldier		0245	IremM92	1993	Irem
+Arcade-IremM92_MiSTer	Thunder Blaster (Japan).mra	Thunder Blaster (Japan)	thndblst	lethalth	0245	IremM92	1992	Irem
+Arcade-IremM92_MiSTer	Undercover Cops (Japan).mra	Undercover Cops (Japan)	uccopsj		0245	IremM92	1992	Irem
+Arcade-IremM92_MiSTer	Undercover Cops (US).mra	Undercover Cops (US)	uccopsu	uccops	0245	IremM92	1992	Irem
+Arcade-IremM92_MiSTer	Undercover Cops (World).mra	Undercover Cops (World)	uccops		0245	IremM92	1992	Irem
+Arcade-IremM92_MiSTer	Undercover Cops - Alpha Renewal Version (US).mra	Undercover Cops - Alpha Renewal Version (US)	uccopsaru	uccops	0245	IremM92	1992	Irem
+Arcade-IremM92_MiSTer	Undercover Cops - Alpha Renewal Version (World).mra	Undercover Cops - Alpha Renewal Version (World)	uccopsar	uccops	0245	IremM92	1992	Irem
+Arcade-IremM92_MiSTer	Yakyuu Kakutou League-Man (Japan).mra	Yakyuu Kakutou League-Man (Japan)	leaguemn	nbbatman	0245	IremM92	1993	Irem
+Arcade-IronHorse_MiSTer	Iron Horse (Ver. K).mra	Iron Horse	ironhors	ironhors	0224	IronHorse	1986	Konami
+Arcade-Jackal_MiSTer	Jackal (W).mra	Jackal	jackal	jackal	0224	Jackal	1986	Konami
+Arcade-Jailbreak_MiSTer	Jailbreak.mra	Jailbreak	jailbrek	jailbrek	0224	Jailbreak	1986	Konami
+Arcade-Joust2_MiSTer	Joust 2 - Survival of the Fittest (revision 1).mra	Joust 2 - Survival of the Fittest (revision 1)	joust2r1	joust2	0226	joust2	1986	Williams
+Arcade-Joust2_MiSTer	Joust 2 - Survival of the Fittest (revision 2).mra	Joust 2 - Survival of the Fittest (revision 2)	joust2	joust2	0226	joust2	1986	Williams
+Arcade-JunoFirst_MiSTer	Juno First (Gottlieb).mra		junofrstg	junofrst	0220	JunoFirst	1983	Konami (Gottlieb license)
+Arcade-JunoFirst_MiSTer	Juno First.mra		junofrst	junofrst	0220	JunoFirst	1983	Konami
+Arcade-Kangaroo_MiSTer	Funky Fish.mra		fnkyfish	fnkyfish	0270	Kangaroo	1981	Sun Electronics
+Arcade-Kangaroo_MiSTer	Kangaroo.mra	Kangaroo	kangaroo	kangaroo	0270	Kangaroo	1982	Sun Electronics
+Arcade-Kangaroo_MiSTer	Kangaroo (Atari).mra	Kangaroo (Atari)	kangarooa	kangaroo	0270	Kangaroo	1982	Sun Electronics (Atari license)
+Arcade-Kangaroo_MiSTer	Kangaroo (Bootleg).mra	Kangaroo (bootleg)	kangaroob	kangaroo	0270	Kangaroo	1982	Sun Electronics (bootleg)
+Arcade-KickAndRun_MiSTer	Kick And Run.mra	Kick And Run	kicknrun			KickAndRun	1986	Taito
+Arcade-Kyugo_MiSTer	99 The Last War.mra		99lstwar	repulse		Kyugo	1985	Crux / Proma
+Arcade-Kyugo_MiSTer	Airwolf.mra		airwolf			Kyugo	1987	Kyugo
+Arcade-Kyugo_MiSTer	Flashgal.mra		flashgal			Kyugo	1985	Sega
+Arcade-Kyugo_MiSTer	Gyrodine.mra		gyrodine	gyrodine	0220	Kyugo	1984	Crux
+Arcade-Kyugo_MiSTer	Legend.mra		legend			Kyugo	1986	Sega
+Arcade-Kyugo_MiSTer	Repulse.mra		repulse			Kyugo	1985	Sega
+Arcade-Kyugo_MiSTer	SRD Mission.mra		srdmissn			Kyugo	1986	Taito
+Arcade-Kyugo_MiSTer	Son of Phoenix.mra		sonofphx	repulse		Kyugo	1985	bootleg (Associated Overseas MFR, Inc.)
+Arcade-LadyBug_MiSTer	Cosmic Avenger.mra	Cosmic Avenger	cavenger	cavenger	0220	ladybug	1981	Universal
+Arcade-LadyBug_MiSTer	Dorodon (Set 1).mra	Dorodon	dorodon	dorodon	0220	ladybug	1982	UPL
+Arcade-LadyBug_MiSTer	Lady Bug.mra	Lady Bug	ladybug	ladybug	0220	ladybug	1981	Universal
+Arcade-LadyBug_MiSTer	Snap Jack.mra	Snap Jack	snapjack	snapjack	0220	ladybug	1982	Universal
+Arcade-Legionnaire_MiSTer	Legionnaire (Japan).mra	Legionnaire (Japan)	legionnaj		0264	Legionnaire	1992	Tad Corporation
+Arcade-Legionnaire_MiSTer	Legionnaire (US).mra	Legionnaire (US)	legionnau		0264	Legionnaire	1992	Tad Corporation (Fabtek license)
+Arcade-Legionnaire_MiSTer	Legionnaire (World).mra	Legionnaire (World)	legionna		0264	Legionnaire	1992	Tad Corporation
+Arcade-LunarLander_MiSTer	Lunar Lander.mra	Lunar Lander	llander	llander	0220	lunarlander	1979	Atari
+Arcade-MCR1_MiSTer	Kick.mra	Kick	kick	kick	0216	mcr1	1980	Midway
+Arcade-MCR1_MiSTer	Solar Fox.mra	Solar Fox	solarfox	solarfox	0216	mcr1	1980	Bally
+Arcade-MCR2_MiSTer	Domino Man.mra	Domino Man	domino	domino	0216	mcr2	1982	Bally
+Arcade-MCR2_MiSTer	Kozmik Krooz'r.mra	Kozmik Krooz'r	kroozr	kroozr	0216	mcr2	1983	Bally
+Arcade-MCR2_MiSTer	Satan's Hollow (Set 1).mra	Satan's Hollow	shollow	shollow	0216	mcr2	1983	Bally
+Arcade-MCR2_MiSTer	Tron.mra	Tron	tron	tron	0218	mcr2	1982	Bally
+Arcade-MCR2_MiSTer	Two Tigers (Tron Conversion).mra	Two Tigers	twotigerc	twotiger	0218	mcr2	1984	Bally
+Arcade-MCR2_MiSTer	Wacko.mra	Wacko	wacko	wacko	0216	mcr2	1983	Bally
+Arcade-MCR3Mono_MiSTer	Demolition Derby (MCR-3 Mono Board Version).mra	Demolition Derby	demoderm	demoderb	0216	mcr3mono	1984	Bally
+Arcade-MCR3Mono_MiSTer	Max RPM (v2).mra	Max RPM	maxrpm	maxrpm	0217	mcr3mono	1986	Bally
+Arcade-MCR3Mono_MiSTer	Power Drive.mra	Power Drive	powerdrv	powerdrv	0217	mcr3mono	1986	Bally
+Arcade-MCR3Mono_MiSTer	Rampage (Rev 3, 860827).mra	Rampage	rampage	rampage	0217	mcr3mono	1986	Bally
+Arcade-MCR3Mono_MiSTer	Sarge.mra	Sarge	sarge	sarge	0217	mcr3mono	1985	Bally
+Arcade-MCR3Mono_MiSTer	Star Guards.mra	Star Guards	stargrds	stargrds	0217	mcr3mono	1987	Bally
+Arcade-MCR3Scroll_MiSTer	Crater Raider.mra	Crater Raider	crater	crater	0216	mcr3scroll	1984	Bally
+Arcade-MCR3Scroll_MiSTer	Spy Hunter.mra	Spy Hunter	spyhunt	spyhunt	0220	mcr3scroll	1983	Bally
+Arcade-MCR3Scroll_MiSTer	Turbo Tag (Prototype).mra	Turbo Tag	turbotag	turbotag	0220	mcr3scroll	1985	Bally
+Arcade-MCR3_MiSTer	Discs of Tron.mra	Discs of Tron	dotron	dotron	0218	mcr3	1983	Bally
+Arcade-MCR3_MiSTer	Journey.mra	Journey	journey	journey	0216	mcr3	1984	Bally
+Arcade-MCR3_MiSTer	Tapper (Budweiser, 840127).mra	Tapper	tapper	tapper	0218	mcr3	1983	Bally
+Arcade-MCR3_MiSTer	Timber.mra	Timber	timber	timber	0216	mcr3	1983	Bally
+Arcade-MajorHavoc_MiSTer	Major Havoc.mra	Major Havoc	mhavoc	mhavoc	0287	MajorHavoc	1983	Atari
+Arcade-MarioBros_MiSTer	Mario Bros. (US, Rev G).mra	Mario Bros.	mario	mario	0220	mariobros	1983	Nintendo
+Arcade-MissileCommand_MiSTer	Missile Command (rev 3).mra	Missile Command (rev 3)	missile		0240	MissileCommand	1980	Atari Games
+Arcade-MoonPatrol_MiSTer	Moon Patrol.mra	Moon Patrol	mpatrol	mpatrol	0220	moonpatrol	1982	Irem
+Arcade-MrDo_MiSTer	Mr. Do!.mra	Mr. Do!	mrdo	mrdo	0220	mrdo	1982	Universal
+Arcade-MrJong_MiSTer	Mr. Jong.mra	Mr.Jong	mrjong			mrjong	1983	Kiwako
+Arcade-MysticMarathon_MiSTer	Mystic Marathon.mra	Mystic Marathon	mysticm	mysticm	0222	MysticMarathon	1983	Williams
+Arcade-MysticMarathon_MiSTer	Mystic Marathon (prototype).mra	Mystic Marathon (prototype)	mysticmp	mysticm	0222	MysticMarathon	1983	Williams
+Arcade-NaughtyBoy_MiSTer	Naughty Boy (Jaleco).mra	Naughty Boy	naughtyb	naughtyb		naughtyboy	1982	Jaleco
+Arcade-NaughtyBoy_MiSTer	Pop Flamer (Bootleg conversion).mra	Pop Flamer (Bootleg conversion)	popflamn	popflamn		naughtyboy	1982	Jaleco
+Arcade-NightSlashers_MiSTer	Night Slashers (Japan Rev 1.2, DE-0397-0 PCB).mra	Night Slashers (Japan Rev 1.2, DE-0397-0 PCB)	nslasherj		0264	NightSlashers	1993	Data East Corporation
+Arcade-NightSlashers_MiSTer	Night Slashers (Korea Rev 1.3, DE-0397-0 PCB).mra	Night Slashers (Korea Rev 1.3, DE-0397-0 PCB)	nslasher		0264	NightSlashers	1993	Data East Corporation
+Arcade-NightSlashers_MiSTer	Night Slashers (Over Sea Rev 1.2, DE-0397-0 PCB).mra	Night Slashers (Over Sea Rev 1.2, DE-0397-0 PCB)	nslashers		0264	NightSlashers	1993	Data East Corporation
+Arcade-NightSlashers_MiSTer	Night Slashers (US Rev 1.2, DE-0395-1 PCB).mra	Night Slashers (US Rev 1.2, DE-0395-1 PCB)	nslasheru		0264	NightSlashers	1994	Data East Corporation
+Arcade-NinjaKun_MiSTer	Ninjakun.mra	Ninjakun Majou no Bouken	ninjakun	ninjakun	0220	ninjakun	1984	UPL
+Arcade-NinjaKun_MiSTer	Nova 2001.mra	Nova 2001	nova2001	ninjakun	0220	ninjakun	1984	UPL
+Arcade-NinjaKun_MiSTer	Raiders5.mra	Raiders5	raiders5	ninjakun	0220	ninjakun	1984	UPL
+Arcade-Pacman_MiSTer	Ali Baba and 40 Thieves.mra	Ali Baba and 40 Thieves	alibaba	alibaba	0220	pacman	1982	Sega
+Arcade-Pacman_MiSTer	Birdiy.mra	Birdiy	birdiy	birdiy	0220	pacman	1983	Mama Top
+Arcade-Pacman_MiSTer	Crush Roller (Set 2).mra	Crush Roller	crush2	crush3	0220	pacman	1981	Alpha Denshi
+Arcade-Pacman_MiSTer	Dream Shopper.mra	Dream Shopper	dremshpr	dremshpr	0220	pacman	1982	Sanritsu
+Arcade-Pacman_MiSTer	Eeek! (Pac-Man Conversion).mra	Eeek!	eeekkp	eeekk	0220	pacman	1984	Epos Corporation
+Arcade-Pacman_MiSTer	Eggor.mra	Eggor	eggor	eggor	0220	pacman	1983	Telko
+Arcade-Pacman_MiSTer	Eyes (US, Set 1).mra	Eyes	eyes	eyes	0220	pacman	1982	Techstar
+Arcade-Pacman_MiSTer	Jr. Pac-Man.mra	Jr. Pac-Man	jrpacman		0220	pacman	1983	Bally Midway
+Arcade-Pacman_MiSTer	Jump Shot.mra	Jump Shot	jumpshot	jumpshot	0220	pacman	1985	Bally
+Arcade-Pacman_MiSTer	Lizard Wizard.mra	Lizard Wizard	lizwiz	lizwiz	0220	pacman	1985	Techstar
+Arcade-Pacman_MiSTer	Mr. TNT.mra	Mr. TNT	mrtnt	mrtnt	0220	pacman	1983	Techstar
+Arcade-Pacman_MiSTer	Ms. Pac-Man.mra	Ms. Pac-Man	mspacman	puckman	0220	pacman	1981	Midway
+Arcade-Pacman_MiSTer	Number Crash.mra	Number Crash	numcrash		0220	pacman	1980	Hanshin Goraku / Peni
+Arcade-Pacman_MiSTer	Pac-Man Club- Club Lambada (AR).mra	Pac-Man Club- Club Lambada	clubpacm	clubpacm	0220	pacman	1989	Miky SRL
+Arcade-Pacman_MiSTer	Pac-Man Plus.mra	Pac-Man Plus	pacplus	pacplus	0220	pacman	1982	Namco (Midway license)
+Arcade-Pacman_MiSTer	Pac-Manic Miner.mra	Pac-Manic Miner		puckman	0217	pacman	2013	Jim Bagley
+Arcade-Pacman_MiSTer	Ponpoko.mra	Ponpoko	ponpoko	ponpoko	0220	pacman	1982	Sigma
+Arcade-Pacman_MiSTer	Pac-Man - Puck Man (JP, Set 1).mra	Puck Man	puckman	puckman	0220	pacman	1980	Namco
+Arcade-Pacman_MiSTer	Super Glob (Pac-Man, German) [bl].mra	Super Glob	sprglbpg	suprglob	0220	pacman	1984	Bootleg
+Arcade-Pacman_MiSTer	Van-Van Car.mra	Van-Van Car	vanvan	vanvan	0220	pacman	1983	Sanritsu
+Arcade-Pacman_MiSTer	Woodpecker (Set 1).mra	Woodpecker	woodpeck	woodpeck	0220	pacman	1981	Amenip
+Arcade-Pengo_MiSTer	Pengo (Set 1, Rev C).mra	Pengo	pengo	pengo	0220	pengo	1982	Sega
+Arcade-PenguinKunWars_MiSTer	Penguin-Kun Wars.mra	Penguin-Kun Wars (US)	pkunwar		0221	PenguinKunWars	1985	UPL
+Arcade-Performan_MiSTer	Performan (Japan).mra	Performan	perfrman	Performan	0245	Performan	1986	Toaplan
+Arcade-Performan_MiSTer	Performan (US).mra	Performan	perfrmanu	Performan	0245	Performan	1986	Toaplan
+Arcade-Phoenix_MiSTer	Phoenix (Amstar, Set 1).mra	Phoenix	phoenix	phoenix	0220	phoenix	1980	Amstar
+Arcade-Phoenix_MiSTer	Pleiads (Tehkan).mra	Pleiads (Tehkan)	pleiads		0220	phoenix	1981	Tehkan
+Arcade-Pleiads_MiSTer	Pleiads (Tehkan).mra	Pleiads (Tehkan)	pleiads		0220	phoenix	1981	Tehkan
+Arcade-PolyPlay_MiSTer	Poly Play.mra	Poly Play	polyplay	polyplay	0229	polyplay	1985	VEB Polytechnik
+Arcade-PolyPlay_MiSTer	Poly Play 2.mra	Poly Play 2	polyplay2	polyplay2	0220	polyplay	1985	VEB Polytechnik
+Arcade-Pong_MiSTer	Pong (Rev E).mra	Pong	pong	pong		pong	1972	Atari
+Arcade-Pooyan_MiSTer	Pooyan.mra	Pooyan	pooyan	pooyan	0220	pooyan	1982	Konami
+Arcade-Popeye_MiSTer	Popeye (Rev D).mra	Popeye	popeye	popeye	0219	popeye	1982	Nintendo
+Arcade-Popeye_MiSTer	Sky Skipper.mra	Sky Skipper	skyskipr	skyskipr	0219	popeye	1981	Nintendo
+Arcade-Psychic5_MiSTer	Psychic 5 (World).mra	Psychic 5	psychic5		0193	Psychic5	1987	Jaleco
+Arcade-QBert_MiSTer	Curve Ball.mra	Curve Ball	curvebal		0198	qbert	1982	Gottlieb
+Arcade-QBert_MiSTer	Faster, Harder, More Challenging Q`Bert (prototype).mra	Faster, Harder, More Challenging Q*bert	sqbert	sqbert	0198	qbert	1983	Mylstar
+Arcade-QBert_MiSTer	Insector.mra	Insector	insector		0198	qbert	1982	Gottlieb
+Arcade-QBert_MiSTer	Krull.mra	Krull	krull		0228	qbert	1983	Gottlieb
+Arcade-QBert_MiSTer	Mad Planets.mra	Mad Planets	mplanets		0198	qbert	1982	Gottlieb
+Arcade-QBert_MiSTer	Q'bert (US, Set 1).mra	Q*bert	qbert	qbert	0198	qbert	1982	Gottlieb
+Arcade-QBert_MiSTer	QBert Qubes.mra	Q*bert Qubes	qbertqub		0198	qbert	1982	Gottlieb
+Arcade-QBert_MiSTer	Reactor.mra	Reactor	reactor	reactor	0198	qbert	1982	Gottlieb
+Arcade-QBert_MiSTer	Tylz.mra	Tylz	tylz		0198	qbert	1982	Gottlieb
+Arcade-Qix_MiSTer	Complex X.mra	Complex X	complexx		0268	Qix	1983	Taito America Corporation
+Arcade-Qix_MiSTer	Kram.mra	Kram	kram		0268	Qix	1982	Taito America Corporation
+Arcade-Qix_MiSTer	Kram (set 2).mra	Kram (set 2)	krama		0268	Qix	1982	Taito America Corporation
+Arcade-Qix_MiSTer	Qix (set 1).mra	Qix (set 1)	qix		0268	Qix	1981	Taito America Corporation
+Arcade-Qix_MiSTer	Qix (set 2).mra	Qix (set 2)	qixb		0268	Qix	1981	Taito America Corporation
+Arcade-Qix_MiSTer	Qix (set 3, original Taito).mra	Qix (set 3, original Taito)	qixa		0268	Qix	1981	Taito America Corporation
+Arcade-Qix_MiSTer	Qix (set 4).mra	Qix (set 4)	qixo		0268	Qix	1981	Taito America Corporation
+Arcade-Qix_MiSTer	Qix II (Tournament).mra	Qix II (Tournament)	qix2		0268	Qix	1981	Taito America Corporation
+Arcade-Qix_MiSTer	Slither.mra	Slither	slither		0268	Qix	1982	Century II (GDI license)
+Arcade-Qix_MiSTer	Space Dungeon.mra	Space Dungeon	sdungeon		0268	Qix	1981	Taito America Corporation
+Arcade-Qix_MiSTer	The Electric Yo-Yo.mra	The Electric Yo-Yo	elecyoyo		0268	Qix	1982	Taito America Corporation
+Arcade-Qix_MiSTer	Zoo Keeper.mra	Zoo Keeper (set 1)	zookeep		0272	Qix	1982	Taito America Corporation
+Arcade-Raiden_MiSTer	Raiden (Korea).mra	Raiden (Korea)	raidenk		0264	Raiden	1990	Seibu Kaihatsu
+Arcade-Raiden_MiSTer	Raiden (Taiwan).mra	Raiden (Taiwan)	raident		0264	Raiden	1990	Seibu Kaihatsu
+Arcade-Raiden_MiSTer	Raiden (US).mra	Raiden (US set 1)	raidenu		0264	Raiden	1990	Seibu Kaihatsu
+Arcade-Raiden_MiSTer	Raiden (World).mra	Raiden (World set 1)	raiden		0264	Raiden	1990	Seibu Kaihatsu
+Arcade-Raiden_MiSTer	Raiden (Japan).mra	Raiden v23	raidenj		0264	Raiden	1990	Seibu Kaihatsu
+Arcade-RallyX_MiSTer	New Rally-X.mra	New Rally-X	nrallyx	nrallyx	0220	rallyx	1981	Namco
+Arcade-RallyX_MiSTer	Rally-X (32k Ver).mra	Rally-X	rallyx	rallyx	0220	rallyx	1980	Namco
+Arcade-RiverPatrol_MiSTer	River Patrol (JP, Unprotected).mra	River Patrol	rpatroln	rpatrol	0220	riverpatrol	1981	Orca
+Arcade-Robotron_MiSTer	Alien Arena (Stargate upgrade).mra	Alien Arena	alienaru	alienaru	0218	robotron	1985	Duncan Brown
+Arcade-Robotron_MiSTer	Bubbles.mra	Bubbles	bubbles	bubbles	0218	robotron	1982	Williams
+Arcade-Robotron_MiSTer	Joust.mra	Joust	joust	joust	0218	robotron	1982	Williams
+Arcade-Robotron_MiSTer	Playball (Prototype).mra	Playball	playball	playball	0218	robotron	1983	Williams
+Arcade-Robotron_MiSTer	Robotron 2084.mra	Robotron 2084	robotron	robotron	0218	robotron	1982	Williams
+Arcade-Robotron_MiSTer	Sinistar.mra	Sinistar	sinistar	sinistar	0218	robotron	1982	Williams
+Arcade-Robotron_MiSTer	Splat!.mra	Splat!	splat	splat	0218	robotron	1982	Williams
+Arcade-Robotron_MiSTer	Stargate.mra	Stargate	stargate	stargate	0218	robotron	1981	Williams
+Arcade-RushnAttack_MiSTer	Rush'n Attack - Green Beret.mra	Green Beret	gberet		0220	rshnatk	1985	Konami
+Arcade-RushnAttack_MiSTer	Mr. Goemon.mra	Mr. Goemon	mrgoemon		0229	rshnatk	1986	Konami
+Arcade-Rygar_MiSTer	Rygar.mra	Rygar	rygar		0220	rygar	1986	Tecmo
+Arcade-SEGASYS1_MiSTer	4D Warriors (315-5162).mra	4D Warriors	4dwarrio	4dwarrio	0216	segasys1	1985	Sega
+Arcade-SEGASYS1_MiSTer	Block Gal.mra	Block Gal	blockgal	blockgal	0217	segasys1	1987	Sega
+Arcade-SEGASYS1_MiSTer	Bull Fight (315-5056).mra	Bull Fight	bullfgt	bullfgt	0217	segasys1	1984	Sega
+Arcade-SEGASYS1_MiSTer	Flicky (128k Version, 315-5051).mra	Flicky	flicky	flicky	0217	segasys1	1984	Sega
+Arcade-SEGASYS1_MiSTer	I'm Sorry (US, 315-5110).mra	I'm Sorry	imsorry	imsorry	0217	segasys1	1985	Sega
+Arcade-SEGASYS1_MiSTer	Mister Viking (315-5041).mra	Mister Viking	mrviking	mrviking	0217	segasys1	1984	Sega
+Arcade-SEGASYS1_MiSTer	My Hero (US, not Encrypted).mra	My Hero	myhero	myhero	0217	segasys1	1985	Sega
+Arcade-SEGASYS1_MiSTer	Pitfall II.mra	Pitfall II	pitfall2	pitfall2	0216	segasys1	1985	Sega
+Arcade-SEGASYS1_MiSTer	Rafflesia (315-5162).mra	Rafflesia	raflesia	raflesia	0216	segasys1	1986	Sega
+Arcade-SEGASYS1_MiSTer	Regulus (315-5033, Rev A).mra	Regulus	regulus	regulus	0216	segasys1	1983	Sega
+Arcade-SEGASYS1_MiSTer	Sega Ninja (315-5102).mra	Sega Ninja	seganinj	seganinj	0217	segasys1	1985	Sega
+Arcade-SEGASYS1_MiSTer	Spatter (315-5xxx).mra	Spatter	spatter	spatter	0217	segasys1	1984	Sega
+Arcade-SEGASYS1_MiSTer	Star Jacker.mra	Star Jacker	starjack	starjack	0216	segasys1	1983	Sega
+Arcade-SEGASYS1_MiSTer	Swat (315-5048).mra	Swat	swat	swat	0217	segasys1	1984	Sega
+Arcade-SEGASYS1_MiSTer	TeddyBoy Blues (315-5115, New Ver).mra	TeddyBoy Blues	teddybb	teddybb	0217	segasys1	1985	Sega
+Arcade-SEGASYS1_MiSTer	Up'n Down.mra	Up'n Down	upndown	upndown	0216	segasys1	1984	Sega
+Arcade-SEGASYS1_MiSTer	Water Match (315-5064).mra	Water Match	wmatch	wmatch	0217	segasys1	1984	Sega
+Arcade-SEGASYS1_MiSTer	Wonder Boy (Set 1, 315-5177).mra	Wonder Boy	wboy	wboy	0217	segasys1	1986	Sega
+Arcade-SNK6502_MiSTer	Vanguard.mra		vanguard		0261	SNK6502	1981	SNK
+Arcade-SNK6502_MiSTer	Fantasy.mra	Fantasy	fantasyu		0261	SNK6502	1981	SNK
+Arcade-SNK6502_MiSTer	Nibbler (Set 9).mra	Nibbler (rev 9)	nibbler		0261	SNK6502	1982	Rock-Ola
+Arcade-SNK6502_MiSTer	Pioneer Balloon.mra	Pioneer Balloon	pballoon		0261	SNK6502	1982	SNK
+Arcade-SNK6502_MiSTer	Sasuke.mra	Sasuke vs. Commander	sasuke		0261	SNK6502	1980	SNK
+Arcade-SNK6502_MiSTer	Satan Of Saturn.mra	Satan Of Saturn	satansat		0261	SNK6502	1980	SNK
+Arcade-SNK_TripleZ80_MiSTer	ASO.mra	ASO - Armored Scrum Object	aso		0193	SNK_TripleZ80	1985	SNK
+Arcade-SNK_TripleZ80_MiSTer	Alpha Mission.mra	Alpha Mission	alphamis		0193	SNK_TripleZ80	1985	SNK
+Arcade-SNK_TripleZ80_MiSTer	Arian Mission.mra	Arian Mission	arian		0193	SNK_TripleZ80	1985	SNK
+Arcade-Salamander_MiSTer	Lifeforce (Japan).mra	Lifeforce (Japan)	lifefrcej		0266	Salamander	1986	Konami
+Arcade-Salamander_MiSTer	Lifeforce (US).mra	Lifeforce (US)	lifefrce		0266	Salamander	1986	Konami
+Arcade-Salamander_MiSTer	Salamander (SP version old).mra	Salamander (SP version old)	spcloneo		0000	Salamander	1986	Konami
+Arcade-Salamander_MiSTer	Salamander (SP version).mra	Salamander (SP version)	spclone		0000	Salamander	1986	Konami
+Arcade-Salamander_MiSTer	Salamander (version D).mra	Salamander (version D)	salamand		0266	Salamander	1986	Konami
+Arcade-Salamander_MiSTer	Salamander (version J).mra	Salamander (version J)	salamandj		0266	Salamander	1986	Konami
+Arcade-ScooterShooter_MiSTer	Scooter Shooter.mra	Scooter Shooter	scotrsht	scotrsht	0224	ScooterShooter	1986	Konami
+Arcade-Scramble_MiSTer	Amidar (Scramble).mra	Amidar	amidars	amidars	0216	scramble	1982	Konami
+Arcade-Scramble_MiSTer	Anteater.mra	Anteater	anteater	anteater	0216	scramble	1982	Tago Electronics
+Arcade-Scramble_MiSTer	Armored Car.mra	Armored Car	armorcar	armorcar	0216	scramble	1981	Stern
+Arcade-Scramble_MiSTer	Battle of Atlantis.mra	Battle of Atlantis	atlantis2	atlantis	0217	scramble	1981	Comsoft
+Arcade-Scramble_MiSTer	Calipso.mra	Calipso	calipso	calipso	0216	scramble	1982	Tago Electronics
+Arcade-Scramble_MiSTer	Cavelon.mra	Cavelon	cavelon	scramble	0216	scramble	1981	Jetsoft
+Arcade-Scramble_MiSTer	Dark Planet.mra	Dark Planet	darkplnt	darkplnt	0209	scramble	1982	Stern
+Arcade-Scramble_MiSTer	Frogger (Konami Bugfixed).mra	Frogger	frogger	frogger	0216	scramble	1981	Konami
+Arcade-Scramble_MiSTer	Lost Tomb.mra	Lost Tomb	losttomb	losttomb	0216	scramble	1982	Stern
+Arcade-Scramble_MiSTer	Mars.mra	Mars	mars	mars	0217	scramble	1981	Artic
+Arcade-Scramble_MiSTer	Mighty Monkey (Scramble Hardware) [bl].mra	Mighty Monkey	mimonscr	mimonkey	0209	scramble	1982	Bootleg
+Arcade-Scramble_MiSTer	Minefield.mra	Minefield	minefld	minefld	0209	scramble	1983	Stern
+Arcade-Scramble_MiSTer	Moon War.mra	Moon War	moonwar	moonwar	0216	scramble	1981	Stern
+Arcade-Scramble_MiSTer	Rescue.mra	Rescue	rescue	rescue	0209	scramble	1982	Stern
+Arcade-Scramble_MiSTer	Scramble (Stern, Set 1).mra	Scramble	scramble	scramble	0216	scramble	1981	Konami
+Arcade-Scramble_MiSTer	Speed Coin.mra	Speed Coin	spdcoin	spdcoin	0216	scramble	1984	Stern
+Arcade-Scramble_MiSTer	Strategy X.mra	Strategy X	stratgyx	stratgyx	0217	scramble	1981	Konami
+Arcade-Scramble_MiSTer	Super Cobra.mra	Super Cobra	scobra	scobra	0216	scramble	1981	Konami
+Arcade-Scramble_MiSTer	Tazz-Mania (Set 1).mra	Tazz-Mania	tazmania	tazmania	0216	scramble	1982	Stern
+Arcade-Scramble_MiSTer	The End.mra	The End	theend	theend	0220	scramble	1980	Konami
+Arcade-Scramble_MiSTer	Turtles.mra	Turtles	turtles	turtles	0209	scramble	1981	Konami
+Arcade-SegaVICZ80_MiSTer	Alpha Fighter + Head On.mra	Alpha Fighter + Head On	alphaho		0240	SegaVICZ80		
+Arcade-SegaVICZ80_MiSTer	Borderline.mra	Borderline	brdrline		0240	SegaVICZ80		
+Arcade-SegaVICZ80_MiSTer	Car Hunt + Deep Scan (France).mra	Car Hunt + Deep Scan (France)	carhntds		0240	SegaVICZ80		
+Arcade-SegaVICZ80_MiSTer	Carnival (zip sound).mra	Carnival	carnival		0240	SegaVICZ80		
+Arcade-SegaVICZ80_MiSTer	Carnival.mra	Carnival	carnival	carnival	0245	SegaVICZ80	1980	Sega Enterprises/Gremlin Industries
+Arcade-SegaVICZ80_MiSTer	Digger.mra	Digger	digger		0240	SegaVICZ80		
+Arcade-SegaVICZ80_MiSTer	Frogs.mra	Frogs	frogs		0240	SegaVICZ80		
+Arcade-SegaVICZ80_MiSTer	Head On.mra	Head On	headon		0240	SegaVICZ80		
+Arcade-SegaVICZ80_MiSTer	Head On (bootleg alt maze).mra	Head On (bootleg alt maze)	headonmz	headon	0240	SegaVICZ80		
+Arcade-SegaVICZ80_MiSTer	Head On 2.mra	Head On 2	headon2		0240	SegaVICZ80		
+Arcade-SegaVICZ80_MiSTer	Heiankyo Alien.mra	Heiankyo Alien	heiankyo		0240	SegaVICZ80		
+Arcade-SegaVICZ80_MiSTer	Invinco.mra	Invinco	invinco		0240	SegaVICZ80		
+Arcade-SegaVICZ80_MiSTer	Invinco + Car Hunt (Germany).mra	Invinco + Car Hunt (Germany)	invcarht		0240	SegaVICZ80		
+Arcade-SegaVICZ80_MiSTer	Invinco + Deep Scan.mra	Invinco + Deep Scan	invds		0240	SegaVICZ80		
+Arcade-SegaVICZ80_MiSTer	Invinco + Head On 2.mra	Invinco + Head On 2	invho2		0240	SegaVICZ80		
+Arcade-SegaVICZ80_MiSTer	Missile + Circuit.mra	Missile + Circuit	alphahob		0240	SegaVICZ80		
+Arcade-SegaVICZ80_MiSTer	N-Sub.mra	N-Sub	nsub		0240	SegaVICZ80		
+Arcade-SegaVICZ80_MiSTer	Pulsar.mra	Pulsar	pulsar	pulsar	0245	SegaVICZ80	1981	Sega Enterprises/Gremlin Industries
+Arcade-SegaVICZ80_MiSTer	Safari.mra	Safari	safari		0240	SegaVICZ80		
+Arcade-SegaVICZ80_MiSTer	Samurai.mra	Samurai	samurai		0240	SegaVICZ80		
+Arcade-SegaVICZ80_MiSTer	Space Attack.mra	Space Attack	sspaceat		0240	SegaVICZ80		
+Arcade-SegaVICZ80_MiSTer	Space Attack + Head On.mra	Space Attack + Head On	sspacaho		0240	SegaVICZ80		
+Arcade-SegaVICZ80_MiSTer	Space Trek.mra	Space Trek	spacetrk		0240	SegaVICZ80		
+Arcade-SegaVICZ80_MiSTer	Star Raker.mra	Star Raker	brdrline		0240	SegaVICZ80		
+Arcade-SegaVICZ80_MiSTer	Sub Hunt.mra	Sub Hunt	subhunt		0240	SegaVICZ80		
+Arcade-SegaVICZ80_MiSTer	Tranquilizer Gun.mra	Tranquilizer Gun	tranqgun		0240	SegaVICZ80		
+Arcade-SegaVICZ80_MiSTer	Wanted.mra	Wanted	wantsega		0240	SegaVICZ80		
+Arcade-SilverLand_MiSTer	Silver Land.mra	Silver Land	silvland	rpatrol	0220	silverland	1981	Falcon
+Arcade-SkySkipper_MiSTer	Sky Skipper.mra	Sky Skipper	skyskipr	skyskipr	0219	popeye	1981	Nintendo
+Arcade-SlapFight_MiSTer	Alcon Bootleg.mra	ALCON (Bootleg)	alcon	Alcon	0245	SlapFight	1986	Toaplan
+Arcade-SlapFight_MiSTer	SlapFight Bootleg.mra	SlapFight (Bootleg)	slapfighb1	Alcon	0245	SlapFight	1986	Toaplan
+Arcade-SlapFight_MiSTer	Tiger Heli Bootleg.mra	Tiger Heli (Bootleg)	tigerhb1	Tigerh	0245	SlapFight	1985	Toaplan
+Arcade-SolomonsKey_MiSTer	Solomon's Key.mra	Solomon's Key	solomon	solomon	0220	solomonskey	1986	Tecmo
+Arcade-Sonson_MiSTer	SonSon.mra	SonSon	sonson		0216	sonson		Capcom
+Arcade-SpaceFirebird_MiSTer	Space Demon.mra	Space Demon	SpaceDemon	SpaceFirebird	0219	SpaceFirebird	1980	Nintendo
+Arcade-SpaceFirebird_MiSTer	Space Firebird.mra	Space Firebird	spacefb	spacefb	0219	SpaceFirebird	1980	Nintendo
+Arcade-SpaceInvaders_MiSTer	280Z-ZZAP (US).mra	280Z-ZZAP	280zzzap	280zzzap	0226	spaceinvaders	1976	Dave Nutting Associates
+Arcade-SpaceInvaders_MiSTer	Alien Invasion.mra	Alien Invasion	alieninv		0226	spaceinvaders	19??	bootleg (Margamatics)
+Arcade-SpaceInvaders_MiSTer	Alien Invasion Part II.mra	Alien Invasion Part II	alieninvp2		0226	spaceinvaders	19??	bootleg
+Arcade-SpaceInvaders_MiSTer	Amazing Maze.mra	Amazing Maze	maze	maze	0226	spaceinvaders	1976	Midway
+Arcade-SpaceInvaders_MiSTer	Attack Force.mra	Attack Force	attackfc	attackfc	0226	spaceinvaders	1979	Electronic Games Systems
+Arcade-SpaceInvaders_MiSTer	Balloon Bomber.mra	Balloon Bomber	ballbomb	invaders	0219	spaceinvaders	1980	Taito
+Arcade-SpaceInvaders_MiSTer	Blue Shark.mra	Blue Shark	blueshrk	blueshrk	0226	spaceinvaders	1978	Midway
+Arcade-SpaceInvaders_MiSTer	Blue Shark (Model Racing bootleg, set 1).mra	Blue Shark (Model Racing bootleg, set 1)	blueshrkmr		0226	spaceinvaders	1978	bootleg (Model Racing)
+Arcade-SpaceInvaders_MiSTer	Boot Hill.mra	Boot Hill	boothill	boothill	0226	spaceinvaders	1977	Dave Nutting Associates
+Arcade-SpaceInvaders_MiSTer	Bowling Alley.mra	Bowling Alley	bowler		0226	spaceinvaders	1978	Midway
+Arcade-SpaceInvaders_MiSTer	Checkmate.mra	Checkmate	checkmat		0226	spaceinvaders	1977	Dave Nutting Associates / Midway
+Arcade-SpaceInvaders_MiSTer	Claybuster.mra	Claybuster	claybust		0226	spaceinvaders	1978	Model Racing
+Arcade-SpaceInvaders_MiSTer	Clowns.mra	Clowns	clowns	clowns	0218	spaceinvaders	1978	Midway
+Arcade-SpaceInvaders_MiSTer	Clowns (rev. 1).mra	Clowns (rev. 1)	clowns1		0226	spaceinvaders	1978	Midway
+Arcade-SpaceInvaders_MiSTer	Cosmic Invaders (bootleg of Space Invaders).mra	Cosmic Invaders (bootleg of Space Invaders)	cosmicin		0226	spaceinvaders	1978	bootleg
+Arcade-SpaceInvaders_MiSTer	Cosmo.mra	Cosmo	cosmo	invaders	0226	spaceinvaders	1979	TDS &amp; MINTS
+Arcade-SpaceInvaders_MiSTer	Crash Road (bootleg of Space Chaser).mra	Crash Road (bootleg of Space Chaser)	crashrd		0226	spaceinvaders	1979	bootleg (Centromatic)
+Arcade-SpaceInvaders_MiSTer	Desert Gun.mra	Desert Gun	desertgu		0226	spaceinvaders	1977	Dave Nutting Associates / Midway
+Arcade-SpaceInvaders_MiSTer	Destination Earth (bootleg of Lunar Rescue).mra	Destination Earth (bootleg of Lunar Rescue)	desterth		0226	spaceinvaders	1979	bootleg
+Arcade-SpaceInvaders_MiSTer	Dog Patch.mra	Dog Patch	dogpatch		0226	spaceinvaders	1977	Midway
+Arcade-SpaceInvaders_MiSTer	Double Play.mra	Double Play	dplay		0226	spaceinvaders	1977	Midway
+Arcade-SpaceInvaders_MiSTer	Escape from Mars (bootleg of Lunar Rescue).mra	Escape from Mars (bootleg of Lunar Rescue)	escmars		0226	spaceinvaders	1980	bootleg
+Arcade-SpaceInvaders_MiSTer	Extra Inning - Ball Park II.mra	Extra Inning - Ball Park II	einning		0226	spaceinvaders	1978	Midway / Taito
+Arcade-SpaceInvaders_MiSTer	Galactica - Batalha Espacial.mra	Galactica - Batalha Espacial	galactic		0226	spaceinvaders	1980?	Taito do Brasil
+Arcade-SpaceInvaders_MiSTer	Galaxy Monsters (Laguna S.A. Spanish bootleg of Space Invaders).mra	Galaxy Monsters (Laguna S.A. Spanish bootleg of Space Invaders)	galmonst		0226	spaceinvaders	1978	bootleg (Laguna S.A.)
+Arcade-SpaceInvaders_MiSTer	Galaxy Rescue.mra	Galaxy Rescue	grescue		0226	spaceinvaders	1979	Taito (Universal license?)
+Arcade-SpaceInvaders_MiSTer	Galaxy Wars (Universal, Set 1).mra	Galaxy Wars	galxwars	invaders	0226	spaceinvaders	1979	Universal
+Arcade-SpaceInvaders_MiSTer	Galaxy Wars (Taito ).mra	Galaxy Wars (Taito )	galxwarst		0226	spaceinvaders	1979	Universal (Taito license?)
+Arcade-SpaceInvaders_MiSTer	Galaxy Wars (Taito).mra	Galaxy Wars (Taito)	galxwarst2		0226	spaceinvaders	1979	Universal (Taito Corporation license)
+Arcade-SpaceInvaders_MiSTer	Guided Missile.mra	Guided Missile	gmissile		0226	spaceinvaders	1977	Midway
+Arcade-SpaceInvaders_MiSTer	Gun Champ.mra	Gun Champ	gunchamp		0226	spaceinvaders	1980	Model Racing
+Arcade-SpaceInvaders_MiSTer	Gun Fight.mra	Gun Fight	gunfight	gunfight	0226	spaceinvaders	1975	Dave Nutting Associates
+Arcade-SpaceInvaders_MiSTer	Gun Fight (set 2).mra	Gun Fight (set 2)	gunfighto		0226	spaceinvaders	1975	Dave Nutting Associates / Midway
+Arcade-SpaceInvaders_MiSTer	Indian Battle.mra	Indian Battle	indianbt		0226	spaceinvaders	1980	Taito
+Arcade-SpaceInvaders_MiSTer	Indian Battle (Brazil).mra	Indian Battle (Brazil)	indianbtbr		0226	spaceinvaders	1983	Taito do Brasil
+Arcade-SpaceInvaders_MiSTer	Invader's Revenge (Dutchford, single PCB).mra	Invader's Revenge (Dutchford, single PCB)	invrvngedu		0226	spaceinvaders	1980?	Zenitone-Microsec Ltd. (Dutchford license)
+Arcade-SpaceInvaders_MiSTer	Invader's Revenge (Game World, single PCB).mra	Invader's Revenge (Game World, single PCB)	invrvngegw		0226	spaceinvaders	1980?	Zenitone-Microsec Ltd. (Game World license)
+Arcade-SpaceInvaders_MiSTer	Invader's Revenge.mra	Invader's Revenge (set 1)	invrvnge		0226	spaceinvaders	1980?	Zenitone-Microsec Ltd.
+Arcade-SpaceInvaders_MiSTer	Invader's Revenge (set 2).mra	Invader's Revenge (set 2)	invrvngea		0226	spaceinvaders	1980?	Zenitone-Microsec Ltd.
+Arcade-SpaceInvaders_MiSTer	Invader's Revenge (set 3).mra	Invader's Revenge (set 3)	invrvngeb		0226	spaceinvaders	1980?	Zenitone-Microsec Ltd.
+Arcade-SpaceInvaders_MiSTer	Jatre Specter (set 1).mra	Jatre Specter (set 1)	jspecter		0226	spaceinvaders	1979	bootleg (Jatre)
+Arcade-SpaceInvaders_MiSTer	Jatre Specter (set 2).mra	Jatre Specter (set 2)	jspecter2		0226	spaceinvaders	1979	bootleg (Jatre)
+Arcade-SpaceInvaders_MiSTer	Laguna Racer.mra	Laguna Racer	lagunar	lagunar	0226	spaceinvaders	1977	Midway
+Arcade-SpaceInvaders_MiSTer	Lunar Rescue.mra	Lunar Rescue	lrescue	lrescue	0226	spaceinvaders	1979	Taito
+Arcade-SpaceInvaders_MiSTer	Lunar Rescue (Model Racing bootleg, set 1).mra	Lunar Rescue (Model Racing bootleg, set 1)	lrescuem		0226	spaceinvaders	1979	bootleg (Model Racing)
+Arcade-SpaceInvaders_MiSTer	Lunar Rescue (Model Racing bootleg, set 2).mra	Lunar Rescue (Model Racing bootleg, set 2)	lrescuem2		0226	spaceinvaders	1979	bootleg (Model Racing)
+Arcade-SpaceInvaders_MiSTer	Lupin III (Set 2).mra	Lupin III	lupin3a	lupin3	0226	spaceinvaders	1980	Taito
+Arcade-SpaceInvaders_MiSTer	Lupin III (set 1).mra	Lupin III (set 1)	lupin3		0226	spaceinvaders	1980	Taito
+Arcade-SpaceInvaders_MiSTer	M-4.mra	M-4	m4		0226	spaceinvaders	1977	Midway
+Arcade-SpaceInvaders_MiSTer	Moon Base Zeta (set 1).mra	Moon Base Zeta (set 1)	moonbase		0226	spaceinvaders	1979	Taito / Nichibutsu
+Arcade-SpaceInvaders_MiSTer	Moon Base Zeta (set 2).mra	Moon Base Zeta (set 2)	moonbasea		0226	spaceinvaders	1979	Taito / Nichibutsu
+Arcade-SpaceInvaders_MiSTer	Moon Lander (bootleg of Lunar Rescue).mra	Moon Lander (bootleg of Lunar Rescue)	mlander		0226	spaceinvaders	1980	bootleg (Leisure Time Electronics)
+Arcade-SpaceInvaders_MiSTer	Ozma Wars (Model Racing bootleg).mra	Ozma Wars (Model Racing bootleg)	ozmawarsmr		0226	spaceinvaders	1979	bootleg (Model Racing)
+Arcade-SpaceInvaders_MiSTer	Ozma Wars.mra	Ozma Wars (set 1)	ozmawars		0226	spaceinvaders	1979	SNK
+Arcade-SpaceInvaders_MiSTer	Ozma Wars (set 2).mra	Ozma Wars (set 2)	ozmawars2		0226	spaceinvaders	1979	SNK
+Arcade-SpaceInvaders_MiSTer	Phantom II.mra	Phantom II	phantom2		0226	spaceinvaders	1979	Midway
+Arcade-SpaceInvaders_MiSTer	Polaris (Brazil).mra	Polaris (Brazil)	polarisbr		0226	spaceinvaders	1981	Taito do Brasil
+Arcade-SpaceInvaders_MiSTer	Polaris.mra	Polaris (latest version)	polaris		0226	spaceinvaders	1980	Taito
+Arcade-SpaceInvaders_MiSTer	Polaris (original version).mra	Polaris (original version)	polariso		0226	spaceinvaders	1980	Taito
+Arcade-SpaceInvaders_MiSTer	Polaris (second revision).mra	Polaris (second revision)	polarisa		0226	spaceinvaders	1980	Taito
+Arcade-SpaceInvaders_MiSTer	Road Runner (Midway).mra	Road Runner (Midway)	roadrunm		0226	spaceinvaders	1977	Midway
+Arcade-SpaceInvaders_MiSTer	Rolling Crash - Moon Base.mra	Rolling Crash - Moon Base	rollingc		0226	spaceinvaders	1979	Nichibutsu
+Arcade-SpaceInvaders_MiSTer	Sea Wolf (Set 1).mra	Sea Wolf	seawolf	seawolf	0226	spaceinvaders	1976	Dave Nutting Associates
+Arcade-SpaceInvaders_MiSTer	Sea Wolf (set 2).mra	Sea Wolf (set 2)	seawolfo		0226	spaceinvaders	1976	Dave Nutting Associates / Midway
+Arcade-SpaceInvaders_MiSTer	Shuffleboard.mra	Shuffleboard	shuffle	shuffle	0226	spaceinvaders	1978	Midway
+Arcade-SpaceInvaders_MiSTer	Shuttle Invader.mra	Shuttle Invader	shuttlei	invaders	0226	spaceinvaders	1979	Omori Electric Co., Ltd.
+Arcade-SpaceInvaders_MiSTer	Solar Fight (bootleg of Ozma Wars).mra	Solar Fight (bootleg of Ozma Wars)	solfight		0226	spaceinvaders	1979	bootleg
+Arcade-SpaceInvaders_MiSTer	Space Attack (2k roms)(bootleg of Space Invaders).mra	Space Attack (2k roms)(bootleg of Space Invaders)	spaceatt2k		0226	spaceinvaders	1978	bootleg (Video Games GmbH)
+Arcade-SpaceInvaders_MiSTer	Space Attack (bootleg of Space Invaders).mra	Space Attack (bootleg of Space Invaders)	spaceatt		0226	spaceinvaders	1978	bootleg (Video Games GmbH)
+Arcade-SpaceInvaders_MiSTer	Space Attack II (bootleg of Super Invaders).mra	Space Attack II (bootleg of Super Invaders)	spaceat2		0226	spaceinvaders	1980	bootleg (Video Games UK)
+Arcade-SpaceInvaders_MiSTer	Space Chaser.mra	Space Chaser	schaser	schaser	0226	spaceinvaders	1979	Taito
+Arcade-SpaceInvaders_MiSTer	Space Chaser (CV version - set 1).mra	Space Chaser (CV version - set 1)	schasercv		0226	spaceinvaders	1979	Taito
+Arcade-SpaceInvaders_MiSTer	Space Chaser (Model Racing bootleg).mra	Space Chaser (Model Racing bootleg)	schaserm		0226	spaceinvaders	1979	bootleg (Model Racing)
+Arcade-SpaceInvaders_MiSTer	Space Chaser (set 2).mra	Space Chaser (set 2)	schasera		0226	spaceinvaders	1979	Taito
+Arcade-SpaceInvaders_MiSTer	Space Chaser (set 3).mra	Space Chaser (set 3)	schaserb		0226	spaceinvaders	1979	Taito
+Arcade-SpaceInvaders_MiSTer	Space Chaser (set 4).mra	Space Chaser (set 4)	schaserc		0226	spaceinvaders	1979	Taito
+Arcade-SpaceInvaders_MiSTer	Space Encounters.mra	Space Encounters	spcenctr	spcenctr	0226	spaceinvaders	1980	Midway
+Arcade-SpaceInvaders_MiSTer	Space Invaders.mra	Space Invaders	invaders	invaders	0226	spaceinvaders	1978	Taito
+Arcade-SpaceInvaders_MiSTer	Space Invaders (CV Version, larger roms).mra	Space Invaders (CV Version, larger roms)	sicv		0226	spaceinvaders	1979	Taito
+Arcade-SpaceInvaders_MiSTer	Space Invaders (CV Version, smaller roms).mra	Space Invaders (CV Version, smaller roms)	sicv1		0226	spaceinvaders	1979	Taito
+Arcade-SpaceInvaders_MiSTer	Space Invaders (Electromar, Spanish).mra	Space Invaders (Electromar, Spanish)	invadersem		0226	spaceinvaders	19??	Electromar
+Arcade-SpaceInvaders_MiSTer	Space Invaders (Logitec).mra	Space Invaders (Logitec)	invaderl		0226	spaceinvaders	1978	Taito / Logitec
+Arcade-SpaceInvaders_MiSTer	Space Invaders (Model Racing).mra	Space Invaders (Model Racing)	invadrmr		0226	spaceinvaders	1978	Taito / Model Racing
+Arcade-SpaceInvaders_MiSTer	Space Invaders (Nas Corp bootleg).mra	Space Invaders (Nas Corp bootleg)	invadernc		0226	spaceinvaders	1978	bootleg (Nas Corp)
+Arcade-SpaceInvaders_MiSTer	Space Invaders (SV Version rev 2).mra	Space Invaders (SV Version rev 2)	sisv2		0226	spaceinvaders	1978	Taito
+Arcade-SpaceInvaders_MiSTer	Space Invaders (SV Version rev 3).mra	Space Invaders (SV Version rev 3)	sisv3		0226	spaceinvaders	1978	Taito
+Arcade-SpaceInvaders_MiSTer	Space Invaders (SV Version rev 4).mra	Space Invaders (SV Version rev 4)	sisv		0226	spaceinvaders	1978	Taito
+Arcade-SpaceInvaders_MiSTer	Space Invaders (TV Version rev 1).mra	Space Invaders (TV Version rev 1)	sitv1		0226	spaceinvaders	1978	Taito
+Arcade-SpaceInvaders_MiSTer	Space Invaders (TV Version rev 2).mra	Space Invaders (TV Version rev 2)	sitv		0226	spaceinvaders	1978	Taito
+Arcade-SpaceInvaders_MiSTer	Space Invaders Part Four.mra	Space Invaders Part Four	invader4		0226	spaceinvaders	1978	bootleg
+Arcade-SpaceInvaders_MiSTer	Space Invaders Part II (Taito, Bigger ROMs).mra	Space Invaders Part II	invadpt2	invaders	0226	spaceinvaders	1979	Taito
+Arcade-SpaceInvaders_MiSTer	Space Invaders Part II (Brazil).mra	Space Invaders Part II (Brazil)	invadpt2br		0226	spaceinvaders	1979	Taito do Brasil
+Arcade-SpaceInvaders_MiSTer	Space Invaders Test ROM.mra	Space Invaders Test ROM	tst_invd		0226	spaceinvaders	19??	unknown
+Arcade-SpaceInvaders_MiSTer	Space King.mra	Space King	spceking		0226	spaceinvaders	1978	Taito / Leijac Corporation
+Arcade-SpaceInvaders_MiSTer	Space Missile - Space Fighting Game.mra	Space Missile - Space Fighting Game	spacmiss		0226	spaceinvaders	1980?	bootleg?
+Arcade-SpaceInvaders_MiSTer	Space Phantoms (bootleg of Ozma Wars).mra	Space Phantoms (bootleg of Ozma Wars)	spaceph		0226	spaceinvaders	1979	bootleg? (Zilec Games)
+Arcade-SpaceInvaders_MiSTer	Space Ranger.mra	Space Ranger	spacerng		0226	spaceinvaders	1978	bootleg (Leisure Time Electronics)
+Arcade-SpaceInvaders_MiSTer	Space Walk.mra	Space Walk	spacwalk		0226	spaceinvaders	1978	Midway
+Arcade-SpaceInvaders_MiSTer	Space War Part 3.mra	Space War Part 3	spacewr3		0226	spaceinvaders	1978	bootleg
+Arcade-SpaceInvaders_MiSTer	Space Wipeout.mra	Space Wipeout	swipeout		0226	spaceinvaders	1978	bootleg (Beyer and Brown)
+Arcade-SpaceInvaders_MiSTer	Steel Worker.mra	Steel Worker	steelwkr		0226	spaceinvaders	1980	Taito
+Arcade-SpaceInvaders_MiSTer	Super Earth Invasion (set 1).mra	Super Earth Invasion (set 1)	searthin		0226	spaceinvaders	1980	bootleg (Competitive Video)
+Arcade-SpaceInvaders_MiSTer	Super Earth Invasion (set 3).mra	Super Earth Invasion (set 3)	searthie		0226	spaceinvaders	1980	bootleg (Electrocoin)
+Arcade-SpaceInvaders_MiSTer	Super Invaders (bootleg set 2).mra	Super Invaders (bootleg set 2)	sinvemag		0226	spaceinvaders	1978	bootleg (Emag)
+Arcade-SpaceInvaders_MiSTer	Tornado Baseball - Ball Park.mra	Tornado Baseball - Ball Park	tornbase		0226	spaceinvaders	1976	Dave Nutting Associates / Midway / Taito
+Arcade-SpaceInvaders_MiSTer	UFO Robot Attack (bootleg of Invasion, newer set).mra	UFO Robot Attack (bootleg of Invasion, newer set)	invasiona		0226	spaceinvaders	1979	bootleg
+Arcade-SpaceInvaders_MiSTer	Ultra Invaders.mra	Ultra Invaders	ultrainv		0226	spaceinvaders	1980	Taito / Konami
+Arcade-SpaceInvaders_MiSTer	Vortex.mra	Vortex	vortex	vortex	0226	spaceinvaders	1980	Zilec Electronics
+Arcade-SpaceInvaders_MiSTer	Yosaku To Donbei.mra	Yosaku To Donbei (set 1)	yosakdon		0226	spaceinvaders	1979	Wing
+Arcade-SpaceInvaders_MiSTer	Yosaku To Donbei (set 2).mra	Yosaku To Donbei (set 2)	yosakdona		0226	spaceinvaders	1979	Wing
+Arcade-SpaceRace_MiSTer	Space Race [TTL].mra	Space Race [TTL]	spacerace	spacerace		spacerace	1973	Atari
+Arcade-Sprint1_MiSTer	Sprint 1.mra	Sprint 1	sprint1	sprint2	0216	sprint1	1978	Atari
+Arcade-Sprint2_MiSTer	Sprint 2.mra	Sprint 2	sprint2	sprint3	0220	sprint2	1976	Atari
+Arcade-StarForce_MiSTer	Baluba-louk no Densetsu (Japan).mra	Baluba-louk no Densetsu (Japan)	baluba	baluba	0220	starforce	1984	Able Corp
+Arcade-StarForce_MiSTer	Star Force.mra	StarForce	starforc	starforc	0220	starforce	1984	TEHKAN
+Arcade-StarWars_MiSTer	Empire Strikes Back.mra	Empire Strikes Back	esb	starwars	0228	StarWars	1985	Atari
+Arcade-StarWars_MiSTer	Star Wars (Rev 2).mra	Star Wars (Rev 2)	starwars	starwars	0228	StarWars	1983	Atari
+Arcade-Subs_MiSTer	Subs.mra	Subs	subs	subs	0216	subs	1978	Atari
+Arcade-SuperBreakout_MiSTer	Super Breakout (Rev 04).mra	Super Breakout	sbrkout	sbrkout	0220	superbreakout	1978	Atari
+Arcade-SuprLoco_MiSTer	Super Locomotive.mra	Super Locomotive	suprloco		0266	SuprLoco	1982	Sega
+Arcade-TIAMC1_MiSTer	Billiard.mra	Billiard	bilyard	bilyard	0229	tiamc1	1988	Terminal
+Arcade-TIAMC1_MiSTer	Gorodki.mra	Gorodki	gorodki	gorodki	0229	tiamc1	1988	Terminal
+Arcade-TIAMC1_MiSTer	Konek Gorbunok.mra	Konek Gorbunok	konek	konek	0229	tiamc1	1988	Terminal
+Arcade-TIAMC1_MiSTer	Kot-Rybolov.mra	Kot-Rybolov	kot	kot	0229	tiamc1	1988	Terminal
+Arcade-TIAMC1_MiSTer	S.O.S..mra	S.O.S.	sosterm	sosterm	0229	tiamc1	1988	Terminal
+Arcade-TIAMC1_MiSTer	Snezhnaja Koroleva.mra	Snezhnaja Koroleva	koroleva	koroleva	0229	tiamc1	1988	Terminal
+Arcade-TNKIII_MiSTer	T.A.N.K_Japan.mra	T.A.N.K (Japan)	tnk3j		0193	TNKIII	1985	SNK
+Arcade-TNKIII_MiSTer	TNKIII.mra	T.N.K III (US)	tnk3		0193	TNKIII	1985	SNK
+Arcade-TaitoF2_MiSTer	Ah Eikou no Koshien (Japan).mra	Ah Eikou no Koshien (Japan)	koshien		277	TaitoF2	1990	Taito Corporation
+Arcade-TaitoF2_MiSTer	Cameltry (Japan, YM2610).mra	Cameltry (Japan, YM2610)	cameltryj	cameltry	277	TaitoF2	1989	Taito Corporation
+Arcade-TaitoF2_MiSTer	Cameltry (US, YM2610).mra	Cameltry (US, YM2610)	cameltryu	cameltry	277	TaitoF2	1989	Taito America Corporation
+Arcade-TaitoF2_MiSTer	Cameltry (World, YM2610).mra	Cameltry (World, YM2610)	cameltry		277	TaitoF2	1989	Taito America Corporation
+Arcade-TaitoF2_MiSTer	Crayon Shinchan Orato Asobo (Japan).mra	Crayon Shinchan Orato Asobo (Japan)	qcrayon2		277	TaitoF2	1993	Taito Corporation
+Arcade-TaitoF2_MiSTer	Dead Connection (Japan).mra	Dead Connection (Japan)	deadconxj	deadconx	277	TaitoF2	1992	Taito Corporation
+Arcade-TaitoF2_MiSTer	Dead Connection (World).mra	Dead Connection (World)	deadconx		277	TaitoF2	1992	Taito Corporation Japan
+Arcade-TaitoF2_MiSTer	Dino Rex (Japan).mra	Dino Rex (Japan)	dinorexj	dinorex	277	TaitoF2	1992	Taito Corporation
+Arcade-TaitoF2_MiSTer	Dino Rex (US).mra	Dino Rex (US)	dinorexu	dinorex	277	TaitoF2	1992	Taito America Corporation
+Arcade-TaitoF2_MiSTer	Dino Rex (World).mra	Dino Rex (World)	dinorex		277	TaitoF2	1992	Taito Corporation Japan
+Arcade-TaitoF2_MiSTer	Don Doko Don (Japan, rev 1).mra	Don Doko Don (Japan, rev 1)	dondokodj	dondokod	277	TaitoF2	1989	Taito Corporation
+Arcade-TaitoF2_MiSTer	Don Doko Don (US, rev 1).mra	Don Doko Don (US, rev 1)	dondokodu	dondokod	277	TaitoF2	1989	Taito America Corporation
+Arcade-TaitoF2_MiSTer	Don Doko Don (World, rev 1).mra	Don Doko Don (World, rev 1)	dondokod		277	TaitoF2	1989	Taito Corporation Japan
+Arcade-TaitoF2_MiSTer	Drift Out (Europe).mra	Drift Out (Europe)	driftout		277	TaitoF2	1991	Visco
+Arcade-TaitoF2_MiSTer	Drift Out (Europe, Cameltry conversion).mra	Drift Out (Europe, Cameltry conversion)	driftoutct	driftout	277	TaitoF2	1991	Visco
+Arcade-TaitoF2_MiSTer	Drift Out (Japan).mra	Drift Out (Japan)	driftoutj	driftout	277	TaitoF2	1991	Visco
+Arcade-TaitoF2_MiSTer	Euro Champ '92 (Japan).mra	Euro Champ '92 (Japan)	euroch92j	euroch92	277	TaitoF2	1992	Taito Corporation Japan
+Arcade-TaitoF2_MiSTer	Euro Champ '92 (World).mra	Euro Champ '92 (World)	euroch92		277	TaitoF2	1992	Taito Corporation Japan
+Arcade-TaitoF2_MiSTer	Final Blow (Japan).mra	Final Blow (Japan)	finalbj	finalb	277	TaitoF2	1988	Taito Corporation
+Arcade-TaitoF2_MiSTer	Final Blow (US, rev 1).mra	Final Blow (US, rev 1)	finalbu	finalb	277	TaitoF2	1988	Taito America Corporation
+Arcade-TaitoF2_MiSTer	Final Blow (World).mra	Final Blow (World)	finalb		277	TaitoF2	1988	Taito Corporation Japan
+Arcade-TaitoF2_MiSTer	Football Champ - Euro Football Champ (World).mra	Football Champ / Euro Football Champ (World)	footchmp		277	TaitoF2	1990	Taito Corporation Japan
+Arcade-TaitoF2_MiSTer	Growl (US).mra	Growl (US)	growlu	growl	277	TaitoF2	1990	Taito America Corporation
+Arcade-TaitoF2_MiSTer	Growl (World).mra	Growl (World)	growla	growl	277	TaitoF2	1990	Taito Corporation Japan
+Arcade-TaitoF2_MiSTer	Growl (World, Rev 1).mra	Growl (World, Rev 1)	growl		277	TaitoF2	1990	Taito Corporation Japan
+Arcade-TaitoF2_MiSTer	Growl (World, prototype).mra	Growl (World, prototype)	growlp	growl	277	TaitoF2	1990	Taito Corporation Japan
+Arcade-TaitoF2_MiSTer	Gun & Frontier (World).mra	Gun &amp; Frontier (World)	gunfront		277	TaitoF2	1990	Taito Corporation Japan
+Arcade-TaitoF2_MiSTer	Gun Frontier (Japan).mra	Gun Frontier (Japan)	gunfrontj	gunfront	277	TaitoF2	1990	Taito Corporation
+Arcade-TaitoF2_MiSTer	Hat Trick Hero (Japan).mra	Hat Trick Hero (Japan)	htheroj	footchmp	277	TaitoF2	1990	Taito Corporation
+Arcade-TaitoF2_MiSTer	Hat Trick Hero (US).mra	Hat Trick Hero (US)	htherou	footchmp	277	TaitoF2	1990	Taito Corporation
+Arcade-TaitoF2_MiSTer	Liquid Kids (US).mra	Liquid Kids (US)	liquidku	liquidk	277	TaitoF2	1990	Taito America Corporation
+Arcade-TaitoF2_MiSTer	Liquid Kids (World).mra	Liquid Kids (World)	liquidk		277	TaitoF2	1990	Taito Corporation Japan
+Arcade-TaitoF2_MiSTer	Majestic Twelve - The Space Invaders Part IV (Japan).mra	Majestic Twelve - The Space Invaders Part IV (Japan)	majest12j	ssi	277	TaitoF2	1990	Taito Corporation
+Arcade-TaitoF2_MiSTer	Majestic Twelve - The Space Invaders Part IV (US, earlier code base).mra	Majestic Twelve - The Space Invaders Part IV (US, earlier code base)	majest12ub	ssi	277	TaitoF2	1990	Taito America Corporation
+Arcade-TaitoF2_MiSTer	Majestic Twelve - The Space Invaders Part IV (US, revised code).mra	Majestic Twelve - The Space Invaders Part IV (US, revised code)	majest12ua	ssi	277	TaitoF2	1990	Taito America Corporation
+Arcade-TaitoF2_MiSTer	Majestic Twelve - The Space Invaders Part IV (US, revised code, Rev 1).mra	Majestic Twelve - The Space Invaders Part IV (US, revised code, Rev 1)	majest12u	ssi	277	TaitoF2	1990	Taito America Corporation
+Arcade-TaitoF2_MiSTer	Mega Blast (Japan).mra	Mega Blast (Japan)	megablstj	megablst	277	TaitoF2	1989	Taito Corporation
+Arcade-TaitoF2_MiSTer	Mega Blast (US).mra	Mega Blast (US)	megablstu	megablst	277	TaitoF2	1989	Taito America Corporation
+Arcade-TaitoF2_MiSTer	Mega Blast (World).mra	Mega Blast (World)	megablst		277	TaitoF2	1989	Taito Corporation Japan
+Arcade-TaitoF2_MiSTer	Metal Black (Japan).mra	Metal Black (Japan)	metalbj	metalb	277	TaitoF2	1991	Taito Corporation
+Arcade-TaitoF2_MiSTer	Metal Black (World).mra	Metal Black (World)	metalb		277	TaitoF2	1991	Taito Corporation Japan
+Arcade-TaitoF2_MiSTer	Metal Black (World, single PCB).mra	Metal Black (World, single PCB)	metalba	metalb	277	TaitoF2	1991	Taito Corporation Japan
+Arcade-TaitoF2_MiSTer	Mizubaku Daibouken (Japan).mra	Mizubaku Daibouken (Japan)	mizubaku	liquidk	277	TaitoF2	1990	Taito Corporation
+Arcade-TaitoF2_MiSTer	PuLiRuLa (Japan).mra	PuLiRuLa (Japan)	pulirulaj	pulirula	277	TaitoF2	1991	Taito Corporation
+Arcade-TaitoF2_MiSTer	PuLiRuLa (World, dual PCB).mra	PuLiRuLa (World, dual PCB)	pulirula		277	TaitoF2	1991	Taito Corporation Japan
+Arcade-TaitoF2_MiSTer	PuLiRuLa (World, single PCB).mra	PuLiRuLa (World, single PCB)	pulirulaa	pulirula	277	TaitoF2	1991	Taito Corporation
+Arcade-TaitoF2_MiSTer	Quiz Chikyu Bouei Gun (Japan).mra	Quiz Chikyu Bouei Gun (Japan)	qzchikyu		277	TaitoF2	1991	Taito Corporation
+Arcade-TaitoF2_MiSTer	Quiz Crayon Shinchan (Japan).mra	Quiz Crayon Shinchan (Japan)	qcrayon		277	TaitoF2	1993	Taito Corporation
+Arcade-TaitoF2_MiSTer	Quiz H.Q. (Japan).mra	Quiz H.Q. (Japan)	quizhq		277	TaitoF2	1990	Taito Corporation
+Arcade-TaitoF2_MiSTer	Quiz Jinsei Gekijoh (Japan).mra	Quiz Jinsei Gekijoh (Japan)	qjinsei		277	TaitoF2	1992	Taito Corporation
+Arcade-TaitoF2_MiSTer	Quiz Quest - Hime to Yuusha no Monogatari (Japan).mra	Quiz Quest - Hime to Yuusha no Monogatari (Japan)	qzquest		277	TaitoF2	1991	Taito Corporation
+Arcade-TaitoF2_MiSTer	Quiz Torimonochou (Japan).mra	Quiz Torimonochou (Japan)	qtorimon		277	TaitoF2	1990	Taito Corporation
+Arcade-TaitoF2_MiSTer	Runark (Japan).mra	Runark (Japan)	runark	growl	277	TaitoF2	1990	Taito Corporation
+Arcade-TaitoF2_MiSTer	Solitary Fighter (World).mra	Solitary Fighter (World)	solfigtr		277	TaitoF2	1991	Taito Corporation Japan
+Arcade-TaitoF2_MiSTer	Super Space Invaders '91 (World, earlier code base).mra	Super Space Invaders '91 (World, earlier code base)	ssib	ssi	277	TaitoF2	1990	Taito Corporation Japan
+Arcade-TaitoF2_MiSTer	Super Space Invaders '91 (World, revised code).mra	Super Space Invaders '91 (World, revised code)	ssia	ssi	277	TaitoF2	1990	Taito Corporation Japan
+Arcade-TaitoF2_MiSTer	Super Space Invaders '91 (World, revised code, Rev 1).mra	Super Space Invaders '91 (World, revised code, Rev 1)	ssi		277	TaitoF2	1990	Taito Corporation Japan
+Arcade-TaitoF2_MiSTer	The Ninja Kids (Japan).mra	The Ninja Kids (Japan)	ninjakj	ninjak	277	TaitoF2	1990	Taito Corporation
+Arcade-TaitoF2_MiSTer	The Ninja Kids (US).mra	The Ninja Kids (US)	ninjaku	ninjak	277	TaitoF2	1990	Taito America Corporation
+Arcade-TaitoF2_MiSTer	The Ninja Kids (World).mra	The Ninja Kids (World)	ninjak		277	TaitoF2	1990	Taito Corporation Japan
+Arcade-TaitoF2_MiSTer	Thunder Fox (Japan, rev 1).mra	Thunder Fox (Japan, rev 1)	thundfoxj	thundfox	277	TaitoF2	1990	Taito Corporation
+Arcade-TaitoF2_MiSTer	Thunder Fox (US, rev 1).mra	Thunder Fox (US, rev 1)	thundfoxu	thundfox	277	TaitoF2	1990	Taito America Corporation
+Arcade-TaitoF2_MiSTer	Thunder Fox (World, rev 1).mra	Thunder Fox (World, rev 1)	thundfox		277	TaitoF2	1990	Taito Corporation Japan
+Arcade-TaitoSystemSJ_MiSTer	Adventure Canoe.mra		adcanoe	adcanoe	0245	TaitoSJ	1982	Taito Corporation
+Arcade-TaitoSystemSJ_MiSTer	Alpine Ski.mra		alpine	alpine	0245	TaitoSJ	1982	Taito Corporation
+Arcade-TaitoSystemSJ_MiSTer	Alpine_Ski_set_2.mra		alpinea	alpine	0245	TaitoSJ	1982	Taito Corporation
+Arcade-TaitoSystemSJ_MiSTer	Bio Attack.mra		bioatack	bioatack	0245	TaitoSJ	1983	Taito Corporation
+Arcade-TaitoSystemSJ_MiSTer	Elevator Action.mra		elevator	elevator	0245	TaitoSJ	1983	Taito Corporation
+Arcade-TaitoSystemSJ_MiSTer	Elevator_Action_EA_5_PCB_version_11.mra		elevatora	elevator	0245	TaitoSJ	1983	Taito Corporation
+Arcade-TaitoSystemSJ_MiSTer	Elevator_Action_bootleg.mra		elevatorb	elevator	0245	TaitoSJ	1983	bootleg
+Arcade-TaitoSystemSJ_MiSTer	Front Line.mra		frontlin	frontlin	0245	TaitoSJ	1982	Taito Corporation
+Arcade-TaitoSystemSJ_MiSTer	Front_Line_FL_5_PCB_version.mra		frontlina	frontlin	0245	TaitoSJ	1982	Taito Corporation
+Arcade-TaitoSystemSJ_MiSTer	High Way Race.mra		hwrace	hwrace	0245	TaitoSJ	1983	Taito Corporation
+Arcade-TaitoSystemSJ_MiSTer	Jungle King (Japan).mra		junglek	junglek	0245	TaitoSJ	1982	Taito Corporation
+Arcade-TaitoSystemSJ_MiSTer	Jungle_Boy_bootleg.mra		jungleby	junglek	0245	TaitoSJ	1982	bootleg
+Arcade-TaitoSystemSJ_MiSTer	Jungle_Hunt_Brazil.mra		junglehbr	junglek	0245	TaitoSJ	1983	Taito do Brasil
+Arcade-TaitoSystemSJ_MiSTer	Jungle_King_Japan_earlier.mra		junglekj2	junglek	0245	TaitoSJ	1982	Taito Corporation
+Arcade-TaitoSystemSJ_MiSTer	Jungle_King_Japan_earlier_alt.mra		junglekj2a	junglek	0245	TaitoSJ	1982	Taito Corporation
+Arcade-TaitoSystemSJ_MiSTer	Jungle_King_alternate_sound.mra		junglekas	junglek	0245	TaitoSJ	1982	Taito Corporation
+Arcade-TaitoSystemSJ_MiSTer	Kick_Start_Wheelie_King.mra		kikstart	kikstart	0245	TaitoSJ	1984	Taito Corporation
+Arcade-TaitoSystemSJ_MiSTer	Sea Fighter Poseidon.mra		sfposeid	sfposeid	0245	TaitoSJ	1984	Taito Corporation
+Arcade-TaitoSystemSJ_MiSTer	Space Cruiser.mra		spacecr	spacecr	0245	TaitoSJ	1981	Taito Corporation
+Arcade-TaitoSystemSJ_MiSTer	Space Seeker.mra		spaceskr	spaceskr	0245	TaitoSJ	1981	Taito Corporation
+Arcade-TaitoSystemSJ_MiSTer	The Tin Star.mra		tinstar	tinstar	0245	TaitoSJ	1983	Taito Corporation
+Arcade-TaitoSystemSJ_MiSTer	The_Tin_Star_TS_5_PCB_version.mra		tinstara	tinstar	0245	TaitoSJ	1983	Taito Corporation
+Arcade-TaitoSystemSJ_MiSTer	Time Tunnel.mra		timetunl	timetunl	0245	TaitoSJ	1982	Taito Corporation
+Arcade-TaitoSystemSJ_MiSTer	Water Ski.mra		waterski	waterski	0245	TaitoSJ	1983	Taito Corporation
+Arcade-TaitoSystemSJ_MiSTer	Wild Western.mra		wwestern	wwestern	0245	TaitoSJ	1982	Taito Corporation
+Arcade-TaitoSystemSJ_MiSTer	Wild_Western_set_2.mra		wwestern1	wwestern	0245	TaitoSJ	1982	Taito Corporation
+Arcade-TankBattalion_MiSTer	TankBattalion.mra	Tank Battalion	tankbatt		0245	TankBattalion	1980	Namco
+Arcade-Tecmo_MiSTer	Back Fire (Tecmo).mra	Back Fire (Tecmo)	backfirt	backfirt	0286	Tecmo	1988	Tecmo
+Arcade-Tecmo_MiSTer	Gemini Wing.mra	Gemini Wing	gemini	gemini	0220	Tecmo	1987	Tecmo
+Arcade-Tecmo_MiSTer	Rygar.mra	Rygar	rygar	rygar	0220	tecmo	1986	Tecmo
+Arcade-Tecmo_MiSTer	Silkworm.mra	Silkworm	silkworm	silkworm	0220	Tecmo	1988	Tecmo
+Arcade-Tempest_MiSTer	Tempest.mra	Tempest	tempest	tempest	0287	Tempest	1981	Atari
+Arcade-TimePilot84_MISTer	Time Pilot '84 (Set 1).mra	Time Pilot '84	tp84	tp84	0224	TimePilot84	1984	Konami
+Arcade-TimePilot_MiSTer	Time Pilot.mra	Time Pilot	timeplt	timeplt	0220	timepilot	1982	Konami
+Arcade-TraverseUSA_MiSTer	Shot Rider (B-Board 89624B-1).mra	Shot Rider	shtrider	shtrider	0216	traverseusa	1983	Capcom
+Arcade-TraverseUSA_MiSTer	Traverse USA- Zippy Race (US).mra	Traverse USA- Zippy Race	travrusa	travrusa	0220	traverseusa	1983	Irem
+Arcade-TrioThePunch_MiSTer	Trio The Punch (Japan).mra	Trio The Punch - Never Forget Me... (Japan)	triothepj		0264	TrioThePunch	1989	Data East Corporation
+Arcade-TrioThePunch_MiSTer	Trio The Punch (World).mra	Trio The Punch - Never Forget Me... (World)	triothep		0264	TrioThePunch	1989	Data East Corporation
+Arcade-TropicalAngel_MiSTer	New Tropical Angel.mra	New Tropical Angel	newtangl	troangel	0222	TropicalAngel	1983	Irem
+Arcade-TropicalAngel_MiSTer	Tropical Angel.mra	Tropical Angel	troangel	troangel	0222	TropicalAngel	1983	Irem
+Arcade-TurkeyShoot_MiSTer	Turkey Shoot - The Day They Took Over.mra	Turkey Shoot - The Day They Took Over	tshoot	tshoot	0220	TurkeyShoot	1984	Williams
+Arcade-Tutankham_MiSTer	Tutankham.mra	Tutankham	tutankhm	tutankhm	0220	Tutankham	1982	Konami
+Arcade-Tutankham_MiSTer	Tutankham (Bootleg).mra	Tutankham (Bootleg)	tutankhmb	tutankhm	0220	Tutankham	1982	Bootleg
+Arcade-Tutankham_MiSTer	Tutankham (Stern).mra	Tutankham (Stern)	tutankhms	tutankhm	0220	Tutankham	1982	Stern
+Arcade-Tutankham_MiSTer	Tutankham II.mra	Tutankham II	tutankhm2	tutankhm	0220	Tutankham	2026	Rodimus
+Arcade-Ultratank_MiSTer	Ultra Tank.mra	Ultra Tank	ultratnk	ultratnk	0217	ultratank	1978	Atari
+Arcade-VBall_MiSTer	V'Ball (US).mra	U.S. Championship V'ball	vball	vball	0229	vball	1988	Technos Japan
+Arcade-Vastar_MiSTer	Planet Probe.mra		pprobe	vastar	0220	Vastar	1985	Crux/Kyugo?
+Arcade-Vastar_MiSTer	Vastar (Set 2).mra		vastar2	vastar	0220	Vastar	1983	Orca (Sesame Japan license)
+Arcade-Vastar_MiSTer	Vastar (Set 3).mra		vastar3	vastar	0220	Vastar	1983	Orca (Sesame Japan license)
+Arcade-Vastar_MiSTer	Vastar (Set 4).mra		vastar4	vastar	0220	Vastar	1983	Orca (Sesame Japan license)
+Arcade-Vastar_MiSTer	Vastar.mra		vastar	vastar	0220	Vastar	1983	Orca (Sesame Japan license)
+Arcade-XSleena_MiSTer	Xain'd Sleena (bootleg, bugfixed).mra	Xaind Sleena (Bootleg BA)	xsleenaba		0193	XSleena	1987	Technos
+Arcade-Xevious_MiSTer	Super Xevious.mra	Super Xevious	sxevious	xevious	0229	xevious	1982	Namco
+Arcade-Xevious_MiSTer	Xevious.mra	Xevious	xevious	xevious	0229	xevious	1982	Namco
+Arcade-Zaxxon_MiSTer	Future Spy (315-5061).mra	Future Spy	futspy	zaxxon	0193	zaxxon	1982	Sega
+Arcade-Zaxxon_MiSTer	Super Zaxxon (315-5013).mra	Super Zaxxon	szaxxon	szaxxon	0193	zaxxon	1982	Sega
+Arcade-Zaxxon_MiSTer	Zaxxon (Set 1, Rev D).mra	Zaxxon	zaxxon	zaxxon	0193	zaxxon	1982	Sega
+Arcade-ZigZag_MiSTer	Zig Zag (Dig Dug Conversion) [bl].mra	Zig Zag	zigzagb	digdug	0220	zigzag	1982	Bootleg
+Arcade_SkySmasher_MiSTer	Sky Smasher.mra	Sky Smasher	skysmash		0264	SkySmasher	1990	Nihon System

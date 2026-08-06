@@ -1,0 +1,169 @@
+repo	set_count	rbf_values	top_manufacturer	year_range	url
+Arcade-ATetris_MiSTer	1	ataritetris	Atari	1988-1988	https://github.com/MiSTer-devel/Arcade-ATetris_MiSTer
+Arcade-ActFancer_MiSTer	4	ActFancer	Data East Corporation	1989-1989	https://github.com/MiSTer-devel/Arcade-ActFancer_MiSTer
+Arcade-Arkanoid_MISTer	1	arkanoid	Taito	1986-1986	https://github.com/MiSTer-devel/Arcade-Arkanoid_MISTer
+Arcade-AsteroidsDeluxe_MiSTer	1	asteroidsdeluxe	Atari	1980-1980	https://github.com/MiSTer-devel/Arcade-AsteroidsDeluxe_MiSTer
+Arcade-Asteroids_MiSTer	4	Asteroids	Atari	1979-1980	https://github.com/MiSTer-devel/Arcade-Asteroids_MiSTer
+Arcade-Asteroids_old_MiSTer	1	asteroids	Atari	1979-1979	https://github.com/MiSTer-devel/Arcade-Asteroids_old_MiSTer
+Arcade-Astrocade_MiSTer	6	astrocade	Dave Nutting Associates	1978-1981	https://github.com/MiSTer-devel/Arcade-Astrocade_MiSTer
+Arcade-Atari-system1_MiSTer	26	atarisys1	Atari Games	1984-1987	https://github.com/MiSTer-devel/Arcade-Atari-system1_MiSTer
+Arcade-Athena_MiSTer	6	Athena	SNK	1986-1988	https://github.com/MiSTer-devel/Arcade-Athena_MiSTer
+Arcade-Bagman_MiSTer	5	bagman	Valadon Automation	1982-1984	https://github.com/MiSTer-devel/Arcade-Bagman_MiSTer
+Arcade-BankPanic_MiSTer	2	bankpanic	Sanritsu/Sega	1984-1987	https://github.com/MiSTer-devel/Arcade-BankPanic_MiSTer
+Arcade-BattleZone_MiSTer	3	BattleZone	Atari	1980-1980	https://github.com/MiSTer-devel/Arcade-BattleZone_MiSTer
+Arcade-Berzerk_MiSTer	1	berzerk	Stern	1980-1980	https://github.com/MiSTer-devel/Arcade-Berzerk_MiSTer
+Arcade-BlackWidow_MiSTer	3	blackwidow	Atari	1982-1982	https://github.com/MiSTer-devel/Arcade-BlackWidow_MiSTer
+Arcade-Blockade_MiSTer	4	blockade	Gremlin	1976-1978	https://github.com/MiSTer-devel/Arcade-Blockade_MiSTer
+Arcade-BloodBros_MiSTer	5	BloodBros	TAD Corporation	1990-1990	https://github.com/MiSTer-devel/Arcade-BloodBros_MiSTer
+Arcade-BluePrint_MiSTer	4	BluePrint	Zilec Electronics / Bally Midway	1982-1983	https://github.com/MiSTer-devel/Arcade-BluePrint_MiSTer
+Arcade-BombJack_MiSTer	1	bombjack	Tehkan	1984-1984	https://github.com/MiSTer-devel/Arcade-BombJack_MiSTer
+Arcade-BoogieWings_MiSTer	5	BoogieWings	Data East Corporation	1992-1992	https://github.com/MiSTer-devel/Arcade-BoogieWings_MiSTer
+Arcade-Bosconian_MiSTer	1	bosconian	Namco	1981-1981	https://github.com/MiSTer-devel/Arcade-Bosconian_MiSTer
+Arcade-Breakout_MiSTer	1	breakout	Atari	1976-1976	https://github.com/MiSTer-devel/Arcade-Breakout_MiSTer
+Arcade-BubSysROM_MiSTer	3	BubSysROM	Konami	1985-1985	https://github.com/MiSTer-devel/Arcade-BubSysROM_MiSTer
+Arcade-BubSys_MiSTer	1	BubSys	Konami	1985-1985	https://github.com/MiSTer-devel/Arcade-BubSys_MiSTer
+Arcade-BurgerTime_MiSTer	1	burgertime	Data East	1982-1982	https://github.com/MiSTer-devel/Arcade-BurgerTime_MiSTer
+Arcade-BurningRubber_MiSTer	1	burningrubber	Data East	1982-1982	https://github.com/MiSTer-devel/Arcade-BurningRubber_MiSTer
+Arcade-CanyonBomber_MiSTer	1	canyonbomber	Atari	1977-1977	https://github.com/MiSTer-devel/Arcade-CanyonBomber_MiSTer
+Arcade-CaveBanpresto_MiSTer	18	CaveBanpresto	Gazelle (Banpresto license)	1994-1996	https://github.com/MiSTer-devel/Arcade-CaveBanpresto_MiSTer
+Arcade-Cave_MiSTer	27	Cave,cave	CAVE	1994-2012	https://github.com/MiSTer-devel/Arcade-Cave_MiSTer
+Arcade-Centipede_MiSTer	1	centipede	Atari	1980-1980	https://github.com/MiSTer-devel/Arcade-Centipede_MiSTer
+Arcade-Chameleon_MiSTer	1	Chameleon	Jaleco	1983-1983	https://github.com/MiSTer-devel/Arcade-Chameleon_MiSTer
+Arcade-ChinaGate_MiSTer	2	ChinaGate	Technos Japan (Taito / Romstar license)	1988-1988	https://github.com/MiSTer-devel/Arcade-ChinaGate_MiSTer
+Arcade-CityConnection_MiSTer	3	CityConnection	Jaleco	1985-1985	https://github.com/MiSTer-devel/Arcade-CityConnection_MiSTer
+Arcade-ComputerSpace_MiSTer	1	computerspace	Syzygy Engineering	1971-1971	https://github.com/MiSTer-devel/Arcade-ComputerSpace_MiSTer
+Arcade-CongoBongo_MiSTer	2	CongoBongo	Sega/Gremlin	1983-1983	https://github.com/MiSTer-devel/Arcade-CongoBongo_MiSTer
+Arcade-CosmicGuerilla_MiSTer	1	CosmicGuerilla	Universal	1981-1981	https://github.com/MiSTer-devel/Arcade-CosmicGuerilla_MiSTer
+Arcade-Cosmic_MiSTer	5	cosmic	Universal	1981-1981	https://github.com/MiSTer-devel/Arcade-Cosmic_MiSTer
+Arcade-CrazyBalloon_MiSTer	1	crazyballoon	Taito	1980-1980	https://github.com/MiSTer-devel/Arcade-CrazyBalloon_MiSTer
+Arcade-CrazyClimber_MiSTer	1	crazyclimber	Nichibutsu	1980-1980	https://github.com/MiSTer-devel/Arcade-CrazyClimber_MiSTer
+Arcade-CrazyKong_MiSTer	2	crazykong	Falcon	1981-1981	https://github.com/MiSTer-devel/Arcade-CrazyKong_MiSTer
+Arcade-CrystalCastles_MiSTer	1	CrystalCastles	Atari	1983-1983	https://github.com/MiSTer-devel/Arcade-CrystalCastles_MiSTer
+Arcade-DECOCassette_MiSTer	55	DECOCassette	Data East	1980-2022	https://github.com/MiSTer-devel/Arcade-DECOCassette_MiSTer
+Arcade-Darius2NinjaWarriors_MiSTer	5	Darius2NinjaWarriors	Taito Corporation	1987-1989	https://github.com/MiSTer-devel/Arcade-Darius2NinjaWarriors_MiSTer
+Arcade-Darius2WarriorBlade_MiSTer	4	Darius2WarriorBlade	Taito Corporation	1989-1991	https://github.com/MiSTer-devel/Arcade-Darius2WarriorBlade_MiSTer
+Arcade-Darius_MiSTer	5	Darius	Taito Corporation	1986-1987	https://github.com/MiSTer-devel/Arcade-Darius_MiSTer
+Arcade-Dcon_MiSTer	1	DCon	Success	1992-1992	https://github.com/MiSTer-devel/Arcade-Dcon_MiSTer
+Arcade-Deco16_Mister	3	Deco16	Data East Corporation	1989-1991	https://github.com/MiSTer-devel/Arcade-Deco16_Mister
+Arcade-Defender_MiSTer	4	defender	Taito	1980-1982	https://github.com/MiSTer-devel/Arcade-Defender_MiSTer
+Arcade-DigDug_MiSTer	1	digdug	Namco	1982-1982	https://github.com/MiSTer-devel/Arcade-DigDug_MiSTer
+Arcade-Dominos_MiSTer	1	dominos	Atari	1977-1977	https://github.com/MiSTer-devel/Arcade-Dominos_MiSTer
+Arcade-DonkeyKong3_MiSTer	1	donkeykong3	Nintendo	1983-1983	https://github.com/MiSTer-devel/Arcade-DonkeyKong3_MiSTer
+Arcade-DonkeyKongJunior_MiSTer	1	donkeykongjunior	Nintendo	1982-1982	https://github.com/MiSTer-devel/Arcade-DonkeyKongJunior_MiSTer
+Arcade-DonkeyKong_MiSTer	3	DonkeyKong,donkeykong	Nintendo	1980-1982	https://github.com/MiSTer-devel/Arcade-DonkeyKong_MiSTer
+Arcade-DottoriKun_MiSTer	1	DottoriKun	Sega	1990-1990	https://github.com/MiSTer-devel/Arcade-DottoriKun_MiSTer
+Arcade-Druaga_MiSTer	7	druaga	Namco	1982-1985	https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer
+Arcade-Exerion_MiSTer	1	exerion	Jaleco	1983-1983	https://github.com/MiSTer-devel/Arcade-Exerion_MiSTer
+Arcade-Exidy2_MiSTer	6	Exidy2	Exidy	1980-1981	https://github.com/MiSTer-devel/Arcade-Exidy2_MiSTer
+Arcade-ExpressRaider_MiSTer	2	expressraider	Data East USA	1986-1986	https://github.com/MiSTer-devel/Arcade-ExpressRaider_MiSTer
+Arcade-Finalizer_MiSTer	1	Finalizer	Konami	1985-1985	https://github.com/MiSTer-devel/Arcade-Finalizer_MiSTer
+Arcade-FoodFight_MiSTer	1	foodfight	General Computer Corporation	1982-1982	https://github.com/MiSTer-devel/Arcade-FoodFight_MiSTer
+Arcade-Freeze_MiSTer	5	freeze	Cinematronics	1982-1984	https://github.com/MiSTer-devel/Arcade-Freeze_MiSTer
+Arcade-Frenzy_MiSTer	1	frenzy	Stern	1981-1981	https://github.com/MiSTer-devel/Arcade-Frenzy_MiSTer
+Arcade-Galaga_MiSTer	1	galaga	Namco	1981-1981	https://github.com/MiSTer-devel/Arcade-Galaga_MiSTer
+Arcade-Galaxian_MiSTer	18	galaxian	Namco	1979-2004	https://github.com/MiSTer-devel/Arcade-Galaxian_MiSTer
+Arcade-Galivan_MiSTer	2	galivan	Nichibutsu	1985-1985	https://github.com/MiSTer-devel/Arcade-Galivan_MiSTer
+Arcade-Gaplus_MiSTer	1	gaplus	Namco	1984-1984	https://github.com/MiSTer-devel/Arcade-Gaplus_MiSTer
+Arcade-Gauntlet_MiSTer	28	gauntlet	Atari	1985-1985	https://github.com/MiSTer-devel/Arcade-Gauntlet_MiSTer
+Arcade-GnG_MiSTer	2	gng	Capcom	1985-1985	https://github.com/MiSTer-devel/Arcade-GnG_MiSTer
+Arcade-GulfWarII_MiSTer	2	GulfWarII	Comad	1991-1991	https://github.com/MiSTer-devel/Arcade-GulfWarII_MiSTer
+Arcade-GundamSD_MiSTer	1	SDGundamPS	Banpresto / Bandai	1991-1991	https://github.com/MiSTer-devel/Arcade-GundamSD_MiSTer
+Arcade-Gyruss_MiSTer	1	Gyruss	Konami	1983-1983	https://github.com/MiSTer-devel/Arcade-Gyruss_MiSTer
+Arcade-HeatedBarrel_MiSTer	6	HeatedBarrel	TAD Corporation	1992-1992	https://github.com/MiSTer-devel/Arcade-HeatedBarrel_MiSTer
+Arcade-IGSPGM_MiSTer	105	IGSPGM			https://github.com/MiSTer-devel/Arcade-IGSPGM_MiSTer
+Arcade-IkariWarriors_MiSTer	4	IkariWarriors	SNK	1986-1986	https://github.com/MiSTer-devel/Arcade-IkariWarriors_MiSTer
+Arcade-Inferno_MiSTer	1	inferno	Williams	1984-1984	https://github.com/MiSTer-devel/Arcade-Inferno_MiSTer
+Arcade-IremM107_MiSTer	4	IremM107	Irem	1993-1994	https://github.com/MiSTer-devel/Arcade-IremM107_MiSTer
+Arcade-IremM62_MiSTer	12	iremm62	Irem	1984-1986	https://github.com/MiSTer-devel/Arcade-IremM62_MiSTer
+Arcade-IremM72_MiSTer	63	IremM72,irem_m72,m72	Irem	1987-1991	https://github.com/MiSTer-devel/Arcade-IremM72_MiSTer
+Arcade-IremM90_MiSTer	9	IremM90	Irem	1991-1993	https://github.com/MiSTer-devel/Arcade-IremM90_MiSTer
+Arcade-IremM92_MiSTer	29	IremM92	Irem	1991-1994	https://github.com/MiSTer-devel/Arcade-IremM92_MiSTer
+Arcade-IronHorse_MiSTer	1	IronHorse	Konami	1986-1986	https://github.com/MiSTer-devel/Arcade-IronHorse_MiSTer
+Arcade-Jackal_MiSTer	1	Jackal	Konami	1986-1986	https://github.com/MiSTer-devel/Arcade-Jackal_MiSTer
+Arcade-Jailbreak_MiSTer	1	Jailbreak	Konami	1986-1986	https://github.com/MiSTer-devel/Arcade-Jailbreak_MiSTer
+Arcade-Joust2_MiSTer	2	joust2	Williams	1986-1986	https://github.com/MiSTer-devel/Arcade-Joust2_MiSTer
+Arcade-JunoFirst_MiSTer	2	JunoFirst	Konami (Gottlieb license)	1983-1983	https://github.com/MiSTer-devel/Arcade-JunoFirst_MiSTer
+Arcade-Kangaroo_MiSTer	4	Kangaroo	Sun Electronics	1981-1982	https://github.com/MiSTer-devel/Arcade-Kangaroo_MiSTer
+Arcade-KickAndRun_MiSTer	1	KickAndRun	Taito	1986-1986	https://github.com/MiSTer-devel/Arcade-KickAndRun_MiSTer
+Arcade-Kyugo_MiSTer	8	Kyugo	Sega	1984-1987	https://github.com/MiSTer-devel/Arcade-Kyugo_MiSTer
+Arcade-LadyBug_MiSTer	4	ladybug	Universal	1981-1982	https://github.com/MiSTer-devel/Arcade-LadyBug_MiSTer
+Arcade-Legionnaire_MiSTer	3	Legionnaire	Tad Corporation	1992-1992	https://github.com/MiSTer-devel/Arcade-Legionnaire_MiSTer
+Arcade-LunarLander_MiSTer	1	lunarlander	Atari	1979-1979	https://github.com/MiSTer-devel/Arcade-LunarLander_MiSTer
+Arcade-MCR1_MiSTer	2	mcr1	Midway	1980-1980	https://github.com/MiSTer-devel/Arcade-MCR1_MiSTer
+Arcade-MCR2_MiSTer	6	mcr2	Bally	1982-1984	https://github.com/MiSTer-devel/Arcade-MCR2_MiSTer
+Arcade-MCR3Mono_MiSTer	6	mcr3mono	Bally	1984-1987	https://github.com/MiSTer-devel/Arcade-MCR3Mono_MiSTer
+Arcade-MCR3Scroll_MiSTer	3	mcr3scroll	Bally	1983-1985	https://github.com/MiSTer-devel/Arcade-MCR3Scroll_MiSTer
+Arcade-MCR3_MiSTer	4	mcr3	Bally	1983-1984	https://github.com/MiSTer-devel/Arcade-MCR3_MiSTer
+Arcade-MajorHavoc_MiSTer	1	MajorHavoc	Atari	1983-1983	https://github.com/MiSTer-devel/Arcade-MajorHavoc_MiSTer
+Arcade-MarioBros_MiSTer	1	mariobros	Nintendo	1983-1983	https://github.com/MiSTer-devel/Arcade-MarioBros_MiSTer
+Arcade-MissileCommand_MiSTer	1	MissileCommand	Atari Games	1980-1980	https://github.com/MiSTer-devel/Arcade-MissileCommand_MiSTer
+Arcade-MoonPatrol_MiSTer	1	moonpatrol	Irem	1982-1982	https://github.com/MiSTer-devel/Arcade-MoonPatrol_MiSTer
+Arcade-MrDo_MiSTer	1	mrdo	Universal	1982-1982	https://github.com/MiSTer-devel/Arcade-MrDo_MiSTer
+Arcade-MrJong_MiSTer	1	mrjong	Kiwako	1983-1983	https://github.com/MiSTer-devel/Arcade-MrJong_MiSTer
+Arcade-MysticMarathon_MiSTer	2	MysticMarathon	Williams	1983-1983	https://github.com/MiSTer-devel/Arcade-MysticMarathon_MiSTer
+Arcade-NaughtyBoy_MiSTer	2	naughtyboy	Jaleco	1982-1982	https://github.com/MiSTer-devel/Arcade-NaughtyBoy_MiSTer
+Arcade-NightSlashers_MiSTer	4	NightSlashers	Data East Corporation	1993-1994	https://github.com/MiSTer-devel/Arcade-NightSlashers_MiSTer
+Arcade-NinjaKun_MiSTer	3	ninjakun	UPL	1984-1984	https://github.com/MiSTer-devel/Arcade-NinjaKun_MiSTer
+Arcade-Pacman_MiSTer	21	pacman	Techstar	1980-2013	https://github.com/MiSTer-devel/Arcade-Pacman_MiSTer
+Arcade-Pengo_MiSTer	1	pengo	Sega	1982-1982	https://github.com/MiSTer-devel/Arcade-Pengo_MiSTer
+Arcade-PenguinKunWars_MiSTer	1	PenguinKunWars	UPL	1985-1985	https://github.com/MiSTer-devel/Arcade-PenguinKunWars_MiSTer
+Arcade-Performan_MiSTer	2	Performan	Toaplan	1986-1986	https://github.com/MiSTer-devel/Arcade-Performan_MiSTer
+Arcade-Phoenix_MiSTer	2	phoenix	Amstar	1980-1981	https://github.com/MiSTer-devel/Arcade-Phoenix_MiSTer
+Arcade-Pleiads_MiSTer	1	phoenix	Tehkan	1981-1981	https://github.com/MiSTer-devel/Arcade-Pleiads_MiSTer
+Arcade-PolyPlay_MiSTer	2	polyplay	VEB Polytechnik	1985-1985	https://github.com/MiSTer-devel/Arcade-PolyPlay_MiSTer
+Arcade-Pong_MiSTer	1	pong	Atari	1972-1972	https://github.com/MiSTer-devel/Arcade-Pong_MiSTer
+Arcade-Pooyan_MiSTer	1	pooyan	Konami	1982-1982	https://github.com/MiSTer-devel/Arcade-Pooyan_MiSTer
+Arcade-Popeye_MiSTer	2	popeye	Nintendo	1981-1982	https://github.com/MiSTer-devel/Arcade-Popeye_MiSTer
+Arcade-Psychic5_MiSTer	1	Psychic5	Jaleco	1987-1987	https://github.com/MiSTer-devel/Arcade-Psychic5_MiSTer
+Arcade-QBert_MiSTer	9	qbert	Gottlieb	1982-1983	https://github.com/MiSTer-devel/Arcade-QBert_MiSTer
+Arcade-Qix_MiSTer	12	Qix	Taito America Corporation	1981-1983	https://github.com/MiSTer-devel/Arcade-Qix_MiSTer
+Arcade-Raiden_MiSTer	5	Raiden	Seibu Kaihatsu	1990-1990	https://github.com/MiSTer-devel/Arcade-Raiden_MiSTer
+Arcade-RallyX_MiSTer	2	rallyx	Namco	1980-1981	https://github.com/MiSTer-devel/Arcade-RallyX_MiSTer
+Arcade-RiverPatrol_MiSTer	1	riverpatrol	Orca	1981-1981	https://github.com/MiSTer-devel/Arcade-RiverPatrol_MiSTer
+Arcade-Robotron_MiSTer	8	robotron	Williams	1981-1985	https://github.com/MiSTer-devel/Arcade-Robotron_MiSTer
+Arcade-RushnAttack_MiSTer	2	rshnatk	Konami	1985-1986	https://github.com/MiSTer-devel/Arcade-RushnAttack_MiSTer
+Arcade-Rygar_MiSTer	1	rygar	Tecmo	1986-1986	https://github.com/MiSTer-devel/Arcade-Rygar_MiSTer
+Arcade-SEGASYS1_MiSTer	18	segasys1	Sega	1983-1987	https://github.com/MiSTer-devel/Arcade-SEGASYS1_MiSTer
+Arcade-SNK6502_MiSTer	6	SNK6502	SNK	1980-1982	https://github.com/MiSTer-devel/Arcade-SNK6502_MiSTer
+Arcade-SNK_TripleZ80_MiSTer	3	SNK_TripleZ80	SNK	1985-1985	https://github.com/MiSTer-devel/Arcade-SNK_TripleZ80_MiSTer
+Arcade-Salamander_MiSTer	6	Salamander	Konami	1986-1986	https://github.com/MiSTer-devel/Arcade-Salamander_MiSTer
+Arcade-ScooterShooter_MiSTer	1	ScooterShooter	Konami	1986-1986	https://github.com/MiSTer-devel/Arcade-ScooterShooter_MiSTer
+Arcade-Scramble_MiSTer	21	scramble	Stern	1980-1984	https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer
+Arcade-SegaVICZ80_MiSTer	27	SegaVICZ80	Sega Enterprises/Gremlin Industries	1980-1981	https://github.com/MiSTer-devel/Arcade-SegaVICZ80_MiSTer
+Arcade-SilverLand_MiSTer	1	silverland	Falcon	1981-1981	https://github.com/MiSTer-devel/Arcade-SilverLand_MiSTer
+Arcade-SkySkipper_MiSTer	1	popeye	Nintendo	1981-1981	https://github.com/MiSTer-devel/Arcade-SkySkipper_MiSTer
+Arcade-SlapFight_MiSTer	3	SlapFight	Toaplan	1985-1986	https://github.com/MiSTer-devel/Arcade-SlapFight_MiSTer
+Arcade-SolomonsKey_MiSTer	1	solomonskey	Tecmo	1986-1986	https://github.com/MiSTer-devel/Arcade-SolomonsKey_MiSTer
+Arcade-Sonson_MiSTer	1	sonson	Capcom		https://github.com/MiSTer-devel/Arcade-Sonson_MiSTer
+Arcade-SpaceFirebird_MiSTer	2	SpaceFirebird	Nintendo	1980-1980	https://github.com/MiSTer-devel/Arcade-SpaceFirebird_MiSTer
+Arcade-SpaceInvaders_MiSTer	110	spaceinvaders	Taito	1975-1983	https://github.com/MiSTer-devel/Arcade-SpaceInvaders_MiSTer
+Arcade-SpaceRace_MiSTer	1	spacerace	Atari	1973-1973	https://github.com/MiSTer-devel/Arcade-SpaceRace_MiSTer
+Arcade-Sprint1_MiSTer	1	sprint1	Atari	1978-1978	https://github.com/MiSTer-devel/Arcade-Sprint1_MiSTer
+Arcade-Sprint2_MiSTer	1	sprint2	Atari	1976-1976	https://github.com/MiSTer-devel/Arcade-Sprint2_MiSTer
+Arcade-StarForce_MiSTer	2	starforce	Able Corp	1984-1984	https://github.com/MiSTer-devel/Arcade-StarForce_MiSTer
+Arcade-StarWars_MiSTer	2	StarWars	Atari	1983-1985	https://github.com/MiSTer-devel/Arcade-StarWars_MiSTer
+Arcade-Subs_MiSTer	1	subs	Atari	1978-1978	https://github.com/MiSTer-devel/Arcade-Subs_MiSTer
+Arcade-SuperBreakout_MiSTer	1	superbreakout	Atari	1978-1978	https://github.com/MiSTer-devel/Arcade-SuperBreakout_MiSTer
+Arcade-SuprLoco_MiSTer	1	SuprLoco	Sega	1982-1982	https://github.com/MiSTer-devel/Arcade-SuprLoco_MiSTer
+Arcade-TIAMC1_MiSTer	6	tiamc1	Terminal	1988-1988	https://github.com/MiSTer-devel/Arcade-TIAMC1_MiSTer
+Arcade-TNKIII_MiSTer	2	TNKIII	SNK	1985-1985	https://github.com/MiSTer-devel/Arcade-TNKIII_MiSTer
+Arcade-TaitoF2_MiSTer	63	TaitoF2	Taito Corporation	1988-1993	https://github.com/MiSTer-devel/Arcade-TaitoF2_MiSTer
+Arcade-TaitoSystemSJ_MiSTer	26	TaitoSJ	Taito Corporation	1981-1984	https://github.com/MiSTer-devel/Arcade-TaitoSystemSJ_MiSTer
+Arcade-TankBattalion_MiSTer	1	TankBattalion	Namco	1980-1980	https://github.com/MiSTer-devel/Arcade-TankBattalion_MiSTer
+Arcade-Tecmo_MiSTer	4	Tecmo,tecmo	Tecmo	1986-1988	https://github.com/MiSTer-devel/Arcade-Tecmo_MiSTer
+Arcade-Tempest_MiSTer	1	Tempest	Atari	1981-1981	https://github.com/MiSTer-devel/Arcade-Tempest_MiSTer
+Arcade-TimePilot84_MISTer	1	TimePilot84	Konami	1984-1984	https://github.com/MiSTer-devel/Arcade-TimePilot84_MISTer
+Arcade-TimePilot_MiSTer	1	timepilot	Konami	1982-1982	https://github.com/MiSTer-devel/Arcade-TimePilot_MiSTer
+Arcade-TraverseUSA_MiSTer	2	traverseusa	Capcom	1983-1983	https://github.com/MiSTer-devel/Arcade-TraverseUSA_MiSTer
+Arcade-TrioThePunch_MiSTer	2	TrioThePunch	Data East Corporation	1989-1989	https://github.com/MiSTer-devel/Arcade-TrioThePunch_MiSTer
+Arcade-TropicalAngel_MiSTer	2	TropicalAngel	Irem	1983-1983	https://github.com/MiSTer-devel/Arcade-TropicalAngel_MiSTer
+Arcade-TurkeyShoot_MiSTer	1	TurkeyShoot	Williams	1984-1984	https://github.com/MiSTer-devel/Arcade-TurkeyShoot_MiSTer
+Arcade-Tutankham_MiSTer	4	Tutankham	Konami	1982-2026	https://github.com/MiSTer-devel/Arcade-Tutankham_MiSTer
+Arcade-Ultratank_MiSTer	1	ultratank	Atari	1978-1978	https://github.com/MiSTer-devel/Arcade-Ultratank_MiSTer
+Arcade-VBall_MiSTer	1	vball	Technos Japan	1988-1988	https://github.com/MiSTer-devel/Arcade-VBall_MiSTer
+Arcade-Vastar_MiSTer	5	Vastar	Orca (Sesame Japan license)	1983-1985	https://github.com/MiSTer-devel/Arcade-Vastar_MiSTer
+Arcade-XSleena_MiSTer	1	XSleena	Technos	1987-1987	https://github.com/MiSTer-devel/Arcade-XSleena_MiSTer
+Arcade-Xevious_MiSTer	2	xevious	Namco	1982-1982	https://github.com/MiSTer-devel/Arcade-Xevious_MiSTer
+Arcade-Zaxxon_MiSTer	3	zaxxon	Sega	1982-1982	https://github.com/MiSTer-devel/Arcade-Zaxxon_MiSTer
+Arcade-ZigZag_MiSTer	1	zigzag	Bootleg	1982-1982	https://github.com/MiSTer-devel/Arcade-ZigZag_MiSTer
+Arcade_SkySmasher_MiSTer	1	SkySmasher	Nihon System	1990-1990	https://github.com/MiSTer-devel/Arcade_SkySmasher_MiSTer
