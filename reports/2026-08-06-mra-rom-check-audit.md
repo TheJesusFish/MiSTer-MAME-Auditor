@@ -21,9 +21,24 @@ was already swept this way separately and came back 808/808 clean — this
 pass is the core repos only.
 
 **Result: 1,045 checked, 884 clean, 161 flagged across 14 repos.**
-Full per-file list: [`data/mra-rom-check-failures.md`](../data/mra-rom-check-failures.md)
-(too long to repeat here — this file is the categorized summary and the
-investigation into what the flags actually mean).
+
+**Refined down to 81 across 13 repos** by dropping anything whose `<setname>`
+is also currently present in `MRA-Alternatives_MiSTer` — that repo was
+already swept and any fixable issues there are handled separately, so this
+list is scoped to problems in a core repo's own content, not a duplicate of
+something living in (or already fixed in) the alternatives repo. Matched by
+setname, not by folder name (`_alternatives`/`Alternative Sets`/`docs/`
+folders inside a core repo aren't reliably 1:1 with the actual
+`MRA-Alternatives_MiSTer` repo — e.g. `Arcade-IGSPGM_MiSTer`'s own internal
+`_alternatives` folder covers different games entirely, so most of its 70
+flagged files stayed dropped for being real duplicates of tracked
+alternatives content, but 3 remained because those specific setnames
+(`puzzli2s`, `puzlstar`) aren't tracked over there at all).
+
+Full per-file list, straight/uncategorized-narrative: [`data/mra-rom-check-failures.md`](../data/mra-rom-check-failures.md).
+Category meanings and the investigation into what's confirmed vs. still an
+open question are below, from the original 161-file pass — still accurate,
+just referring to a superset of the current list.
 
 ## Confirmed real: broken XML (4 files)
 
