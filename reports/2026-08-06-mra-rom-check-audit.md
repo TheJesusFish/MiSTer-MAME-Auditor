@@ -1,0 +1,97 @@
+# `mra_rom_check.sh` sweep across all `Arcade-*_MiSTer` core repos — 2026-08-06
+
+List only, per instruction — nothing fixed in this pass.
+
+## Method
+
+Ran MiSTer-devel's own validator
+([`Scripts_MiSTer/other_authors/mra_rom_check.sh`](https://github.com/MiSTer-devel/Scripts_MiSTer/blob/master/other_authors/mra_rom_check.sh))
+against every `.mra` in every `Arcade-*_MiSTer` repo (172 repos, refreshed
+live; 168 publish `.mra` content — same 4 known-empty/Jotego-pattern repos as
+always, see mister-devel.md). Pulled via the same rate-limit-free sparse-clone
+technique used throughout this pack (`*.mra`/`**/*.mra` sparse-checkout
+pattern, ~93 MB for 1,045 files across 172 repos, no `.rbf` binaries).
+
+Ran with `--ignore-roms` — no local MAME romset to check CRCs against real
+dumped bytes with, and that's not something to source (copyrighted ROM
+data). This still exercises everything else the script checks: XML
+well-formedness, `<mameversion>` tag presence, and that every ROM `<part>`
+with a `name` attribute also has a `crc` attribute. `MRA-Alternatives_MiSTer`
+was already swept this way separately and came back 808/808 clean — this
+pass is the core repos only.
+
+**Result: 1,045 checked, 884 clean, 161 flagged across 14 repos.**
+Full per-file list: [`data/mra-rom-check-failures.md`](../data/mra-rom-check-failures.md)
+(too long to repeat here — this file is the categorized summary and the
+investigation into what the flags actually mean).
+
+## Confirmed real: broken XML (4 files)
+
+- **`Arcade-IremM72_MiSTer` — `docs/irem_m84_mra/Cosmic Cop (World).mra`**:
+  the opening `<rom index="0" ...>` tag is missing entirely — ROM data
+  (`<interleave>`/`<part>` entries) starts right after `</switches>` with no
+  wrapping tag, but a `</rom>` closer still appears further down with nothing
+  to close. Genuinely malformed, confirmed by inspecting the file directly
+  (verified with `grep -n '<rom\|</rom>'` — the first `<rom` open tag in the
+  file comes *after* the orphaned `</rom>` close).
+- **`Arcade-DECOCassette_MiSTer` — 3 files** (`Ocean to Ocean (DECO).mra` ×2,
+  `Flash Boy (DECO).mra`): a comment contains a literal `--` inside its body
+  — `<!-- ... rms-3_p2-.c9, 1KB @ 0xFC00) -- OLD-AUDIO-PROM-FIX-2026-06-29 -->`
+  — which is illegal in strict XML (a comment can't contain `--` anywhere
+  except immediately before the closing `-->`). The `2026-06-29` in the
+  comment text suggests this was introduced by a recent edit.
+
+## Confirmed real, unambiguous: missing `<mameversion>` (66 files)
+
+No ambiguity here — the tag is either present or it isn't. Concentrated:
+**50 of 66 are in `Arcade-DECOCassette_MiSTer`** (nearly its entire
+`releases/` and `Alternative Sets/` folders), plus `Arcade-Kyugo_MiSTer` (7),
+`Arcade-Freeze_MiSTer` (5), and one each in `Arcade-KickAndRun_MiSTer` and
+`Arcade-MrJong_MiSTer`. Full list in the data file linked above.
+
+## Needs judgment, not unambiguous: missing CRCs on named `<part>`s (94 files)
+
+The checker flags any `<part>` that has a `name` attribute but no `crc`
+attribute. Investigated the actual XML behind this rather than take the
+count at face value, since the script doesn't understand every legitimate
+`.mra` construct — found two different situations that look the same in the
+script's output but aren't the same kind of problem:
+
+**70 files, all in `Arcade-IGSPGM_MiSTer`, same pattern, likely a real
+gap:** every flagged file is in `releases/_alternatives/`, and every one is
+missing the *same* three CRCs, for the *same* three shared BIOS ROM files
+(`pgm_p02s.u20`, `pgm_t01s.rom`, `pgm_m01s.rom`). Checked a primary
+(non-alternate) release in the same repo (`Martial Masters (ver. 104, 102,
+102US).mra`) — it declares all three, with real values
+(`78c15fa2`/`1a7123a0`/`45ae7159`). So the primary release has these CRCs and
+every alternate is consistently missing exactly the same three — reads like
+the alternates were built from a template that dropped the shared-BIOS CRCs,
+not 70 independent oversights. Not fixed here (per instruction), but the
+correct values are already known if this gets addressed later.
+
+**~24 files elsewhre (BoogieWings, NightSlashers, SNK6502, ActFancer,
+Sonson, TrioThePunch, Tutankham): genuinely unclear.** Some of these use
+`offset=`/`length=`/`map=` attributes to slice a chip's data across multiple
+`<part>` entries (e.g. Act-Fancer's interleave block references parts named
+`"15"`/`"16"`/`"00"`/`"01"` this way) — reasonable to assume the CRC only
+needs to live on one instance and the checker just doesn't do that
+cross-referencing. **But checked, and that's not actually what's
+happening**: in every case checked here, *none* of the same-named part
+instances carry a `crc` anywhere in the file — not "the checker missed a
+sibling with a crc," the crc is absent everywhere for that chip. Whether
+that's intentional (this MRA format doesn't require a CRC on offset/length
+slices by design) or a real gap wasn't resolved — didn't have a clean way to
+confirm which, and didn't want to guess. One useful cross-check:
+`Arcade-Tutankham_MiSTer/Alternative Sets/Tutankham II.mra` — `tutankhm2` —
+is on this list, and that's the same fan-hack setname already flagged and
+deliberately dropped in the very first audit in this pack (not an official
+MAME romset at all) — consistent with it not having real CRCs, for an
+unrelated reason than the others on this list.
+
+## Not evaluated
+
+Byte-level CRC-vs-real-dump verification (needs an actual MAME romset,
+intentionally not sourced here) and the `zip=` completeness question (a
+separate, already-completed sweep — see mame.md's "Checking `zip=`
+completeness" section and the 2026-08-06 report — that one *was* MRA-Alternatives-only;
+whether the same gap exists across the core repos hasn't been checked).

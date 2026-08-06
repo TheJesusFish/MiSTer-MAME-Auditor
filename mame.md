@@ -334,6 +334,33 @@ Update this after every audit. Newest first.
 
 ---
 
+### `mra_rom_check.sh` sweep, all `Arcade-*_MiSTer` core repos — 2026-08-06
+
+Fourth and separate pass, same day: ran MiSTer-devel's own validator script
+(`Scripts_MiSTer/other_authors/mra_rom_check.sh`) against every `.mra` in
+every core repo (`--ignore-roms` — no local MAME romset to verify CRCs
+against real dumped bytes, that's intentionally not sourced; still checks
+XML validity, `<mameversion>` presence, and part/crc structural completeness).
+`MRA-Alternatives_MiSTer` was swept the same way separately and came back
+clean (808/808). List only, nothing fixed, per instruction — full findings:
+[`reports/2026-08-06-mra-rom-check-audit.md`](reports/2026-08-06-mra-rom-check-audit.md),
+full per-file data: [`data/mra-rom-check-failures.md`](data/mra-rom-check-failures.md).
+
+1,045 checked, 884 clean, **161 flagged across 14 repos**: 4 confirmed
+broken XML (a missing `<rom>` open tag in one IremM72 file; an illegal `--`
+inside an XML comment in 3 DECOCassette files), 66 confirmed missing
+`<mameversion>` (50 of them in `Arcade-DECOCassette_MiSTer` alone), and 94
+missing CRCs on named `<part>`s — of which 70 (all `Arcade-IGSPGM_MiSTer`)
+are a verified, consistent, likely-real gap (alternates missing the same 3
+shared BIOS CRCs a primary release in the same repo has), and the remaining
+~24 are genuinely unresolved — the checker doesn't understand
+offset/length/map interleave slicing, but checking showed the CRC really is
+absent everywhere in-file for those parts, not just missed by the checker,
+so it's unclear whether that's a real gap or valid by the format's own
+rules. Not chased further this pass.
+
+---
+
 ### `zip=` completeness sweep, MRA-Alternatives_MiSTer only — 2026-08-06
 
 Same day, third and separate pass: not a MAME-change question at all, just
