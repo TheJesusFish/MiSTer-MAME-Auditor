@@ -249,11 +249,12 @@ renames applied — see the report):
   unrelated to MAME's "revision A5"/"revision A4" language. Match the
   existing local convention there, not MAME's, or you'll create an
   inconsistency with the sibling files that nobody asked for.
-- **Update the `<rom zip="...">` attribute's setname references too**, and
-  after editing, grep every touched file's `zip=` against its own `<setname>`
-  to confirm they still agree — easy to fix the tag and forget the zip
-  reference on a file where you only touched the header block (happened
-  once in this pack, on the Sinistar fix).
+- **Update the `<rom zip="...">` attribute's setname references too, and
+  check it's complete, not just renamed** — see "Checking `zip=` completeness"
+  below. Easy to fix the `<setname>` tag and forget the zip reference on a
+  file where you only touched the header block (happened once in this pack,
+  on the Sinistar fix) — after editing, grep every touched file's `zip=`
+  against its own `<setname>` to confirm they still agree.
 - **Leave `<about>` empty.** Don't write provenance notes (what changed,
   commit hashes, etc.) into the `.mra` itself — that's what this repo's
   reports and mame.md's run history are for. Keep that detail in the commit
@@ -280,9 +281,70 @@ renames applied — see the report):
   newline translation disabled, or diff/inspect line endings
   (`od -c | head`) before assuming a script-based edit was clean.
 
+### Checking `zip=` completeness (parent + clone references)
+
+This applies any time you're touching an `.mra`'s `<rom index="0">` zip
+attribute — a rename, a new addition, anything — not just when fixing a
+rename. It's a separate check from the rename work above, worth doing on its
+own; a 2026-08-06 pass over all of `MRA-Alternatives_MiSTer` (independent of
+any specific rename) found 41 files missing one half of this.
+
+**The convention, confirmed by evidence, not assumption:** `zip=` should
+list the parent's (merged-style) zip first, then the clone's own
+(non-merged) zip second — `zip="parent.zip|ownsetname.zip"`. Some `.mra`s
+self-document this with a `type="merged|nonmerged"` attribute on the same
+tag, which literally labels what each pipe-separated position is, in order —
+every file that declares this explicitly uses parent-first (30 of 31 cases).
+It's also the dominant pattern (~3:1) among the files that don't declare
+`type=` at all. Don't assume the reverse order without new evidence — it was
+tried once here and turned out backwards.
+
+**Check against MAME's actual current parent for the setname — not the
+`.mra`'s own `<parent>` tag.** That tag is often a MiSTer-chosen
+display/grouping label and can legitimately diverge from MAME's real romset
+hierarchy — e.g. `zigzagb2`'s `.mra` says `<parent>digdug</parent>` for UI
+grouping (Zig Zag conceptually belongs with the Dig Dug hardware family),
+but MAME's actual romset parent is `zigzagb`, and the correct `zip=`
+reference is `zigzagb.zip`, not `digdug.zip`. Comparing against the `<parent>`
+tag instead of `data/mame-current-sets.tsv` (or live source) produces a wall
+of false positives — most of an initial 44-file "missing parent" list here
+turned out to be exactly this. Also watch for multi-level chains (a clone's
+immediate MAME parent can itself be a clone of something else, e.g. a
+clone-of-a-clone-of-a-BIOS-root situation) — check the deepest parent(s) too,
+the `.mra` may intentionally jump straight to the root.
+
+**When something's missing, add it — don't reorder or remove what's already
+there.** This is a purely additive fix: insert the missing zip name right
+after the parent's entry (position 1 in the pipe list), leave every other
+existing entry alone. A file with extra entries beyond parent+own (subboard
+BIOS zips, an alternate byte-identical source) usually has them there on
+purpose — inserting the missing name doesn't require understanding why those
+other entries exist, just not disturbing them.
+
+**Two things NOT to worry about while doing this:** attribute quoting
+varies file-to-file (`zip="..."` and `zip='...'` both appear — match either),
+and a nontrivial number of setnames referenced in this repo don't exist in
+current MAME at all (HBMAME/hack content, or a handful of still-unresolved
+cases like `spclone`/`ironhorsbl`) — skip those, they're already tracked
+separately, don't re-flag them here.
+
 ## Run history
 
 Update this after every audit. Newest first.
+
+---
+
+### `zip=` completeness sweep, MRA-Alternatives_MiSTer only — 2026-08-06
+
+Same day, third and separate pass: not a MAME-change question at all, just
+whether every `.mra`'s `zip=` reference actually lists both its parent's and
+its own zip. Confirmed the order convention from evidence (`type=` attributes
+that self-document it) rather than an assumption that turned out backwards.
+Found and fixed 41 files missing one half of the pair, all additive changes.
+Full writeup, including two false-positive traps in the checking method
+itself: [`reports/2026-08-06-zip-completeness-audit.md`](reports/2026-08-06-zip-completeness-audit.md).
+Method now documented in "Checking `zip=` completeness" above for reuse —
+worth an occasional full sweep like this one, not a per-run check.
 
 ---
 

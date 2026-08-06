@@ -44,11 +44,14 @@ are slow enough to fail partway through.
    reading* — it won't surface older drift that was already there before this
    pack existed. mame.md also documents a heavier **full cross-reference**
    method (clone current MAME source locally, check every mister-devel
-   setname for existence against it) that catches that older drift too. It's
-   not part of the default per-version procedure — don't run it every time —
-   but do run it if explicitly asked for a "full" audit, or if it's been many
-   changelog-driven runs since the last one (mame.md's run history says when
-   that last was).
+   setname for existence against it) that catches that older drift too, and a
+   **`zip=` completeness sweep** (every `.mra`'s zip reference actually
+   listing both its parent and its own zip, not just a correct setname) that's
+   independent of any rename and won't be caught by either of the other two
+   methods. Neither is part of the default per-version procedure — don't run
+   them every time — but do run them if explicitly asked for a "full" audit,
+   or if it's been many changelog-driven runs since the last one (mame.md's
+   run history says when that last was).
 
 5. **Cross-reference.** For each lead, check whether MiSTer covers that game
    (grep `data/mister-devel-repo-index.tsv` and the two `data/*.tsv`
@@ -105,6 +108,14 @@ are slow enough to fail partway through.
   the filename call in particular depends on the local folder's existing
   convention, not a blanket rule). Leave `<about>` empty — provenance notes
   belong in the commit message and this repo's reports, not in the `.mra`.
+- **Any time you're editing an `.mra`'s `zip=` reference — a rename or
+  anything else — also check it's complete, not just correctly renamed.**
+  mame.md's "Checking `zip=` completeness" section has the convention
+  (parent's zip first, clone's own zip second) and how to verify it against
+  MAME's *actual* current parent rather than the `.mra`'s own `<parent>` tag
+  (the two can legitimately differ). This isn't optional cleanup — a set
+  missing its own zip reference can fail to load for users on certain romset
+  packaging styles even though the setname itself is correct.
 - **Byte-for-byte CRC verification of every existing romset is out of scope**
   for a single run — there are ~1,850 `.mra` files across the ecosystem, no
   MAME binary is available, and most releases only touch a handful of drivers
