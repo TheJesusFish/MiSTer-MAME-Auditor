@@ -219,6 +219,40 @@ searched their driver's entire tracked history (back to MAME's original git
 import, ~2008) and found nothing — treat that as reasonably strong evidence
 the setname was never official MAME, not as a search failure to retry.
 
+### Applying a confirmed rename (once you're actually editing a `.mra`, not just auditing)
+
+Fixing a `.mra` for a confirmed rename is more than swapping the
+`<setname>`/`<parent>` tags. From doing this for real on 2026-08-06 (6
+renames applied — see the report):
+
+- **Check whether CRCs need touching before assuming they don't.** Compare
+  the `.mra`'s declared CRCs against the new setname's `ROM_START` in
+  current MAME source. Most renames in this pack were pure relabels (same
+  bytes); a couple weren't (a redumped chip, or MAME now defining an extra
+  ROM region the `.mra` doesn't have at all). Don't add ROM parts you can't
+  verify the memory-map placement for — document the gap in `<about>`
+  instead of guessing.
+- **Rename the `.mra` file itself when its existing filename directly
+  encodes the identifying label that changed** — e.g. `Pengo (set 2).mra`
+  tracking MAME's own "set 2" wording, or `Joust (White-Red label).mra`
+  tracking a label MAME later corrected to "Yellow label". If the old
+  filename mirrored MAME's description, the new one should too. Use `git mv`
+  so the diff reads as a rename, not a delete+add.
+- **Don't rename the file if the local naming convention has already
+  diverged from MAME's wording.** Check the *sibling* files in the same
+  folder before deciding, not just the one you're fixing — e.g. Bagman's
+  alternatives are labeled "Set 1"/"Set 2" by whoever maintains that folder,
+  unrelated to MAME's "revision A5"/"revision A4" language. Match the
+  existing local convention there, not MAME's, or you'll create an
+  inconsistency with the sibling files that nobody asked for.
+- **Update the `<rom zip="...">` attribute's setname references and the
+  `<about>` field too** — leave a short note on what changed, the MAME
+  commit hash if you have one, and whether CRCs moved. A future reader
+  shouldn't have to re-derive this from scratch.
+- **Also update `<version>`** to match MAME's current description text —
+  *unless* that conflicts with the sibling-file convention point above, same
+  reasoning.
+
 ## Run history
 
 Update this after every audit. Newest first.

@@ -98,7 +98,12 @@ are slow enough to fail partway through.
   lower confidence rather than asserting it.
 - **This is a review aid, not an automated fixer.** Produce findings and
   suggested `.mra` values; don't open PRs against MiSTer-devel repos unless
-  explicitly asked to.
+  explicitly asked to. If you *are* asked to actually apply a fix, read
+  mame.md's "Applying a confirmed rename" section first — swapping the
+  `<setname>`/`<parent>` tags is not enough on its own (CRCs, the `.mra`
+  filename, the `<rom zip="...">` attribute, and `<about>` all need
+  checking too, and the filename call in particular depends on the local
+  folder's existing convention, not a blanket rule).
 - **Byte-for-byte CRC verification of every existing romset is out of scope**
   for a single run — there are ~1,850 `.mra` files across the ecosystem, no
   MAME binary is available, and most releases only touch a handful of drivers
