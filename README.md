@@ -55,8 +55,16 @@ Seeded 2026-08-06 with two audits:
   drift the changelog method can't) —
   [`reports/2026-08-06-full-mame-crossref-audit.md`](reports/2026-08-06-full-mame-crossref-audit.md).
 
-That second pass left **6 confirmed renames with known fixes, not yet
-applied, and 7 more needing manual review** — tracked in `mame.md`'s "Open
-findings" section, not just buried in the report. A fresh run should check
-that section first, before doing anything else. Next changelog-driven run
+The full cross-reference pass left 10 setnames with no obvious current-MAME
+match, followed up same day with git history archaeology (`git log -S` on a
+local MAME history clone — see mame.md's "Rename archaeology" section for the
+technique) rather than leaving them as open questions: **7 turned out to be
+confirmed MAME renames from 2020–2023**, unrelated to 0.289, and **3 came up
+empty across the driver's full tracked history** (presumed never-official,
+not pursued further). Combined with the changelog pass, that's **13 confirmed
+renames with known fixes, not yet applied**, tracked in `mame.md`'s "Open
+findings" section, not just buried in the reports. A fresh run should check
+that section first, before doing anything else. Fan hacks, patches, and
+content MAME doesn't emulate that turned up along the way were checked once
+and deliberately dropped, not tracked as findings. Next changelog-driven run
 picks up at **0.290**; `mame.md`'s run history has the full detail.

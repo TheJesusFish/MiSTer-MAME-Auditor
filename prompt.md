@@ -75,6 +75,15 @@ are slow enough to fail partway through.
    (new MAME clone/set that doesn't exist in mister-devel yet and could be
    added) — don't flag opportunities as bugs.
 
+   If a setname doesn't exist in current MAME and there's no obvious
+   replacement, don't stop at "needs manual review" — mame.md's "Rename
+   archaeology" section has a technique for this (`git log -S` on a local
+   history clone of MAME) that resolved 7 of 10 such cases in one pass here.
+   It's cheap enough to use on the handful of setnames that reach this point.
+   If it genuinely finds nothing across the driver's full tracked history,
+   that's a real answer too (probably never an official MAME setname) — say
+   so and stop, don't leave it as an open "needs review" forever.
+
 7. **Update the log.** Append a summary entry to mame.md's run history (the
    format is already there — follow it) so the next run doesn't redo this
    work. Note explicitly which version to start from next time, and update
@@ -99,3 +108,11 @@ are slow enough to fail partway through.
   renaming a `.cpp`, not a set) — that's almost never a MiSTer-side issue on
   its own; see mister-devel.md's note on `<rbf>` vs. driver paths before
   reporting it.
+- **Don't track fan hacks, patches, or content MAME never emulated as open
+  findings.** If a setname turns out to be a hack/trainer/patch with no
+  official MAME romset behind it (HBMAME content, "(inv)"/invincibility
+  patches, "Free Play" patches, ROM patches, etc.) or a game MAME doesn't
+  emulate at all (e.g. discrete-logic TTL games with no ROMs) — verify that
+  once, mention it in the report so the reasoning is on record, and then drop
+  it. Don't carry it forward in mame.md's "Open findings" or re-flag it on a
+  future run.

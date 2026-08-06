@@ -4,9 +4,10 @@ Unlike the [changelog-driven 0.289 audit](2026-08-06-mame-0289-audit.md), this
 pass doesn't rely on reading release notes at all. It cross-references **every
 setname in mister-devel and `MRA-Alternatives_MiSTer` against MAME's current
 source directly** — catching drift accumulated over any number of past
-releases, not just the latest one.
+releases, not just the latest one. Updated same day with a second pass: git
+history archaeology on everything that came out ambiguous the first time.
 
-## Method (new — folded into [mame.md](../mame.md))
+## Method (folded into [mame.md](../mame.md))
 
 GitHub's `api.github.com` rate limit (60/hour unauthenticated) makes it
 impractical to inspect ~150+ individual driver files one fetch at a time. The
@@ -39,9 +40,6 @@ in this table, and where found, its declared `<parent>` was compared.
 
 ## Two things this method assumes that turned out to be wrong
 
-Worth recording prominently because they'll otherwise produce a wall of false
-positives on every future run:
-
 ### 1. `<parent>` mismatches are not a usable signal on their own
 
 886 of 1,848 entries "mismatched" on parent by naive comparison — but manual
@@ -52,8 +50,7 @@ filled in inconsistently: some root/parent releases self-reference their own
 setname in `<parent>` instead of leaving it blank; many real MAME clones ship
 with no `<parent>` tag at all. **Don't treat a parent-tag mismatch as a finding
 by itself** — it's only meaningful together with a setname that's actually
-missing (see the TwinBee/Sailor Moon cases in the other report, which were
-real because the *setname* moved, not because a parent tag was "wrong").
+missing.
 
 ### 2. Most of `MRA-Alternatives_MiSTer`'s "missing" setnames are HBMAME, not MAME
 
@@ -63,71 +60,125 @@ fork of MAME, not mainline MAME. These were never going to match
 `mamedev/mame` source and this isn't drift. **The tell is reliable and
 mechanical: the `.mra` filename itself contains `HBMame`** (e.g. `Donkey Kong
 Foundry - HBMame.mra`). Filter these out by filename before treating anything
-as a finding — it cuts the alternatives "missing" list from 223 to 16.
-Several of the remaining 16 also turned out to be non-MAME (fan patches like
-"Free Play" or "(inv)"/invincibility hacks) once inspected individually —
-filename alone doesn't catch all of it, but it removes the bulk.
+as a finding.
 
-## Findings — `Arcade-*_MiSTer` core repos (15 setnames not found in current MAME)
+## What's out of scope, on purpose
 
-| Setname (MiSTer) | Repo / file | Status |
-|---|---|---|
-| `twinbeeb` | Arcade-BubSys_MiSTer | **Confirmed rename** → `bs_twinbee`, parent `bubsys`. Same as the 0.289 report — still unfixed. |
-| `devilfsg` (parent declared: `devilfish`) | Arcade-Galaxian_MiSTer | **Confirmed rename**, `src/mame/galaxian/galaxian.cpp` — current names are `devilfshg` (clone) / `devilfsh` (parent). Not 0.289-specific; predates it. |
-| `gauntletr8` (parent: `gauntlet`) | Arcade-Gauntlet_MiSTer | **Confirmed rename** → `gauntletgr8` (German-revision sets carry a `g` in the setname: `gauntletgr8`, `gauntletgr6`, `gauntletgr3`). |
-| `imgfightb` | Arcade-IremM72_MiSTer | **Confirmed rename** → `imgfightjb` (`src/mame/irem/m72.cpp`). |
-| `popflamn` (parent declared: `popflamn`, self-referential) | Arcade-NaughtyBoy_MiSTer | **Confirmed rename** → `popflamen`, parent `popflame` (`src/mame/phoenix/naughtyb.cpp`). |
-| `SpaceDemon` (parent declared: `SpaceFirebird`) | Arcade-SpaceFirebird_MiSTer | **Confirmed — mis-cased/never matched MAME naming.** Current MAME: setname `spacedem`, parent `spacefb` (`src/mame/nintendo/spacefb.cpp`). Both the setname and parent in this `.mra` use the MiSTer core's display name instead of MAME's actual lowercase setnames — this doesn't look like a recent MAME rename so much as this `.mra` never having matched MAME's real naming. |
-| `kengoa` | Arcade-IremM72_MiSTer | **Needs manual review.** No `kengoa` in current `m72.cpp`; current clones under parent `ltswords` are `kengo` (World) and `kengoj` (Japan). Unclear which one "(set 2)" is meant to map to — worth checking MiSTer's actual ROM contents against both before renaming. |
-| `spclone`, `spcloneo` ("Salamander SP version"[/"old"]) | Arcade-Salamander_MiSTer | **Needs manual review.** Not found under any name in current `src/mame/konami/nemesis.cpp`'s Salamander family (`salamand`, `salamandj`, `salamandt`, `lifefrce`, `lifefrcej`). Unclear if this was ever an official MAME set or if it's misnamed/removed. |
-| `rtype2inv`, `xmultiplm72inv` | Arcade-IremM72_MiSTer | **Likely not a MAME set at all.** `(Inv)` strongly suggests an invincibility-patched hack, not an official romset — not found under any name in `m72.cpp`. Low priority; verify before spending time on it. |
-| `cleansweept`, `mrdonight` | Arcade-Galaxian_MiSTer | **Likely not a MAME set at all.** No trace of "Clean Sweep" or "Mr. Do Nightmare" in any driver; both ship with `<mameversion>0000</mameversion>` (never set), consistent with Galaxian-hardware fan hacks that were never based on a MAME dump. |
-| `tutankhm2` | Arcade-Tutankham_MiSTer | **Likely not a MAME set at all.** "Tutankham II" reads as a fan sequel/hack; not present in any driver. |
-| `spacerace` | Arcade-SpaceRace_MiSTer | **Not applicable.** This is a 1973 Atari discrete-logic (TTL, no ROMs) game. It's *referenced* in `src/mame/atari/atarittl.cpp`'s documentation table but has no `GAME()` entry there or anywhere else in current MAME — it isn't emulated by mainline MAME at all. MiSTer's implementation is independent of MAME here; there's nothing to sync against. |
+A "missing setname" isn't automatically a finding. Two categories get checked
+once and then dropped, not carried forward as open items:
 
-## Findings — `MRA-Alternatives_MiSTer` (16 non-HBMAME "missing" setnames, of 223 total)
+- **HBMAME and other hack/patch content** — filename says `HBMame`, or the
+  description says `Trainer`/`Free Play`/`(inv)`/`ROM Patch`/similar. Never an
+  official MAME romset; nothing to sync.
+- **Content MAME doesn't emulate at all** — e.g. `spacerace` (Arcade-SpaceRace_MiSTer)
+  is a 1973 Atari discrete-logic TTL game with no ROMs; MAME's
+  `atarittl.cpp` documents it but has no working machine for it. MiSTer's
+  implementation doesn't depend on MAME here, so there's nothing to check
+  against.
 
-| Setname | Folder | Status |
-|---|---|---|
-| `gauntletr8` | `_Gauntlet` | Same fix as the core-repo entry above — `gauntletgr8`. This setname is stale in *two* places. |
-| `pengo2`, `pengo4`, `pengo5` | `_Pengo` | **Confirmed old naming scheme.** Current `src/mame/pacman/pengo.cpp` uses lettered clones (`pengoa`, `pengob`, `pengoc`, `pengoja`, `pengojb`...), not numbered ones. This predates 0.289 by a wide margin — worth a review pass to map each old numbered file to its current lettered equivalent by ROM content, not just by number. |
-| `bagmans2` | `_Bagman` | **Needs manual review.** `src/mame/valadon/bagman.cpp` currently has `bagmans` (Stern rev A5), `bagmans3` (rev A3), `bagmans4` (rev A4) — no `bagmans2`. Likely an old/consolidated revision naming. |
-| `ironhorsbl` | `_Iron Horse` | **Needs manual review.** `src/mame/konami/ironhors.cpp` currently has `ironhors`, `ironhorsh`, `dairesya`, and `farwest` ("bootleg?") — no `ironhorsbl`. Possibly consolidated into `farwest`. |
-| `joustwr` | `_Joust` | **Needs manual review.** `src/mame/williams/williams.cpp` currently has `joust` (Green label), `joustr` (Red label), `jousty` (Yellow label) — no "White-Red" variant. |
-| `sinistar1` | `_Sinistar` | **Needs manual review.** Current Sinistar family: `sinistar` (rev 3 upright), `sinistarc` (rev 3 cockpit), `sinistar2`/`sinistarc2` (rev 2), `sinistarp` (AMOA-82 prototype) — no `sinistar1`. |
-| `athenaff` | `_Athena` | **Likely not a MAME set.** Filename is literally `Athena_Screen_Flip_Fix_ROM_Patch.mra` — a community ROM patch, not an official dump. |
-| `ddonpachjt` | `_DoDonPachi` | **Likely not a MAME set.** "Trainer" = cheat-patched hack. |
-| `esprade_fp`, `espradej_fp` | `_ESP Ra.De` | **Likely not a MAME set.** "(Free Play)" fan patches. |
-| `rtype2inv`, `xmultiplm72inv`, `spclone`, `spcloneo` | various | Same entries as the core-repo table above — these exist in both places. |
+This run's instances of each, checked and closed, not tracked further:
+`rtype2inv`, `xmultiplm72inv`, `cleansweept`, `mrdonight`, `tutankhm2`,
+`spacerace` (core repos); `athenaff`, `ddonpachjt`, `esprade_fp`,
+`espradej_fp`, and the 207 HBMAME-filename alternatives (`MRA-Alternatives_MiSTer`).
+If a future pass turns up more of these, same treatment — verify once, drop.
 
-The other 207 `MRA-Alternatives` "missing" setnames are HBMAME hack content
-(filename contains `HBMame`) and are expected to not match mainline MAME —
-not findings. Examples for context, not action: `dkong2m`/`dkongpac`/`dkrdemo`
-("Donkey Kong ... - HBMame.mra"), `astroped`/`killiped`/`vectiped` (Centipede
-hacks), `galagaef`/`galagost`/`vgalaga` (Galaga hacks).
+## Rename archaeology: chasing the ambiguous cases through MAME's git history
+
+The first pass left several setnames that don't exist in *current* MAME with
+no obvious replacement — same shape as the TwinBee case (which we already
+knew the answer to), but without a changelog line pointing at the answer. For
+those, the question is exactly what the TwinBee case answers by hand: **was
+this ever a real MAME setname that got renamed at some point, and did we —
+or whoever maintains the `.mra` — just never catch it?**
+
+`git log -S` (pickaxe: find the commit that added/removed a given string) on
+a local clone answers this directly, but a normal clone of MAME's full history
+is impractically large. The fix is the same shape as the rate-limit workaround
+above — a partial clone, just filtering differently:
+
+```bash
+git clone --filter=blob:none --no-checkout https://github.com/mamedev/mame.git mame_hist
+```
+
+No `--depth` this time (we need full history), `--filter=blob:none` instead of
+`tree:0` (trees stay local so `git log` traversal is fast; only blob content
+is fetched on demand, which is only needed for `-S`/`-p`). This pulled the
+**entire commit graph and tree history for all of MAME** — every commit,
+every tree — in about **210 MB and 9 seconds**. (A `tree:0` filter, which
+defers trees too, was tried first and was unusably slow — every `git log`
+step became a network round-trip. Trees need to be local; only blobs can stay
+lazy.)
+
+For each ambiguous setname, against its driver file:
+
+```bash
+git log -S"<setname>" --follow --oneline -- src/mame/<mfg>/<driver>.cpp
+```
+
+`--follow` matters — MAME went through a large driver reorganization in 2022
+that moved most files from `src/mame/drivers/*.cpp` into manufacturer
+subfolders (e.g. `src/mame/drivers/bagman.cpp` → `src/mame/valadon/bagman.cpp`),
+and several of these renames predate that move. `--follow` walks straight
+through it. Each search took roughly 1–2 minutes; a couple, on the very large
+`williams.cpp`, needed backgrounding rather than blocking. This is not
+something to run for all ~1,850 setnames — it's for the handful that survive
+the cheap existence check above and still need an answer.
+
+**Result: 7 of the 10 ambiguous setnames were real MAME sets, renamed at a
+specific point in MAME's history, unrelated to 0.289 and unrelated to each
+other. All confirmed by reading the actual diff, not just guessed from the
+commit message:**
+
+| Old setname | New setname | Renamed | Commit | Evidence |
+|---|---|---|---|---|
+| `kengoa` | `kengoj` | 2023-03-19 | `f5f7689a20` | Diff shows `ROM_START( kengoa )`→`ROM_START( kengoj )` directly; description changed from "Ken-Go (set 2)" to "Ken-Go (Japan)". |
+| `pengo2` | `pengoa` | 2022-12-29 | `074670cd81` | Comment text ("Uses Sega 315-5010 encrypted Z80 CPU") carried over unchanged between old and new entries. |
+| `pengo4` | `pengoc` | 2022-12-29 | `074670cd81` | Same commit; comment text ("Sega game ID# 834-5081... REV.A of this set known to exist, but not currently dumped") matches verbatim old→new. |
+| `pengo5` | `pengob` | 2022-12-29 | `074670cd81` | Same commit; comment text ("Sega game ID# 834-5081... Bally N.E.") matches verbatim old→new. |
+| `bagmans2` | `bagmans4` | 2020-10-04 | `1f2cf06ae5` | `ROM_START( bagmans2 )`→`ROM_START( bagmans4 )` directly in the diff; ROM filename `a4_9e.bin` confirms it's the "A4" revision. |
+| `joustwr` | `jousty` | 2020-08-28 | `4e0c82dad8` | Not just a rename — a re-identification. Old: "Joust (White/Red label)". New: "Joust (Yellow label)". MiSTer's file is still named/set for the old, now-incorrect identification. |
+| `sinistar1` | `sinistarp` | 2020-08-05 | `4ea74b81a3` | Old: "Sinistar (prototype version)". New: "Sinistar (AMOA-82 prototype)" — same set, corrected/expanded description. |
+
+(Commit dates/hashes are from `mamedev/mame`'s `master` branch history.)
+
+**3 of the 10 could not be found anywhere in the driver's full tracked
+history** (all the way back to MAME's initial git import, ~2008, confirmed by
+checking each file goes back that far): `spclone`/`spcloneo`
+(`src/mame/konami/nemesis.cpp`, Salamander family) and `ironhorsbl`
+(`src/mame/konami/ironhors.cpp`). A repo-wide (`--all`, no path) search for
+`spclone` was attempted too, to rule out it having lived under some unrelated
+filename, but timed out — that search space is too large for this technique
+and wasn't pursued further. Best current read: these were never official MAME
+setnames — likely MiSTer-community-only labels for content that was hand-built
+or hacked before/without MAME support — but that's inference, not confirmed
+the way the seven above are. Flagged as such, not chased further.
+
+## Priority summary (supersedes the first pass — see mame.md's "Open findings" for the live version)
+
+**Confirmed renames, exact fix known:**
+
+`twinbeeb`→`bs_twinbee` · `devilfsg`→`devilfshg` · `gauntletr8`→`gauntletgr8`
+(both Arcade-Gauntlet_MiSTer and `MRA-Alternatives_MiSTer`) · `imgfightb`→`imgfightjb` ·
+`popflamn`→`popflamen` · `SpaceDemon`→`spacedem` · `kengoa`→`kengoj` ·
+`pengo2`→`pengoa` · `pengo4`→`pengoc` · `pengo5`→`pengob` · `bagmans2`→`bagmans4` ·
+`joustwr`→`jousty` · `sinistar1`→`sinistarp`.
+
+**Could not confirm despite a full git-history search — likely never an
+official MAME setname, not pursued further:** `spclone`, `spcloneo`,
+`ironhorsbl`.
+
+**Not tracked (checked once, closed — see "What's out of scope" above):**
+`rtype2inv`, `xmultiplm72inv`, `cleansweept`, `mrdonight`, `tutankhm2`,
+`spacerace`, `athenaff`, `ddonpachjt`, `esprade_fp`, `espradej_fp`, and all
+207 HBMAME-filename `MRA-Alternatives_MiSTer` entries.
 
 ## What wasn't checked
 
-- **CRC/content-level verification** was only done for entries flagged above
-  as suspicious, plus the two cases already confirmed in the 0.289 report
-  (Sailor Moon's non-Europe alt variants were spot-checked and their CRCs do
-  match current source despite the stale version tag). Entries not listed
-  above (~1,600 of 1,848) matched on setname; their exact ROM part CRCs
-  weren't individually re-verified against source — that's a much larger
-  parsing effort (MAME ROM_LOAD macros are frequently shared via `#define`
-  blocks across multiple sets, which is easy to mis-parse) and wasn't judged
-  worth it without a specific reason to suspect a given set.
+- **CRC/content-level verification** was only done for the entries above plus
+  the two cases already confirmed in the 0.289 report. The ~1,600 of 1,848
+  entries that matched on setname weren't individually re-verified against
+  source CRCs — that's a much larger parsing effort (MAME `ROM_LOAD` macros
+  are frequently shared via `#define` blocks across multiple sets, easy to
+  mis-parse) and wasn't judged worth it without a specific reason to suspect
+  a given set.
 - Jotego-framework cores are still out of scope (see mister-devel.md).
-
-## Priority summary
-
-**Fix now (confirmed, exact new values known):** `twinbeeb`→`bs_twinbee`,
-`devilfsg`→`devilfshg`, `gauntletr8`→`gauntletgr8` (both locations),
-`imgfightb`→`imgfightjb`, `popflamn`→`popflamen`, `SpaceDemon`→`spacedem`.
-
-**Investigate (setname confirmed gone, replacement unclear):** `kengoa`,
-`spclone`/`spcloneo`, `pengo2`/`pengo4`/`pengo5`, `bagmans2`, `ironhorsbl`,
-`joustwr`, `sinistar1`.
-
-**Not MiSTer/MAME sync issues — no action:** everything tagged "likely not a
-MAME set" or "not applicable" above, and all 207 HBMAME-sourced alternatives.

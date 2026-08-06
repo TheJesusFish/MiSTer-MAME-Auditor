@@ -139,16 +139,68 @@ from this list; don't silently re-report it as new.
 (Arcade-Galaxian_MiSTer), `gauntletr8`→`gauntletgr8` (Arcade-Gauntlet_MiSTer
 **and** MRA-Alternatives), `imgfightb`→`imgfightjb` (Arcade-IremM72_MiSTer),
 `popflamn`→`popflamen` (Arcade-NaughtyBoy_MiSTer), `SpaceDemon`→`spacedem`
-(Arcade-SpaceFirebird_MiSTer). Detail and exact ROM/parent values in
-[`reports/2026-08-06-full-mame-crossref-audit.md`](reports/2026-08-06-full-mame-crossref-audit.md).
+(Arcade-SpaceFirebird_MiSTer), `kengoa`→`kengoj` (Arcade-IremM72_MiSTer),
+`pengo2`→`pengoa`, `pengo4`→`pengoc`, `pengo5`→`pengob` (all
+MRA-Alternatives `_Pengo`), `bagmans2`→`bagmans4` (MRA-Alternatives `_Bagman`),
+`joustwr`→`jousty` (MRA-Alternatives `_Joust`), `sinistar1`→`sinistarp`
+(MRA-Alternatives `_Sinistar`). The last 7 were resolved by walking MAME's git
+history (see "Rename archaeology" below) — none are 0.289-specific, all
+predate this pack. Detail, exact commit hashes, and exact ROM/parent values
+in [`reports/2026-08-06-full-mame-crossref-audit.md`](reports/2026-08-06-full-mame-crossref-audit.md).
 
-**Needs manual review, setname confirmed gone but replacement ambiguous (as
-of 2026-08-06):** `kengoa`, `spclone`/`spcloneo`, `pengo2`/`pengo4`/`pengo5`,
-`bagmans2`, `ironhorsbl`, `joustwr`, `sinistar1` — same report.
+**Could not confirm despite a full git-history search on the owning driver
+file — likely never an official MAME setname, not pursued further:**
+`spclone`, `spcloneo` (Arcade-Salamander_MiSTer / MRA-Alternatives
+`_Salamander`), `ironhorsbl` (MRA-Alternatives `_Iron Horse`). Don't
+re-search these from scratch on a future run unless something new comes up —
+same report has what was already tried.
+
+**Not tracked — checked once, deliberately dropped, don't re-flag:** fan
+hacks/patches with no official MAME romset behind them
+(`rtype2inv`, `xmultiplm72inv`, `cleansweept`, `mrdonight`, `tutankhm2`,
+`athenaff`, `ddonpachjt`, `esprade_fp`, `espradej_fp`), content MAME doesn't
+emulate at all (`spacerace` — discrete TTL, no ROMs), and all
+HBMAME-sourced `MRA-Alternatives_MiSTer` content (filename contains
+`HBMame`). See the report's "What's out of scope, on purpose" section before
+re-adding anything like this.
 
 **Cosmetic, low priority, not blocking:** stale `<mameversion>` tags on the
 non-Europe Sailor Moon alternatives (still `0275`, content confirmed correct)
 and on the `nslasher` family (still `0264`) — see the 0.289 report.
+
+### Rename archaeology (git history, not just current-state comparison)
+
+For setnames that don't exist in current MAME with no obvious replacement,
+don't stop at "needs manual review" — check whether it's a rename MAME made
+at some point in the past that just never got picked up (this is exactly the
+TwinBee situation, minus a changelog line to point at it). `git log -S` on a
+local partial clone of MAME's full history answers this directly and is fast
+enough to use routinely on the handful of setnames that reach this point:
+
+```bash
+git clone --filter=blob:none --no-checkout https://github.com/mamedev/mame.git mame_hist
+# ~210 MB, ~9 seconds — full commit graph + trees, no blobs, no --depth limit
+cd mame_hist
+git log -S"<old-setname>" --follow --oneline -- src/mame/<mfg>/<driver>.cpp
+```
+
+Use `--filter=blob:none`, not `--filter=tree:0` — trees need to stay local for
+`git log` traversal to be fast (tree:0 was tried first and made every step a
+slow network round-trip). `--follow` is required, not optional: MAME's 2022
+driver reorganization moved most files from `src/mame/drivers/*.cpp` into
+manufacturer subfolders, and renames worth finding often predate that move —
+`--follow` walks through the reorg transparently, a plain path-restricted
+search won't. When `-S` finds a hit, `git show <sha> -- <path>` gets you the
+diff; if the file was at a different historical path at that commit (check
+with `git show --stat <sha>`), re-run `git show` against that path instead —
+the given `<path>` has to match the tree at that specific commit.
+
+Confirm any hit by reading the actual diff (old ROM comment/description text
+usually carries over verbatim or near-verbatim to the new entry — that's the
+match, not just proximity in the commit). A handful of setnames in this pack
+searched their driver's entire tracked history (back to MAME's original git
+import, ~2008) and found nothing — treat that as reasonably strong evidence
+the setname was never official MAME, not as a search failure to retry.
 
 ## Run history
 
@@ -166,11 +218,15 @@ definitions). This is what raised everything in "Open findings" above. Full
 writeup: [`reports/2026-08-06-full-mame-crossref-audit.md`](reports/2026-08-06-full-mame-crossref-audit.md).
 
 Summary: 15 core-repo setnames and 16 non-HBMAME alternatives setnames don't
-exist under those names in current MAME — 6 confirmed renames with known
-fixes, 7 needing manual review (see "Open findings"), the remainder non-MAME
-content (fan hacks, an unemulated TTL game) or HBMAME (207 of the 223 raw
-alternatives misses — see the HBMAME note earlier in this file before
-treating any `MRA-Alternatives_MiSTer` "missing" setname as a lead).
+exist under those names in current MAME. Followed up same day with git
+history archaeology (`git log -S`, see "Rename archaeology" above) on the 10
+that had no obvious replacement: **7 turned out to be real MAME renames**,
+confirmed against the actual diff, dates ranging 2020–2023 — none
+0.289-specific. 3 (`spclone`, `spcloneo`, `ironhorsbl`) found nothing across
+their driver's entire tracked history and are presumed never-official. The
+remainder were fan hacks/patches or HBMAME content (207 of the 223 raw
+alternatives misses) and are deliberately not tracked — see "Open findings"
+above for the current breakdown and the report for full detail.
 
 None of this is 0.289-specific — most of it looks considerably older, i.e.
 it's drift that accumulated across releases before this pack existed. This
