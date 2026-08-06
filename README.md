@@ -44,35 +44,5 @@ The two failure modes this is built around:
    a related repo (`ArcadeDatabase_MiSTer`) that carries its own naming metadata
    and can itself go stale (it did, for the 0.289 Sailor Moon reparent).
 
-## Status
-
-Seeded 2026-08-06 with two audits:
-
-- A changelog-driven pass against MAME 0.289 —
-  [`reports/2026-08-06-mame-0289-audit.md`](reports/2026-08-06-mame-0289-audit.md).
-- A full cross-reference of every mister-devel/`MRA-Alternatives_MiSTer`
-  setname against current MAME source (not tied to one release, catches older
-  drift the changelog method can't) —
-  [`reports/2026-08-06-full-mame-crossref-audit.md`](reports/2026-08-06-full-mame-crossref-audit.md).
-
-The full cross-reference pass left 10 setnames with no obvious current-MAME
-match, followed up same day with git history archaeology (`git log -S` on a
-local MAME history clone — see mame.md's "Rename archaeology" section for the
-technique) rather than leaving them as open questions: **7 turned out to be
-confirmed MAME renames from 2020–2023**, unrelated to 0.289, and **3 came up
-empty across the driver's full tracked history** (presumed never-official,
-not pursued further). Fan hacks, patches, and content MAME doesn't emulate
-that turned up along the way were checked once and deliberately dropped, not
-tracked as findings.
-
-**6 of the resulting 13 confirmed renames have since been fixed**, scoped to
-`MRA-Alternatives_MiSTer` clone `.mra`s plus `Arcade-SpaceFirebird_MiSTer`
-(the one main-repo case that's an actual clone of its own flagship set, not
-bonus content) — `pengo2/4/5`, `joustwr`, `bagmans2`, `sinistar1`,
-`SpaceDemon`, plus deduping a stale/correct `gauntletr8`/`gauntletgr8`
-duplicate pair. **Committed locally in two repo clones, not yet pushed or
-opened as PRs upstream.** The other 7 (including `twinbeeb`, which already
-has an upstream PR) are deliberately out of scope for this batch — see
-mame.md's "Open findings" for the live status of everything, fixed and not.
-Next changelog-driven run picks up at **0.290**; `mame.md`'s run history has
-the full detail.
+For what's currently open, fixed, or deferred, see mame.md's "Open findings"
+and run history — that's the live source of truth, not this file.
