@@ -167,6 +167,71 @@ the way the seven above are. Flagged as such, not chased further.
 official MAME setname, not pursued further:** `spclone`, `spcloneo`,
 `ironhorsbl`.
 
+## CRC verification: which of the 13 renames also need ROM content changes
+
+A setname rename in MAME doesn't automatically mean the bytes changed —
+sometimes it's purely a relabel. Checked by diffing each affected `.mra`'s
+declared CRCs against current MAME's `ROM_START` for the new setname:
+
+- **Pure rename, CRCs identical, no content change needed:** `SpaceDemon`→`spacedem`,
+  `pengo2`→`pengoa`, `pengo4`→`pengoc`, `pengo5`→`pengob`, `joustwr`→`jousty`,
+  and `devilfsg` — which turned out to need correcting to **`devilfshgb`**
+  (the bootleg clone), not `devilfshg` (the Galaxian-hardware clone) as
+  first guessed from the name alone; CRCs match `devilfshgb` exactly (7/7),
+  match `devilfshg` on none (0/13). `gauntletr8`→`gauntletgr8` is also a pure
+  rename as far as the existing `.mra` content goes (all 17 old CRCs present
+  in the new set); MAME's current definition adds 3 more small PROM files
+  (timing lookup tables) beyond what either existing `.mra` copy has, not
+  pursued as part of the rename fix.
+- **Rename + real content change, needs a rebuild:** `twinbeeb`→`bs_twinbee`
+  (excluded from this batch — see below), `imgfightb`→`imgfightjb` (24 of 25
+  ROMs identical; one program chip, `ic111.9e`, has a corrected dump:
+  `da50622e`→`6aae3a46`), `bagmans2`→`bagmans4` (rename plus one color PROM
+  redump at the same position, `2a855523`→`47504204`; current MAME also
+  defines a new `5110ctrl` region — a TMS5110 state-machine PROM — not
+  present in the `.mra` at all).
+- **Rename + additional ROM region MAME now includes, not present in the
+  `.mra` at all:** `kengoa`→`kengoj` (+6 CRCs), `sinistar1`→`sinistarp` (+4
+  CRCs, a "soundcpu" region MAME defines as 5 separate speech chips where the
+  `.mra` has 1), `popflamn`→`popflamen` (+2 CRCs).
+
+## Applied — 2026-08-06
+
+Scope for this batch, per instruction: **only `MRA-Alternatives_MiSTer`
+clone `.mra`s, plus genuine flagship-clone `.mra`s sitting directly in a main
+repo's `releases/`** (not bonus/alternate games bundled in a main repo, and
+not `_alternatives`-folder copies vendored inside a main repo). `twinbeeb`
+excluded — a PR already exists upstream for it.
+
+**Fixed, committed locally (not yet pushed/PR'd upstream):**
+- `MRA-Alternatives_MiSTer` (commit `9ac7a0a`): `pengo2`→`pengoa`,
+  `pengo4`→`pengoc`, `pengo5`→`pengob` (setname/parent/mameversion only,
+  files renamed `set 2/4/5`→`set 1/2/3` to match MAME's current
+  descriptions); `joustwr`→`jousty` (setname/parent/mameversion only, file
+  renamed to match the corrected label); `bagmans2`→`bagmans4`
+  (setname/parent/mameversion plus the one corrected PROM CRC;
+  `5110ctrl` region gap documented in `<about>`, not guessed at);
+  `sinistar1`→`sinistarp` (setname/parent/mameversion; the 4-chip
+  `soundcpu` gap documented in `<about>`, not guessed at); deleted the
+  stale duplicate `Gauntlet (DE, Rev 8).mra` (`gauntletr8`), keeping the
+  already-correct `Gauntlet (German, rev 8).mra` (`gauntletgr8`) that
+  existed alongside it.
+- `Arcade-SpaceFirebird_MiSTer` (commit `31f25fa`): `SpaceDemon`→`spacedem`,
+  `SpaceFirebird`→`spacefb` (setname/parent tags only — the `<rom zip=...>`
+  attribute already used the correct lowercase names, only the identifying
+  tags were wrong).
+
+Deliberately not fixed in this batch: `twinbeeb` (upstream PR exists),
+`devilfsg`→`devilfshgb`, `popflamn`→`popflamen`, `imgfightb`→`imgfightjb`,
+`kengoa`→`kengoj`, and Arcade-Gauntlet_MiSTer's own internal
+`_alternatives`-mirror copy of `gauntletr8` — all out of scope per the
+working rule above, not overlooked. See mame.md's "Open findings" for the
+live status of all of these.
+
+Not done as part of this pass: forking the two repos under a GitHub account,
+pushing these commits, and opening PRs against MiSTer-devel. The `.mra`
+edits exist only in local clones so far.
+
 **Not tracked (checked once, closed — see "What's out of scope" above):**
 `rtype2inv`, `xmultiplm72inv`, `cleansweept`, `mrdonight`, `tutankhm2`,
 `spacerace`, `athenaff`, `ddonpachjt`, `esprade_fp`, `espradej_fp`, and all

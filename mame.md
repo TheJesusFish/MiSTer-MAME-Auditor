@@ -134,19 +134,36 @@ see whether it still shows the old setname. If it's been fixed upstream since
 the last audit, mark it fixed in the entry below that raised it and drop it
 from this list; don't silently re-report it as new.
 
-**Confirmed renames, exact fix known, not yet applied (as of 2026-08-06):**
-`twinbeeb`→`bs_twinbee` (Arcade-BubSys_MiSTer), `devilfsg`→`devilfshg`
-(Arcade-Galaxian_MiSTer), `gauntletr8`→`gauntletgr8` (Arcade-Gauntlet_MiSTer
-**and** MRA-Alternatives), `imgfightb`→`imgfightjb` (Arcade-IremM72_MiSTer),
-`popflamn`→`popflamen` (Arcade-NaughtyBoy_MiSTer), `SpaceDemon`→`spacedem`
-(Arcade-SpaceFirebird_MiSTer), `kengoa`→`kengoj` (Arcade-IremM72_MiSTer),
-`pengo2`→`pengoa`, `pengo4`→`pengoc`, `pengo5`→`pengob` (all
-MRA-Alternatives `_Pengo`), `bagmans2`→`bagmans4` (MRA-Alternatives `_Bagman`),
-`joustwr`→`jousty` (MRA-Alternatives `_Joust`), `sinistar1`→`sinistarp`
-(MRA-Alternatives `_Sinistar`). The last 7 were resolved by walking MAME's git
-history (see "Rename archaeology" below) — none are 0.289-specific, all
-predate this pack. Detail, exact commit hashes, and exact ROM/parent values
-in [`reports/2026-08-06-full-mame-crossref-audit.md`](reports/2026-08-06-full-mame-crossref-audit.md).
+**Fixed locally, committed, not yet submitted upstream (as of 2026-08-06):**
+`pengo2`→`pengoa`, `pengo4`→`pengoc`, `pengo5`→`pengob`, `joustwr`→`jousty`,
+`bagmans2`→`bagmans4`, `sinistar1`→`sinistarp` (all MRA-Alternatives_MiSTer,
+commit `9ac7a0a` in a local clone), plus deduping the stale/correct
+`gauntletr8`/`gauntletgr8` duplicate pair in the same repo/commit, and
+`SpaceDemon`→`spacedem` (Arcade-SpaceFirebird_MiSTer, commit `31f25fa` in a
+local clone). `bagmans4` and `sinistarp` got the confirmed CRC fix/rename but
+each has one additional ROM region current MAME defines that the `.mra`
+doesn't have at all yet — flagged in each file's `<about>` tag, not guessed
+at blindly. These commits exist only in local clones — forking + pushing +
+opening PRs against MiSTer-devel is a separate, not-yet-done step. Detail in
+[`reports/2026-08-06-full-mame-crossref-audit.md`](reports/2026-08-06-full-mame-crossref-audit.md).
+
+**Excluded from this batch on purpose:**
+- `twinbeeb`→`bs_twinbee` (Arcade-BubSys_MiSTer) — a PR already exists
+  upstream for this one; don't duplicate it.
+- `devilfsg`→`devilfshgb` (**not** `devilfshg`, corrected after re-checking
+  CRCs — see the report), `popflamn`→`popflamen`, `imgfightb`→`imgfightjb`,
+  `kengoa`→`kengoj`, and Arcade-Gauntlet_MiSTer's own internal
+  `_alternatives`-mirror copy of `gauntletr8` — all deferred by choice, not
+  forgotten. Reasoning: Devil Fish and Pop Flamer aren't clones of their
+  repo's own flagship game (Galaxian, Naughty Boy) — they're separate bonus
+  games bundled in the same repo. Image Fight/Ken-Go and the Gauntlet
+  duplicate live under a literal `_alternatives` subfolder vendored inside a
+  main repo. None of these are in scope while the working rule is "only
+  touch clone `.mra`s that live in `MRA-Alternatives_MiSTer` itself, plus
+  genuine flagship-clone `.mra`s sitting directly in a main repo's
+  `releases/`." `SpaceDemon` stayed in scope under that same rule because
+  it's an actual clone of the repo's own flagship set (`spacefb`), not bonus
+  content.
 
 **Could not confirm despite a full git-history search on the owning driver
 file — likely never an official MAME setname, not pursued further:**

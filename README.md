@@ -61,10 +61,18 @@ local MAME history clone — see mame.md's "Rename archaeology" section for the
 technique) rather than leaving them as open questions: **7 turned out to be
 confirmed MAME renames from 2020–2023**, unrelated to 0.289, and **3 came up
 empty across the driver's full tracked history** (presumed never-official,
-not pursued further). Combined with the changelog pass, that's **13 confirmed
-renames with known fixes, not yet applied**, tracked in `mame.md`'s "Open
-findings" section, not just buried in the reports. A fresh run should check
-that section first, before doing anything else. Fan hacks, patches, and
-content MAME doesn't emulate that turned up along the way were checked once
-and deliberately dropped, not tracked as findings. Next changelog-driven run
-picks up at **0.290**; `mame.md`'s run history has the full detail.
+not pursued further). Fan hacks, patches, and content MAME doesn't emulate
+that turned up along the way were checked once and deliberately dropped, not
+tracked as findings.
+
+**6 of the resulting 13 confirmed renames have since been fixed**, scoped to
+`MRA-Alternatives_MiSTer` clone `.mra`s plus `Arcade-SpaceFirebird_MiSTer`
+(the one main-repo case that's an actual clone of its own flagship set, not
+bonus content) — `pengo2/4/5`, `joustwr`, `bagmans2`, `sinistar1`,
+`SpaceDemon`, plus deduping a stale/correct `gauntletr8`/`gauntletgr8`
+duplicate pair. **Committed locally in two repo clones, not yet pushed or
+opened as PRs upstream.** The other 7 (including `twinbeeb`, which already
+has an upstream PR) are deliberately out of scope for this batch — see
+mame.md's "Open findings" for the live status of everything, fixed and not.
+Next changelog-driven run picks up at **0.290**; `mame.md`'s run history has
+the full detail.
