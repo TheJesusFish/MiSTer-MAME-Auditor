@@ -35,10 +35,33 @@ flagged files stayed dropped for being real duplicates of tracked
 alternatives content, but 3 remained because those specific setnames
 (`puzzli2s`, `puzlstar`) aren't tracked over there at all).
 
-Full per-file list, straight/uncategorized-narrative: [`data/mra-rom-check-failures.md`](../data/mra-rom-check-failures.md).
 Category meanings and the investigation into what's confirmed vs. still an
-open question are below, from the original 161-file pass — still accurate,
-just referring to a superset of the current list.
+open question are below, from the original 161-file pass — still accurate
+as background, but the counts it references are from the first pass; the
+numbers actually current are in the re-scan section right below.
+
+## Re-scan — same day, after upstream fixes landed
+
+Re-pulled all 172 repos (`git fetch --depth 1` + `reset --hard` on the
+existing sparse clones, not full re-clones — a few seconds per repo) and ran
+the same check again, since some maintainers had already started fixing
+things independently of this pack (noticed because `Arcade-DECOCassette_MiSTer`'s
+latest pull came in on a commit literally titled "Fixed MRAs - XML and
+CRCs"). Re-filtered against a refreshed `MRA-Alternatives_MiSTer` setname
+list the same way as before.
+
+**Down to 22 across 12 repos, from 81 across 13 — 59 resolved:**
+
+- `Arcade-Kyugo_MiSTer` — fully resolved (was 5, all missing-`<mameversion>`).
+- `Arcade-DECOCassette_MiSTer` — 55 → 1. Only
+  `Alternative Sets/Ocean to Ocean (Japan) (DECO).mra` (`cocean1a`, broken
+  XML — same illegal `--`-in-comment issue) remains; the other `Ocean to
+  Ocean` file and `Flash Boy` (the other two broken-XML cases) and all 52
+  missing-`<mameversion>` files got fixed in the same pass.
+- Everything else on the list is unchanged from the first pass — see
+  [`data/mra-rom-check-failures.md`](../data/mra-rom-check-failures.md) for
+  the current 22-file list (that file now reflects the re-scan, not the
+  original 81).
 
 ## Confirmed real: broken XML (4 files)
 

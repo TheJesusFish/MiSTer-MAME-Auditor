@@ -359,6 +359,27 @@ absent everywhere in-file for those parts, not just missed by the checker,
 so it's unclear whether that's a real gap or valid by the format's own
 rules. Not chased further this pass.
 
+**Refined to 81 across 13 repos** by dropping any setname also currently
+tracked in `MRA-Alternatives_MiSTer` (already swept separately) — scopes the
+list to core-repo-only issues rather than duplicates of something handled
+elsewhere. Matched by setname, not folder name — a core repo's own
+`_alternatives`/`Alternative Sets`/`docs/` folder isn't reliably the same
+content as the actual `MRA-Alternatives_MiSTer` repo (confirmed both
+directions: `Arcade-IGSPGM_MiSTer`'s internal `_alternatives` folder covers
+different games than the real alternatives repo, and `Arcade-DECOCassette_MiSTer`'s
+"Alternative Sets" folder — despite the name — isn't tracked there at all,
+so none of its findings got dropped).
+
+**Re-scanned same day, after upstream fixes landed independently of this
+pack** (noticed via a `Arcade-DECOCassette_MiSTer` commit titled "Fixed MRAs
+- XML and CRCs"). Re-pulled all 172 repos (fetch+reset on the existing
+clones, seconds not minutes) and re-ran: **down to 22 across 12 repos — 59
+resolved**, most of it `Arcade-DECOCassette_MiSTer` (55→1) and all of
+`Arcade-Kyugo_MiSTer` (5→0). `data/mra-rom-check-failures.md` reflects this
+current 22-file state, not the original 161 or the 81 midpoint. Worth
+re-running this sweep again periodically rather than treating any one pass's
+count as durable — the whole premise of this run was that it wasn't.
+
 ---
 
 ### `zip=` completeness sweep, MRA-Alternatives_MiSTer only — 2026-08-06
