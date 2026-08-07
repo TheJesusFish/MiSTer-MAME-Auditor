@@ -133,3 +133,11 @@ are slow enough to fail partway through.
   once, mention it in the report so the reasoning is on record, and then drop
   it. Don't carry it forward in mame.md's "Open findings" or re-flag it on a
   future run.
+- **In `Arcade-*_MiSTer` core repos, only edit `.mra` files under `releases/`**
+  (mister-devel.md's "When actually editing a `.mra`" section has the full
+  rule and two real examples of why — a `docs/` folder can hold `.mra` files
+  that were never promoted to a live release, or leftover reference material
+  from an unrelated project entirely). Fine to audit/report on files outside
+  `releases/` if a sweep finds them; don't spend fix effort on them. Doesn't
+  apply to `MRA-Alternatives_MiSTer`, which is edited under `_alternatives/`
+  by design.

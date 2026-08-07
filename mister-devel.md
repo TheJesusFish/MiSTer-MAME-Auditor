@@ -29,6 +29,29 @@ bug in your snapshot — verify the jt*/vendoring marker before concluding that.
 `Arcade-CV1k` exists as a name reservation but is an empty repo (no commits) —
 skip it.
 
+## When actually editing a `.mra`: only `releases/` counts
+
+For `Arcade-*_MiSTer` core repos, **only edit `.mra` files that live under
+`releases/`** (its own subfolders count too — `releases/_alternatives/`,
+`releases/Alternative Sets/`, `releases/Unsupported/`, etc. are still
+`releases/`, fair game). **Don't edit anything outside `releases/`** — most
+commonly a `docs/` folder — even though `.mra` files sometimes live there
+too and a check script will happily find and flag them. Two real examples
+from doing this: `Arcade-IremM72_MiSTer/docs/irem_m84_mra/Cosmic Cop
+(World).mra` has no `releases/` counterpart at all — it was never promoted
+to a live release, editing it doesn't ship anything to end users.
+`Arcade-Sonson_MiSTer/docs/MiST/Capcom SonSon/meta/SonSon.mra` looks like a
+duplicate of the real `releases/SonSon.mra` but isn't — that whole `docs/MiST/`
+tree is leftover reference material from **MiST**, a different, predecessor
+FPGA platform, not MiSTer at all.
+
+It's fine to *read*/audit these paths — a full sweep should still find and
+report them, since they're real signal about repo hygiene — just don't spend
+fix effort on them. This restriction is specific to the core repos; it
+doesn't apply to `MRA-Alternatives_MiSTer`, whose entire structure lives
+under `_alternatives/` by design and is the normal, expected place to edit
+there.
+
 ## Refreshing the repo list (do this first, every run)
 
 The list of `Arcade-*_MiSTer` repos changes as cores are added. Don't trust a
