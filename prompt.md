@@ -51,7 +51,12 @@ are slow enough to fail partway through.
    methods. Neither is part of the default per-version procedure — don't run
    them every time — but do run them if explicitly asked for a "full" audit,
    or if it's been many changelog-driven runs since the last one (mame.md's
-   run history says when that last was).
+   run history says when that last was). Same for a `mra_rom_check.sh` sweep
+   (structural validity, not a MAME-version question at all). For any of
+   these full-repo sweeps, use mister-devel.md's **"Incremental sweeps"**
+   method — don't re-pull and re-check all ~1,850 files every time; a cheap
+   per-repo SHA check against `data/mra-rom-check-state.tsv` skips whatever
+   hasn't changed since it was last actually examined.
 
 5. **Cross-reference.** For each lead, check whether MiSTer covers that game
    (grep `data/mister-devel-repo-index.tsv` and the two `data/*.tsv`

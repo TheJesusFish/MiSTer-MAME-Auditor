@@ -97,6 +97,70 @@ always well-formed enough for a strict XML parser — attribute-only tags like
 encoding issues): `<name>`, `<setname>`, `<parent>`, `<mameversion>`, `<rbf>`,
 `<year>`, `<manufacturer>`.
 
+## Incremental sweeps: only checking `.mra`s changed since last time
+
+For a full-repo sweep (`mra_rom_check.sh` across every core repo, or the full
+cross-reference against current MAME) — as opposed to the version-by-version
+changelog procedure, which is already incremental by nature — don't re-pull
+and re-check all ~1,850 files across all 182 repos every time. Most repos
+haven't changed since the last sweep at all. **`data/mra-rom-check-state.tsv`**
+tracks the commit SHA each repo was at when its `.mra`s were last actually
+examined (one row per repo: `repo`, `last_checked_sha`, `last_checked_date`).
+Use it to skip untouched repos entirely and, for touched ones, check only the
+files that actually changed:
+
+1. **Cheap SHA check, every repo, every run:**
+   ```bash
+   git ls-remote https://github.com/MiSTer-devel/<repo>.git HEAD
+   ```
+   No clone needed — this is a single lightweight git-protocol round-trip per
+   repo, not a REST call, so it doesn't touch the 60/hour API budget either.
+   Compare the returned SHA against the recorded `last_checked_sha`. **If it
+   matches, skip the repo completely** — nothing under `releases/` can have
+   changed if the repo's HEAD hasn't moved. In practice most repos match on
+   any given day; this is what makes the sweep cheap to re-run often instead
+   of treating it as an occasional heavy operation.
+
+2. **For repos where the SHA differs** (or that have no row yet — a brand-new
+   repo, or the first time this mechanism is used): clone with full history
+   but no blob content, same technique as MAME's "rename archaeology"
+   (`--filter=blob:none`, no `--depth` limit — depth-limiting would make an
+   old `last_checked_sha` unreachable to diff against):
+   ```bash
+   git clone --filter=blob:none --no-checkout https://github.com/MiSTer-devel/<repo>.git dest
+   cd dest
+   git diff --name-status <last_checked_sha> <new_sha> -- 'releases/*.mra' 'releases/**/*.mra'
+   ```
+   This is a tree-only diff (no blob fetch), so it's fast regardless of how
+   much history sits between the two SHAs. It returns exactly the `.mra`
+   paths that were **A**dded or **M**odified under `releases/` — deleted
+   files (`D`) obviously don't need checking. If a repo has no prior row,
+   there's no baseline to diff from — check its entire current `releases/`
+   tree instead, same as a first-time repo.
+3. **Materialize and check only those paths:** `git sparse-checkout set` to
+   just the changed paths (not the whole repo), `git checkout <new_sha>`,
+   then run `mra_rom_check.sh -m <dir> -r` (or `-f` per file) over just that
+   small set. For the full cross-reference check (setname/CRC verification
+   against MAME source, not just the structural script), the same changed-file
+   list is the thing to actually re-verify — no need to re-check files that
+   didn't change.
+4. **Update the state file** after checking: set `last_checked_sha` to
+   `<new_sha>` and `last_checked_date` to today, for every repo actually
+   checked (including ones that came back with zero relevant changes — HEAD
+   moved but nothing under `releases/` did, e.g. an `.rbf`/`.sv` update).
+   Leave rows untouched for repos that were skipped at step 1 (their recorded
+   SHA is still accurate — they haven't moved).
+
+This means "check everything since the last time" degrades gracefully: a
+same-day re-run costs ~182 `ls-remote` calls and touches nothing else; a
+sweep after a long gap does real work but only for the repos that actually
+changed, and only re-examines the files that actually changed within them.
+The state file was seeded from the 2026-08-23 full sweep (`reports/2026-08-23-mra-rom-check-resweep.md`)
+— every repo's row reflects the SHA examined that day, whether or not
+findings from that sweep have since been fixed/pushed upstream. Don't confuse
+"checked" with "clean" — a repo can be recorded as checked at a SHA that's
+known (via mame.md's Open Findings) to still have unresolved issues.
+
 ## Snapshot data (as of 2026-08-06)
 
 Three files in [`data/`](data/), generated with the method above:
