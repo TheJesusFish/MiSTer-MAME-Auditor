@@ -134,6 +134,65 @@ see whether it still shows the old setname. If it's been fixed upstream since
 the last audit, mark it fixed in the entry below that raised it and drop it
 from this list; don't silently re-report it as new.
 
+**Fixed locally (uncommitted working-tree edits), not yet submitted upstream
+(as of 2026-08-23) — `mra_rom_check.sh` structural failures, not MAME
+renames:** `Arcade-ActFancer_MiSTer` (3 `releases/alternatives/` files, missing
+shared-ROM CRCs), `Arcade-AtariSystem2_MiSTer` (all 34 files, missing
+`<mameversion>` — a brand-new repo, added 2026-08-20, that never had the tag
+anywhere), `Arcade-BoogieWings_MiSTer` (4 `releases/alternatives/` files —
+Asia/USA/both Ragtime Japan revisions — missing CRCs; distinct from the Euro
+file fixed 2026-08-06, which *is* live upstream via merged PR #1),
+`Arcade-IGSPGM_MiSTer` (re-applied the 2026-08-06 Puzzle Star/Puzzli 2 Super
+BIOS-CRC + `zip=` fix to a fresh clone, since the repo's local copy was gone
+and the upstream commit that should have carried it, `eae22c91`, turned out
+to be orphaned — see the note below — plus a much larger blanket fix: 67
+more files under `releases/_alternatives/` sharing the identical 3
+missing-BIOS-CRC problem, all now 105/105 passing), `Arcade-NightSlashers_MiSTer`
+(3 `releases/_alternatives/_Night Slashers/` files — Over Sea/US/Japan
+revisions — missing CRCs; distinct from the Korea file fixed 2026-08-06,
+which *is* live upstream via merged PR #1), `Arcade-TrioThePunch_MiSTer`
+(1 `releases/alternatives/` file, Japan revision, missing CRCs; distinct from
+the World file fixed 2026-08-06, which *is* live upstream via merged PR #1).
+All verified 100% passing (`-ir` mode) after the fix, all CRCs matched
+against current MAME driver source, nothing beyond CRC/`<mameversion>`
+additions touched. Detail in
+[`reports/2026-08-23-mra-rom-check-resweep.md`](reports/2026-08-23-mra-rom-check-resweep.md).
+
+**Already fixed locally as of 2026-08-06 but the fix commit was never pushed
+upstream (confirmed 2026-08-23 by diffing a fresh clone against local HEAD —
+`git status` reports clean/up-to-date because the local branch's own
+unpushed commit *is* HEAD, which is easy to misread as "already synced"):**
+`Arcade-KickAndRun_MiSTer` (`1de63b2 Fix MRA`), `Arcade-Sonson_MiSTer`
+(`d6cb890 Fix MRA`), `Arcade-SNK6502_MiSTer` (`aa9ce61 Fix MRAs`). The
+SNK6502 commit additionally had two files (`Vanguard.mra`, `Fantasy.mra`)
+committed with **unresolved `<<<<<<< HEAD` / `=======` / `>>>>>>>` git merge
+conflict markers left in the XML** — invisible to a casual read since the
+file still "looks" like valid-ish XML at a glance, but `mra_rom_check.sh`
+correctly flagged it as broken XML. Resolved by keeping the CRC'd side and
+discarding the markers; also found and filled 6 more missing CRCs (Vanguard's
+and Fantasy's HD38880 speech-ROM parts) that neither side of the conflict had
+ever populated. Worth remembering: **a clean `git status` only proves your
+local branch matches its own remote-tracking ref — it says nothing about
+whether that ref itself made it into the actual default branch upstream**
+(PR never merged, pushed to a branch nobody merged, etc.). Don't infer "this
+is live" from local git state alone; check the file's actual content via a
+*fresh* clone or `raw.githubusercontent.com` fetched by exact commit SHA
+(not by branch name — branch-alias URLs on `raw.githubusercontent.com` can
+lag the true git state by a caching window, confirmed while chasing this).
+
+**The `eae22c91` mystery, resolved:** the user pointed at
+`Arcade-IGSPGM_MiSTer` commit `eae22c91f58b3d1f057bbf158c15234a723bed70`
+("MRA Housekeeping", authored by the user, parent = `cb193301` which is
+upstream `main`'s actual current tip) asking whether anything postdated it.
+The commit's diff is exactly the 2026-08-06 Puzzle Star / Puzzli 2 Super
+(WORLD) fix (3 BIOS CRCs + the `puzzli2.zip` intermediate-parent `zip=` fix)
+— but GitHub's `branches-where-head` API confirms it isn't the tip of `main`
+or `dev`, i.e. **it's a dangling/orphaned commit that was pushed but never
+merged into any branch** (a PR that never landed, or a push to a since-deleted
+ref). Confirmed by direct content check: live `main` HEAD still lacks the fix
+this commit contains. Re-applied fresh rather than trying to resurrect the
+orphaned commit — see the entry above.
+
 **Fixed locally, committed, not yet submitted upstream (as of 2026-08-06):**
 `pengo2`→`pengoa`, `pengo4`→`pengoc`, `pengo5`→`pengob`, `joustwr`→`jousty`,
 `bagmans2`→`bagmans4`, `sinistar1`→`sinistarp` (all MRA-Alternatives_MiSTer,
@@ -331,6 +390,49 @@ separately, don't re-flag them here.
 ## Run history
 
 Update this after every audit. Newest first.
+
+---
+
+### `mra_rom_check.sh` re-sweep, all `Arcade-*_MiSTer` core repos — 2026-08-23
+
+Requested run: re-sweep everything since the 2026-08-06 `mra_rom_check.sh`
+pass, scoped to `releases/` only per the rule documented in prompt.md/
+mister-devel.md since that pass, plus specifically resolve what commit
+`eae22c91` (`Arcade-IGSPGM_MiSTer`) represented — see the "eae22c91 mystery"
+open-findings entry above for that half.
+
+Repo count has grown to **182** (was 172 on 2026-08-06) — `Arcade-AtariSystem2_MiSTer`
+is new (added 2026-08-20) and immediately failed the sweep (see below). Fresh
+sparse-clone of all 182 repos (`releases/*.mra` + `releases/**/*.mra` only)
+plus a fresh full clone of `MRA-Alternatives_MiSTer` (817 files, up from 808)
+for the exclusion-filter setname list (812 unique setnames, up from ~810).
+
+**121 failures across 9 repos** (86 missing-CRC, 35 missing-`<mameversion>`),
+none of them duplicates of anything tracked in `MRA-Alternatives_MiSTer`:
+`Arcade-ActFancer_MiSTer` (3), `Arcade-AtariSystem2_MiSTer` (34, entirely new
+repo), `Arcade-BoogieWings_MiSTer` (4), `Arcade-IGSPGM_MiSTer` (69),
+`Arcade-KickAndRun_MiSTer` (1), `Arcade-NightSlashers_MiSTer` (3),
+`Arcade-SNK6502_MiSTer` (3), `Arcade-Sonson_MiSTer` (1),
+`Arcade-TrioThePunch_MiSTer` (1). Notably, several of these are repos with a
+2026-08-06 fix already recorded in this file — the new failures are on
+*sibling* alternate files (different regional/revision variants) the earlier
+pass's narrower check didn't reach, not regressions of the original fix
+(confirmed each original file is still correct upstream where it was
+actually merged).
+
+All 121 fixed locally (CRCs verified against current MAME driver source per
+mame.md's method; `<mameversion>` set to `0289` matching this pack's existing
+convention) and re-verified 100% passing per-repo with `mra_rom_check.sh -ir`.
+Also caught and fixed 2 latent bugs found only by actually re-checking file
+content rather than trusting git state: unresolved merge-conflict markers
+committed into 2 `Arcade-SNK6502_MiSTer` files, and 6 CRCs neither side of
+that conflict had ever filled in. See the open-findings entries above for the
+full per-repo breakdown, why several "already-fixed" repos still showed
+failures (unpushed local commits, not a re-break), and
+[`reports/2026-08-23-mra-rom-check-resweep.md`](reports/2026-08-23-mra-rom-check-resweep.md)
+for detail. **All changes are uncommitted working-tree edits in local clones,
+consistent with the standing "don't push or stage" instruction — nothing was
+pushed to any MiSTer-devel repo.**
 
 ---
 
