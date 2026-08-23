@@ -412,7 +412,7 @@ none of them duplicates of anything tracked in `MRA-Alternatives_MiSTer`:
 `Arcade-ActFancer_MiSTer` (3), `Arcade-AtariSystem2_MiSTer` (34, entirely new
 repo), `Arcade-BoogieWings_MiSTer` (4), `Arcade-IGSPGM_MiSTer` (69),
 `Arcade-KickAndRun_MiSTer` (1), `Arcade-NightSlashers_MiSTer` (3),
-`Arcade-SNK6502_MiSTer` (3), `Arcade-Sonson_MiSTer` (1),
+`Arcade-SNK6502_MiSTer` (4), `Arcade-Sonson_MiSTer` (1),
 `Arcade-TrioThePunch_MiSTer` (1). Notably, several of these are repos with a
 2026-08-06 fix already recorded in this file — the new failures are on
 *sibling* alternate files (different regional/revision variants) the earlier
@@ -433,6 +433,26 @@ failures (unpushed local commits, not a re-break), and
 for detail. **All changes are uncommitted working-tree edits in local clones,
 consistent with the standing "don't push or stage" instruction — nothing was
 pushed to any MiSTer-devel repo.**
+
+**Parent (non-alternate) vs. alternate breakdown, asked about explicitly
+afterward:** of the 9 repos, `Arcade-ActFancer_MiSTer` (3),
+`Arcade-BoogieWings_MiSTer` (4), `Arcade-NightSlashers_MiSTer` (3), and
+`Arcade-TrioThePunch_MiSTer` (1) had failures **only** on files under an
+`alternatives`/`_alternatives` subfolder — each repo's own parent/flagship
+`.mra` already passes (BoogieWings/NightSlashers/TrioThePunch's parent fix is
+merged upstream via PR #1; ActFancer's parent file was never broken). The
+other 5 repos had failures on the **parent-level `.mra` itself** (not in an
+alternates subfolder), and none of these 13 parent files currently has a PR
+open anywhere: `Arcade-AtariSystem2_MiSTer` (5: 720 Degrees rev 4, APB rev 7,
+Championship Sprint rev 3, Paperboy rev 3, Super Sprint rev 4 — no PR exists,
+brand-new repo), `Arcade-IGSPGM_MiSTer` (2: Puzzle Star WORLD, Puzzli 2 Super
+WORLD — the only related commit, `eae22c91`, is the orphaned one from above,
+never merged), `Arcade-KickAndRun_MiSTer` (1: Kick And Run — local commit
+`1de63b2` exists but was never pushed/PR'd), `Arcade-SNK6502_MiSTer` (4:
+Sasuke, Vanguard, Fantasy, Satan Of Saturn — local commit `aa9ce61` exists but
+was never pushed/PR'd, and 2 of the 4 also had the merge-conflict bug),
+`Arcade-Sonson_MiSTer` (1: SonSon — local commit `d6cb890` exists but was
+never pushed/PR'd).
 
 ---
 
