@@ -134,35 +134,60 @@ see whether it still shows the old setname. If it's been fixed upstream since
 the last audit, mark it fixed in the entry below that raised it and drop it
 from this list; don't silently re-report it as new.
 
-**Fixed locally (uncommitted working-tree edits), not yet submitted upstream
-(as of 2026-08-23) — `mra_rom_check.sh` structural failures, not MAME
-renames:** `Arcade-ActFancer_MiSTer` (3 `releases/alternatives/` files, missing
-shared-ROM CRCs), `Arcade-AtariSystem2_MiSTer` (all 34 files, missing
-`<mameversion>` — a brand-new repo, added 2026-08-20, that never had the tag
-anywhere), `Arcade-BoogieWings_MiSTer` (4 `releases/alternatives/` files —
-Asia/USA/both Ragtime Japan revisions — missing CRCs; distinct from the Euro
-file fixed 2026-08-06, which *is* live upstream via merged PR #1),
-`Arcade-NightSlashers_MiSTer` (3 `releases/_alternatives/_Night Slashers/`
-files — Over Sea/US/Japan revisions — missing CRCs; distinct from the Korea
-file fixed 2026-08-06, which *is* live upstream via merged PR #1),
-`Arcade-TrioThePunch_MiSTer` (1 `releases/alternatives/` file, Japan
-revision, missing CRCs; distinct from the World file fixed 2026-08-06,
-which *is* live upstream via merged PR #1). All verified 100% passing
-(`-ir` mode) after the fix, all CRCs matched against current MAME driver
-source, nothing beyond CRC/`<mameversion>` additions touched. Detail in
-[`reports/2026-08-23-mra-rom-check-resweep.md`](reports/2026-08-23-mra-rom-check-resweep.md).
+**Correction, 2026-08-23 same day: the original "121 failures across 9
+repos, none excluded" claim below was wrong.** The exclusion filter (drop
+any failing setname also currently tracked in `MRA-Alternatives_MiSTer`) was
+supposed to run against this sweep same as every prior one, but didn't
+actually get applied correctly — confirmed by re-checking every failing
+setname from that sweep against a fresh `MRA-Alternatives_MiSTer` clone
+(853 setnames, all 858 files in it independently verified 100% passing).
+The setnames in question were already there at sweep time (e.g. the PGM
+alternates landed via upstream PR #98 back on 2026-06-18) — this wasn't a
+data-staleness problem, the matching step itself was skipped or broken. Real
+scope, after applying the exclusion correctly:
 
-**`Arcade-IGSPGM_MiSTer` — partially resolved via merged PR, re-checked
-2026-08-23 using the new incremental-sweep method (`ls-remote` showed HEAD had
-moved, diff isolated exactly the 2 changed files):** the flagship Puzzle
-Star/Puzzli 2 Super (WORLD) BIOS-CRC + `zip=` fix — the same content as the
-orphaned `eae22c91` commit, re-applied fresh — **is now live upstream via a
-merged PR**, confirmed both files pass. **The larger blanket fix is still
-not upstream**: 68 more files under `releases/_alternatives/` sharing the
-identical 3 missing-BIOS-CRC problem remain fixed only in the local
-uncommitted working-tree copy at `/Users/thejesusfish/Documents/GitHub/Arcade-IGSPGM_MiSTer`
-(105/105 passing there) — the merged PR didn't include them. Current live
-upstream state: 37/105 passing.
+- **`Arcade-ActFancer_MiSTer`, `Arcade-BoogieWings_MiSTer`,
+  `Arcade-NightSlashers_MiSTer`, `Arcade-TrioThePunch_MiSTer` — no actual
+  issue.** Every failing setname in all four (3, 4, 3, and 1 respectively)
+  is already correctly tracked in `MRA-Alternatives_MiSTer`. The local
+  uncommitted fixes made to these four repos earlier today are still
+  factually correct, just unnecessary — nothing to push, nothing wrong with
+  leaving the local edits in place either. Don't re-flag these on a future
+  sweep unless the exclusion check itself says otherwise.
+- **`Arcade-IGSPGM_MiSTer` — only 1 of the 68 alternates is a real gap.**
+  67 of the 68 are already correctly tracked in `MRA-Alternatives_MiSTer`
+  (no action needed, same as above). The one exception: `puzzli2s` (`Puzzli
+  2 Super (ver. 200, TW).mra`) isn't tracked there — still a genuine,
+  unresolved core-repo issue, fixed locally (uncommitted) at
+  `/Users/thejesusfish/Documents/GitHub/Arcade-IGSPGM_MiSTer`, not yet
+  pushed. This is on top of the flagship Puzzle Star/Puzzli 2 Super (WORLD)
+  fix, which is unrelated (top-level parent files, not alternates) and
+  already live upstream — see the next entry.
+- **`Arcade-AtariSystem2_MiSTer` — 5 of the 34 are the real gap.** 29 of the
+  34 failing setnames are already correctly tracked in `MRA-Alternatives_MiSTer`
+  (added same-day via upstream PR #115). The 5 that aren't are the actual
+  parent/root sets themselves (`720`, `apb`, `csprint`, `paperboy`,
+  `ssprint`) — `MRA-Alternatives_MiSTer` only carries clone/region variants
+  by design, never the root set, so this isn't a gap in that repo, it's
+  just outside its scope. All 5 fixed locally (uncommitted), not yet pushed.
+- **`Arcade-KickAndRun_MiSTer` and `Arcade-Sonson_MiSTer` unaffected by this
+  correction** — their setnames (`kicknrun`, `sonson`) were checked and
+  aren't in `MRA-Alternatives_MiSTer` either, so both remain genuine,
+  currently-open findings, same as before.
+
+Lesson for next time: **run the exclusion-filter comparison as an explicit,
+verifiable step (e.g. `comm -12` between two sorted setname lists) and show
+the result, not just assert "none excluded"** — that's what caught this on
+re-check and should be standard practice for every sweep that claims to
+have applied this filter, not just when someone pushes back on the result.
+
+**`Arcade-IGSPGM_MiSTer`'s flagship fix — resolved via merged PR, re-checked
+2026-08-23 using the new incremental-sweep method** (`ls-remote` showed HEAD
+had moved, diff isolated exactly the 2 changed files): the Puzzle Star/Puzzli
+2 Super (WORLD) BIOS-CRC + `zip=` fix — the same content as the orphaned
+`eae22c91` commit, re-applied fresh — **is now live upstream via a merged
+PR**, confirmed both files pass. (This is separate from the `puzzli2s`
+alternate noted above, which is not part of what merged.)
 
 **`Arcade-SNK6502_MiSTer` — fully resolved via merged PR, confirmed
 2026-08-23:** the `aa9ce61 Fix MRAs` commit (previously stuck locally, never
@@ -438,6 +463,16 @@ for detail. **All changes are uncommitted working-tree edits in local clones,
 consistent with the standing "don't push or stage" instruction — nothing was
 pushed to any MiSTer-devel repo.**
 
+**Correction, same day:** the "none of them duplicates of anything tracked
+in `MRA-Alternatives_MiSTer`" claim above was wrong — the exclusion filter
+wasn't actually applied correctly. Re-checked by explicit `comm -12` against
+a fresh `MRA-Alternatives_MiSTer` clone: of the 121, all of ActFancer's (3),
+BoogieWings' (4), NightSlashers' (3), TrioThePunch's (1), 67 of IGSPGM's 68
+alternates, and 29 of AtariSystem2's 34 were already correctly tracked
+there and needed no fix at all. Real remaining scope is much smaller — see
+the Open Findings correction entry above for the corrected per-repo
+breakdown and the full detail.
+
 **Parent (non-alternate) vs. alternate breakdown, asked about explicitly
 afterward:** of the 9 repos, `Arcade-ActFancer_MiSTer` (3),
 `Arcade-BoogieWings_MiSTer` (4), `Arcade-NightSlashers_MiSTer` (3), and
@@ -461,10 +496,13 @@ never pushed/PR'd).
 **Update, 2026-08-23 same day, re-checked using the new incremental-sweep
 method:** `Arcade-IGSPGM_MiSTer`'s 2 parent files and all 4 of
 `Arcade-SNK6502_MiSTer`'s got PRs merged upstream — both now pass on live
-HEAD. See the two dedicated entries above for what's still outstanding
-(IGSPGM's 68-file alternates blanket fix is not part of what merged).
-KickAndRun and Sonson are unchanged — still just a local unpushed commit
-each.
+HEAD. KickAndRun and Sonson are unchanged — still just a local unpushed
+commit each. **Also, separately: the exclusion-filter correction above
+means most of the "alternate" repos in this table didn't actually need
+fixing in the first place** — see that entry for the corrected scope
+(only `puzzli2s` remains a real gap in IGSPGM's alternates, and only 5 of
+AtariSystem2's 34 are genuinely outside `MRA-Alternatives_MiSTer`'s
+coverage).
 
 ---
 

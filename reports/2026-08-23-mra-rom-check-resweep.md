@@ -1,5 +1,23 @@
 # `mra_rom_check.sh` re-sweep — 2026-08-23
 
+> **Correction, added same day:** this report's "121 failures across 9
+> repos, none excluded by `MRA-Alternatives_MiSTer`" claim was wrong — the
+> exclusion filter wasn't actually applied correctly against the initial
+> sweep. Re-checked by explicit `comm -12` between sorted setname lists
+> (fresh `MRA-Alternatives_MiSTer` clone, 853 setnames, 858/858 files
+> independently verified passing): every failing setname in
+> `Arcade-ActFancer_MiSTer` (3), `Arcade-BoogieWings_MiSTer` (4),
+> `Arcade-NightSlashers_MiSTer` (3), and `Arcade-TrioThePunch_MiSTer` (1)
+> was already correctly tracked there and needed no fix at all — same for
+> 67 of `Arcade-IGSPGM_MiSTer`'s 68 alternates (only `puzzli2s` is a real
+> gap) and 29 of `Arcade-AtariSystem2_MiSTer`'s 34 failures (only the 5 true
+> root/parent setnames — `720`, `apb`, `csprint`, `paperboy`, `ssprint` —
+> are genuinely outside that repo's scope). The local fixes already made to
+> all of these are still factually correct, just mostly unnecessary; nothing
+> below is retracted otherwise. See mame.md's Open Findings for the
+> corrected, current-state breakdown — this file is left as the historical
+> record of what the sweep actually found and did that day.
+
 ## Ask
 
 1. Re-run the full `mra_rom_check.sh` sweep across all `Arcade-*_MiSTer` core

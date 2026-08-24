@@ -146,3 +146,13 @@ are slow enough to fail partway through.
   `releases/` if a sweep finds them; don't spend fix effort on them. Doesn't
   apply to `MRA-Alternatives_MiSTer`, which is edited under `_alternatives/`
   by design.
+- **Any time a sweep claims to have excluded findings already tracked in
+  `MRA-Alternatives_MiSTer`, actually run that comparison and show the
+  result — don't just assert it.** A 2026-08-23 sweep claimed "none
+  excluded" without the comparison having actually run correctly, and the
+  claim went unnoticed until the user pushed back on one repo specifically.
+  The fix is cheap and mechanical: sort both setname lists (the sweep's
+  failing setnames, and a fresh `MRA-Alternatives_MiSTer` clone's setnames)
+  and run `comm -12` between them — a few seconds, and it's verifiable
+  rather than asserted. Do this as a named step, every time this filter is
+  claimed to have been applied, not just when someone asks.
