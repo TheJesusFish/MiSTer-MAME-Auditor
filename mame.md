@@ -142,43 +142,47 @@ shared-ROM CRCs), `Arcade-AtariSystem2_MiSTer` (all 34 files, missing
 anywhere), `Arcade-BoogieWings_MiSTer` (4 `releases/alternatives/` files —
 Asia/USA/both Ragtime Japan revisions — missing CRCs; distinct from the Euro
 file fixed 2026-08-06, which *is* live upstream via merged PR #1),
-`Arcade-IGSPGM_MiSTer` (re-applied the 2026-08-06 Puzzle Star/Puzzli 2 Super
-BIOS-CRC + `zip=` fix to a fresh clone, since the repo's local copy was gone
-and the upstream commit that should have carried it, `eae22c91`, turned out
-to be orphaned — see the note below — plus a much larger blanket fix: 67
-more files under `releases/_alternatives/` sharing the identical 3
-missing-BIOS-CRC problem, all now 105/105 passing), `Arcade-NightSlashers_MiSTer`
-(3 `releases/_alternatives/_Night Slashers/` files — Over Sea/US/Japan
-revisions — missing CRCs; distinct from the Korea file fixed 2026-08-06,
-which *is* live upstream via merged PR #1), `Arcade-TrioThePunch_MiSTer`
-(1 `releases/alternatives/` file, Japan revision, missing CRCs; distinct from
-the World file fixed 2026-08-06, which *is* live upstream via merged PR #1).
-All verified 100% passing (`-ir` mode) after the fix, all CRCs matched
-against current MAME driver source, nothing beyond CRC/`<mameversion>`
-additions touched. Detail in
+`Arcade-NightSlashers_MiSTer` (3 `releases/_alternatives/_Night Slashers/`
+files — Over Sea/US/Japan revisions — missing CRCs; distinct from the Korea
+file fixed 2026-08-06, which *is* live upstream via merged PR #1),
+`Arcade-TrioThePunch_MiSTer` (1 `releases/alternatives/` file, Japan
+revision, missing CRCs; distinct from the World file fixed 2026-08-06,
+which *is* live upstream via merged PR #1). All verified 100% passing
+(`-ir` mode) after the fix, all CRCs matched against current MAME driver
+source, nothing beyond CRC/`<mameversion>` additions touched. Detail in
 [`reports/2026-08-23-mra-rom-check-resweep.md`](reports/2026-08-23-mra-rom-check-resweep.md).
 
-**Already fixed locally as of 2026-08-06 but the fix commit was never pushed
-upstream (confirmed 2026-08-23 by diffing a fresh clone against local HEAD —
-`git status` reports clean/up-to-date because the local branch's own
-unpushed commit *is* HEAD, which is easy to misread as "already synced"):**
-`Arcade-KickAndRun_MiSTer` (`1de63b2 Fix MRA`), `Arcade-Sonson_MiSTer`
-(`d6cb890 Fix MRA`), `Arcade-SNK6502_MiSTer` (`aa9ce61 Fix MRAs`). The
-SNK6502 commit additionally had two files (`Vanguard.mra`, `Fantasy.mra`)
-committed with **unresolved `<<<<<<< HEAD` / `=======` / `>>>>>>>` git merge
-conflict markers left in the XML** — invisible to a casual read since the
-file still "looks" like valid-ish XML at a glance, but `mra_rom_check.sh`
-correctly flagged it as broken XML. Resolved by keeping the CRC'd side and
-discarding the markers; also found and filled 6 more missing CRCs (Vanguard's
-and Fantasy's HD38880 speech-ROM parts) that neither side of the conflict had
-ever populated. Worth remembering: **a clean `git status` only proves your
-local branch matches its own remote-tracking ref — it says nothing about
-whether that ref itself made it into the actual default branch upstream**
-(PR never merged, pushed to a branch nobody merged, etc.). Don't infer "this
-is live" from local git state alone; check the file's actual content via a
-*fresh* clone or `raw.githubusercontent.com` fetched by exact commit SHA
-(not by branch name — branch-alias URLs on `raw.githubusercontent.com` can
-lag the true git state by a caching window, confirmed while chasing this).
+**`Arcade-IGSPGM_MiSTer` — partially resolved via merged PR, re-checked
+2026-08-23 using the new incremental-sweep method (`ls-remote` showed HEAD had
+moved, diff isolated exactly the 2 changed files):** the flagship Puzzle
+Star/Puzzli 2 Super (WORLD) BIOS-CRC + `zip=` fix — the same content as the
+orphaned `eae22c91` commit, re-applied fresh — **is now live upstream via a
+merged PR**, confirmed both files pass. **The larger blanket fix is still
+not upstream**: 68 more files under `releases/_alternatives/` sharing the
+identical 3 missing-BIOS-CRC problem remain fixed only in the local
+uncommitted working-tree copy at `/Users/thejesusfish/Documents/GitHub/Arcade-IGSPGM_MiSTer`
+(105/105 passing there) — the merged PR didn't include them. Current live
+upstream state: 37/105 passing.
+
+**`Arcade-SNK6502_MiSTer` — fully resolved via merged PR, confirmed
+2026-08-23:** the `aa9ce61 Fix MRAs` commit (previously stuck locally, never
+pushed) is now live upstream, including the merge-conflict-marker cleanup
+and the 6 additional speech-ROM CRCs found while fixing it. All 6 files in
+the repo pass on live upstream HEAD now. No local uncommitted changes remain
+for this repo.
+
+**`Arcade-KickAndRun_MiSTer` and `Arcade-Sonson_MiSTer` — still not pushed
+upstream** (checked 2026-08-23, unchanged from 2026-08-06): each has a ready
+local fix commit (`1de63b2 Fix MRA` and `d6cb890 Fix MRA` respectively) that
+was never pushed. Worth remembering, from chasing the SNK6502/IGSPGM cases:
+**a clean `git status` only proves your local branch matches its own
+remote-tracking ref — it says nothing about whether that ref itself made it
+into the actual default branch upstream** (PR never merged, pushed to a
+branch nobody merged, etc.). Don't infer "this is live" from local git state
+alone; check the file's actual content via a *fresh* clone, or via
+`raw.githubusercontent.com` fetched by exact commit SHA (not by branch name —
+branch-alias URLs on `raw.githubusercontent.com` can lag the true git state
+by a caching window, confirmed while chasing this).
 
 **The `eae22c91` mystery, resolved:** the user pointed at
 `Arcade-IGSPGM_MiSTer` commit `eae22c91f58b3d1f057bbf158c15234a723bed70`
@@ -453,6 +457,14 @@ Sasuke, Vanguard, Fantasy, Satan Of Saturn — local commit `aa9ce61` exists but
 was never pushed/PR'd, and 2 of the 4 also had the merge-conflict bug),
 `Arcade-Sonson_MiSTer` (1: SonSon — local commit `d6cb890` exists but was
 never pushed/PR'd).
+
+**Update, 2026-08-23 same day, re-checked using the new incremental-sweep
+method:** `Arcade-IGSPGM_MiSTer`'s 2 parent files and all 4 of
+`Arcade-SNK6502_MiSTer`'s got PRs merged upstream — both now pass on live
+HEAD. See the two dedicated entries above for what's still outstanding
+(IGSPGM's 68-file alternates blanket fix is not part of what merged).
+KickAndRun and Sonson are unchanged — still just a local unpushed commit
+each.
 
 ---
 
