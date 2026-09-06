@@ -388,22 +388,26 @@ pattern (~3:1) among the files that don't declare `type=` at all in that
 repo. Don't assume the reverse order without new evidence — it was tried
 once here and turned out backwards.
 
-**This is `MRA-Alternatives_MiSTer`'s convention, not a universal one —
-check the specific repo's own sibling files before applying it elsewhere.**
-Confirmed the hard way on 2026-09-06: a personal core-collection repo
-(`Slop-Core`) consistently uses the *opposite* order — own zip first, parent
-second — across every single one of its games (Dogyuun, Knuckle Bash, Ghox,
-Batsugun, BloodStorm, FixEight, Time Killers, Street Fighter Movie all agree,
+**Other repos can have their own local convention that disagrees — flag it,
+but the `MRA-Alternatives_MiSTer` parent-first order is the standing default
+when fixing a *missing* entry, per explicit user decision.** Confirmed the
+hard way on 2026-09-06: a personal core-collection repo (`Slop-Core`)
+consistently uses the *opposite* order — own zip first, parent second —
+across every one of its other games (Dogyuun, Knuckle Bash, Ghox, Batsugun,
+BloodStorm, FixEight, Time Killers, Street Fighter Movie all agree,
 unambiguously, since each has a flagship file with a single-zip reference to
-compare clones against). A first pass on that repo's Grind Stormer alternates
-used the `MRA-Alternatives_MiSTer` parent-first order by default and got it
-backwards relative to every other file in the same repo — caught only
-because the user asked "should it be parent-then-own or own-then-parent?"
-rather than trusting the fix. **Before adding a missing zip= entry anywhere
-outside `MRA-Alternatives_MiSTer` itself, check at least 2-3 sibling files in
-the same repo that already have both halves and match their order** — don't
-carry the `MRA-Alternatives_MiSTer`-derived rule into a different repo on
-autopilot.
+compare clones against). A first pass on that repo's Grind Stormer
+alternates used parent-first by default; on noticing every sibling file in
+the same repo disagreed, it got switched to match the local convention
+instead — but asked, the user's call was to use the `MRA-Alternatives_MiSTer`
+order anyway ("if it's what mra-alternatives use, then it's what we should
+use too"), even though that now makes Grind Stormer's two alternates
+inconsistent with the other ~40 files in the same repo. **So: default to
+parent-first everywhere. If a repo's existing sibling files unanimously
+disagree, that's worth surfacing to the user before writing the fix (it may
+be a deliberate repo-specific style, and silently overriding it either way
+is the mistake) — but don't block on it or auto-match the local convention
+without asking; parent-first is what gets applied absent other instruction.**
 
 **Check against MAME's actual current parent for the setname — not the
 `.mra`'s own `<parent>` tag.** That tag is often a MiSTer-chosen
