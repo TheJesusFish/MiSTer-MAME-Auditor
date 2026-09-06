@@ -377,15 +377,33 @@ rename. It's a separate check from the rename work above, worth doing on its
 own; a 2026-08-06 pass over all of `MRA-Alternatives_MiSTer` (independent of
 any specific rename) found 41 files missing one half of this.
 
-**The convention, confirmed by evidence, not assumption:** `zip=` should
-list the parent's (merged-style) zip first, then the clone's own
-(non-merged) zip second — `zip="parent.zip|ownsetname.zip"`. Some `.mra`s
-self-document this with a `type="merged|nonmerged"` attribute on the same
-tag, which literally labels what each pipe-separated position is, in order —
-every file that declares this explicitly uses parent-first (30 of 31 cases).
-It's also the dominant pattern (~3:1) among the files that don't declare
-`type=` at all. Don't assume the reverse order without new evidence — it was
-tried once here and turned out backwards.
+**The convention, confirmed by evidence, not assumption:** in
+`MRA-Alternatives_MiSTer`, `zip=` should list the parent's (merged-style) zip
+first, then the clone's own (non-merged) zip second —
+`zip="parent.zip|ownsetname.zip"`. Some `.mra`s self-document this with a
+`type="merged|nonmerged"` attribute on the same tag, which literally labels
+what each pipe-separated position is, in order — every file that declares
+this explicitly uses parent-first (30 of 31 cases). It's also the dominant
+pattern (~3:1) among the files that don't declare `type=` at all in that
+repo. Don't assume the reverse order without new evidence — it was tried
+once here and turned out backwards.
+
+**This is `MRA-Alternatives_MiSTer`'s convention, not a universal one —
+check the specific repo's own sibling files before applying it elsewhere.**
+Confirmed the hard way on 2026-09-06: a personal core-collection repo
+(`Slop-Core`) consistently uses the *opposite* order — own zip first, parent
+second — across every single one of its games (Dogyuun, Knuckle Bash, Ghox,
+Batsugun, BloodStorm, FixEight, Time Killers, Street Fighter Movie all agree,
+unambiguously, since each has a flagship file with a single-zip reference to
+compare clones against). A first pass on that repo's Grind Stormer alternates
+used the `MRA-Alternatives_MiSTer` parent-first order by default and got it
+backwards relative to every other file in the same repo — caught only
+because the user asked "should it be parent-then-own or own-then-parent?"
+rather than trusting the fix. **Before adding a missing zip= entry anywhere
+outside `MRA-Alternatives_MiSTer` itself, check at least 2-3 sibling files in
+the same repo that already have both halves and match their order** — don't
+carry the `MRA-Alternatives_MiSTer`-derived rule into a different repo on
+autopilot.
 
 **Check against MAME's actual current parent for the setname — not the
 `.mra`'s own `<parent>` tag.** That tag is often a MiSTer-chosen
